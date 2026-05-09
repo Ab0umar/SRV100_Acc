@@ -16,17 +16,24 @@ param(
   Push-Location $repoRoot
   try {
       if (-not $SkipBuild) {
-          Write-Step "Rebuilding"
-            pnpm build
+          Write-Step "Check git status"
+          git status
       }
 
-      Write-Step "Syncing APK"
-      npx cap copy android
-      npx cap sync android
+      Write-Step "Fetch"
+      git fetch
 
-      Write-Step "Building APK"
-      set-location "$repoRoot\android"
-        .\gradlew assembleRelease
+      Write-Step "Pull"
+      git pull
+
+      Write-Step "Check git status"
+      git status
+
+      Write-Step "Deploy Web"
+      pnpm build
+
+      Write-Step "Restarting service $ServiceName"
+      nssm restart $ServiceName
   }
   finally {
       Pop-Location
