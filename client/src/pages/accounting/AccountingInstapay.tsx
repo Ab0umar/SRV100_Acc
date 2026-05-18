@@ -20,7 +20,7 @@ import { fmt, fmtDate, todayIso } from "./accountingFormat";
 
 const PAGE_SIZE = 50;
 
-export default function AccountingHomeFund() {
+export default function AccountingInstapay() {
   const utils = trpc.useUtils();
   const formRef = useRef<HTMLDivElement>(null);
 
@@ -49,18 +49,18 @@ export default function AccountingHomeFund() {
   const reportsQ = trpc.accounting.accReports.useQuery(undefined, {
     refetchOnWindowFocus: false,
   });
-  const ledgerQ = trpc.accounting.accHomeLedger.useQuery(filters, {
+  const ledgerQ = trpc.accounting.accInstapayLedger.useQuery(filters, {
     refetchOnWindowFocus: false,
     placeholderData: (prev) => prev,
   });
-  const addMut = trpc.accounting.addAccHome.useMutation();
-  const updateMut = trpc.accounting.updateAccHome.useMutation();
-  const deleteMut = trpc.accounting.deleteAccHome.useMutation();
+  const addMut = trpc.accounting.addAccInstapay.useMutation();
+  const updateMut = trpc.accounting.updateAccInstapay.useMutation();
+  const deleteMut = trpc.accounting.deleteAccInstapay.useMutation();
 
   const busy = addMut.isPending || updateMut.isPending || deleteMut.isPending;
 
   const invalidate = () => {
-    utils.accounting.accHomeLedger.invalidate();
+    utils.accounting.accInstapayLedger.invalidate();
     utils.accounting.accReports.invalidate();
   };
 
@@ -131,10 +131,10 @@ export default function AccountingHomeFund() {
     }
   }
 
-  const home = reportsQ.data?.home;
+  const instapay = reportsQ.data?.instapay;
   const { rows = [], total = 0 } = ledgerQ.data ?? {};
   const totalPages = Math.max(1, Math.ceil(total / PAGE_SIZE));
-  const net = home?.net ?? 0;
+  const net = instapay?.net ?? 0;
 
   return (
     <AccountingShell>
@@ -146,21 +146,21 @@ export default function AccountingHomeFund() {
               {(
                 [
                   {
-                    label: "معاه (إيراد)",
-                    val: home?.totalIn,
+                    label: "معاه (وارد)",
+                    val: instapay?.totalIn,
                     cls: "text-emerald-700",
                     icon: TrendingUp,
                   },
                   {
-                    label: "منه (مصروف)",
-                    val: home?.totalOut,
+                    label: "منه (صادر)",
+                    val: instapay?.totalOut,
                     cls: "text-rose-700",
                     icon: TrendingDown,
                   },
                   {
-                    label: "المتبقي",
+                    label: "الرصيد",
                     val: net,
-                    cls: net >= 0 ? "text-blue-700" : "text-rose-700",
+                    cls: net >= 0 ? "text-pink-700" : "text-rose-700",
                     icon: Wallet,
                   },
                 ] as const
@@ -220,11 +220,14 @@ export default function AccountingHomeFund() {
             <div className="grid gap-3">
               <div className="grid gap-3 sm:grid-cols-[120px_minmax(0,1fr)_minmax(0,1fr)]">
                 <div className="flex flex-col gap-1.5">
-                  <label htmlFor="home-date" className="text-xs text-slate-400">
+                  <label
+                    htmlFor="instapay-date"
+                    className="text-xs text-slate-400"
+                  >
                     التاريخ
                   </label>
                   <input
-                    id="home-date"
+                    id="instapay-date"
                     type="date"
                     value={txDate}
                     onChange={(e) => setTxDate(e.target.value)}
@@ -232,11 +235,14 @@ export default function AccountingHomeFund() {
                   />
                 </div>
                 <div className="flex flex-col gap-1.5">
-                  <label htmlFor="home-in" className="text-xs text-emerald-600">
-                    معاه (إيراد)
+                  <label
+                    htmlFor="instapay-in"
+                    className="text-xs text-emerald-600"
+                  >
+                    معاه (وارد)
                   </label>
                   <input
-                    id="home-in"
+                    id="instapay-in"
                     type="number"
                     min="0"
                     value={inAmount}
@@ -246,11 +252,14 @@ export default function AccountingHomeFund() {
                   />
                 </div>
                 <div className="flex flex-col gap-1.5">
-                  <label htmlFor="home-out" className="text-xs text-rose-600">
-                    منه (مصروف)
+                  <label
+                    htmlFor="instapay-out"
+                    className="text-xs text-rose-600"
+                  >
+                    منه (صادر)
                   </label>
                   <input
-                    id="home-out"
+                    id="instapay-out"
                     type="number"
                     min="0"
                     value={outAmount}
@@ -261,9 +270,9 @@ export default function AccountingHomeFund() {
                 </div>
               </div>
               <div className="grid gap-3 sm:grid-cols-[minmax(0,1fr)_auto] sm:items-end">
-                <label htmlFor="homefund-notes" className="sr-only">البيان</label>
+                <label htmlFor="instapay-notes" className="sr-only">البيان</label>
                 <input
-                  id="homefund-notes"
+                  id="instapay-notes"
                   type="text"
                   value={notes}
                   onChange={(e) => setNotes(e.target.value)}
@@ -309,7 +318,7 @@ export default function AccountingHomeFund() {
                       type="button"
                       onClick={handleSubmit}
                       disabled={busy || !txDate}
-                      className="flex h-10 items-center gap-1.5 rounded-lg bg-sky-600 px-4 text-sm font-semibold text-white hover:bg-sky-700 disabled:opacity-40"
+                      className="flex h-10 items-center gap-1.5 rounded-lg bg-pink-600 px-4 text-sm font-semibold text-white hover:bg-pink-700 disabled:opacity-40"
                     >
                       {busy ? (
                         <Loader2 className="h-4 w-4 animate-spin" />
@@ -328,7 +337,7 @@ export default function AccountingHomeFund() {
                       "flex h-10 w-full items-center justify-center rounded-lg text-white transition-colors sm:w-auto sm:px-4",
                       saved
                         ? "bg-emerald-500"
-                        : "bg-sky-600 hover:bg-sky-700 disabled:opacity-40",
+                        : "bg-pink-600 hover:bg-pink-700 disabled:opacity-40",
                     )}
                   >
                     {busy ? (
@@ -350,7 +359,9 @@ export default function AccountingHomeFund() {
         <div className="overflow-hidden rounded-[28px] border border-border bg-background shadow-sm">
           <div className="flex flex-col gap-3 border-b border-border px-4 py-4 lg:flex-row lg:items-center lg:justify-between lg:px-5">
             <div>
-              <h2 className="text-sm font-bold text-foreground">حركات البيت</h2>
+              <h2 className="text-sm font-bold text-foreground">
+                حركات انستاباي
+              </h2>
               <p className="mt-0.5 text-xs text-slate-500">
                 اضغط على أي صف للتعديل.
               </p>
@@ -358,9 +369,9 @@ export default function AccountingHomeFund() {
             <div className="flex flex-wrap items-center gap-2">
               <div className="flex h-10 items-center gap-2 rounded-xl border border-border bg-muted px-3 focus-within:border-blue-300 focus-within:ring-2 focus-within:ring-blue-100">
                 <Search className="h-4 w-4 shrink-0 text-slate-400" aria-hidden="true" />
-                <label htmlFor="homefund-search" className="sr-only">بحث في البيان</label>
+                <label htmlFor="instapay-search" className="sr-only">بحث في البيان</label>
                 <input
-                  id="homefund-search"
+                  id="instapay-search"
                   type="text"
                   value={search}
                   onChange={(e) => {
@@ -384,7 +395,7 @@ export default function AccountingHomeFund() {
                   </button>
                 ) : null}
               </div>
-              <div className="rounded-full bg-sky-50 px-3 py-1 text-xs font-semibold text-sky-700">
+              <div className="rounded-full bg-pink-50 px-3 py-1 text-xs font-semibold text-pink-700">
                 {total.toLocaleString("ar-EG")} حركة
               </div>
             </div>
@@ -410,8 +421,8 @@ export default function AccountingHomeFund() {
                   if (e.key === "Enter" || e.key === " ") selectRow(row);
                 }}
                 className={cn(
-                  "rounded-2xl border border-border bg-background p-4 shadow-sm transition-colors hover:bg-sky-50/40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-300",
-                  editingId === row.id && "ring-1 ring-sky-200",
+                  "rounded-2xl border border-border bg-background p-4 shadow-sm transition-colors hover:bg-pink-50/40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-pink-300",
+                  editingId === row.id && "ring-1 ring-pink-200",
                 )}
               >
                 <div className="flex items-start justify-between gap-3">
@@ -423,7 +434,7 @@ export default function AccountingHomeFund() {
                       {row.notes ?? "—"}
                     </div>
                   </div>
-                  <span className="rounded-full bg-sky-50 px-2.5 py-1 text-[10px] font-semibold text-sky-700">
+                  <span className="rounded-full bg-pink-50 px-2.5 py-1 text-[10px] font-semibold text-pink-700">
                     {fmt(row.total)}
                   </span>
                 </div>
@@ -484,7 +495,7 @@ export default function AccountingHomeFund() {
                         setPage(1);
                       }}
                       aria-label={`ترتيب حسب التاريخ ${sortDir === "desc" ? "تصاعدياً" : "تنازلياً"}`}
-                      className="flex cursor-pointer select-none items-center gap-1 focus-visible:rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-500"
+                      className="flex cursor-pointer select-none items-center gap-1 focus-visible:rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-pink-500"
                     >
                       التاريخ{" "}
                       <span className="text-slate-400" aria-hidden="true">
@@ -555,8 +566,8 @@ export default function AccountingHomeFund() {
                       if (e.key === "Enter" || e.key === " ") selectRow(row);
                     }}
                     className={cn(
-                      "cursor-pointer transition-colors hover:bg-sky-50/40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-sky-300",
-                      editingId === row.id && "bg-sky-50 ring-1 ring-sky-200",
+                      "cursor-pointer transition-colors hover:bg-pink-50/40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-pink-300",
+                      editingId === row.id && "bg-pink-50 ring-1 ring-pink-200",
                     )}
                   >
                     <td className="whitespace-nowrap px-2 py-2 text-[11px] text-muted-foreground sm:px-4 sm:py-2.5 sm:text-xs">
