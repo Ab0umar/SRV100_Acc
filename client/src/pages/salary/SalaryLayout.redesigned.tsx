@@ -36,12 +36,6 @@ const navigationSections = [
         description: "تحضير الرواتب والبدلات",
         activeFor: ["/salary"],
       },
-      {
-        href: "/salary/current-data",
-        label: "بيانات الرواتب الحالية",
-        description: "عرض الرواتب المسجلة حسب موقع العمل",
-        activeFor: ["/salary/current-data"],
-      },
     ],
   },
   {
