@@ -3,9 +3,9 @@ import { useAuth } from "@/hooks/useAuth";
 import { useLocation, useRoute } from "wouter";
 import { useAppNavigation } from "@/hooks/useAppNavigation";
 import PatientPicker from "@/components/PatientPicker";
-import PentacamFilesPanel from "@/components/PentacamFilesPanel";
+import LocalPentacamExportsPanel from "@/components/LocalPentacamExportsPanel";
 import { FilterBar } from "@/components/shared/FilterBar";
-import { ArrowRight, BookOpenText, FileSpreadsheet, Search, ShieldCheck, FolderCog } from "lucide-react";
+import { ArrowRight, BookOpenText, FileSpreadsheet, FolderCog, Search, ShieldCheck } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 type PatientSummary = {
@@ -55,9 +55,9 @@ function EmptyPanel() {
           <Search className="h-6 w-6" />
         </div>
         <div className="space-y-1">
-          <p className="text-lg font-semibold text-foreground">ابحث برمز المريض</p>
+          <p className="text-lg font-semibold text-foreground">اختر مريضًا للربط</p>
           <p className="text-sm leading-6 text-muted-foreground">
-            اكتب كود المريض لعرض صور JPG المرتبطة ومراجعتها بسرعة.
+            هذه الصفحة مخصصة للإدارة فقط: استيراد صور Pentacam وربطها أو إعادة تعيينها عند الحاجة.
           </p>
         </div>
       </div>
@@ -65,11 +65,11 @@ function EmptyPanel() {
   );
 }
 
-export default function PentacamSheet() {
-  const { user, isAuthenticated } = useAuth();
+export default function AdminPentacamLinking() {
+  const { isAuthenticated } = useAuth();
   const [, setLocation] = useLocation();
   const { goBack } = useAppNavigation();
-  const [, params] = useRoute("/sheets/:type/:id");
+  const [, params] = useRoute("/admin/pentacam/:id");
   const initialPatientId = params?.id ? Number(params.id) : undefined;
 
   const [selectedPatient, setSelectedPatient] = useState<PatientSummary | null>(null);
@@ -85,7 +85,7 @@ export default function PentacamSheet() {
   const handleSelectPatient = (patient: PatientSummary) => {
     if (locationType !== "all" && patient.locationType && patient.locationType !== locationType) return;
     setSelectedPatient(patient);
-    setLocation(`/sheets/pentacam/${patient.id}`);
+    setLocation(`/admin/pentacam/${patient.id}`);
   };
 
   useEffect(() => {
@@ -127,19 +127,19 @@ export default function PentacamSheet() {
             </button>
             <div className="space-y-1">
               <div className="inline-flex items-center gap-2 rounded-full border border-ring/30 bg-primary text-primary-foreground">
-                <FileSpreadsheet className="h-3.5 w-3.5" />
-                عرض JPG
+                <FolderCog className="h-3.5 w-3.5" />
+                ربط إداري
               </div>
-              <h1 className="text-3xl font-black tracking-tight text-foreground sm:text-4xl">البنتاكام</h1>
+              <h1 className="text-3xl font-black tracking-tight text-foreground sm:text-4xl">ربط صور البنتاكام</h1>
               <p className="max-w-2xl text-sm leading-6 text-muted-foreground">
-                افتح المريض الصحيح، وراجع صور JPG المرتبطة بسرعة.
+                اختر المريض، ثم استورد صور JPG المحلية أو أعد ربط الملفات الخاطئة من هنا.
               </p>
             </div>
           </div>
 
           <div className="hidden items-center gap-2 rounded-full border border-success/30 bg-success/10 px-3 py-1 text-[11px] font-semibold text-success sm:inline-flex">
             <ShieldCheck className="h-3.5 w-3.5" />
-            عرض JPG فقط
+            صفحة للإدارة فقط
           </div>
         </header>
 
@@ -172,7 +172,7 @@ export default function PentacamSheet() {
                 }
               />
               <p className="mt-3 text-[11px] leading-5 text-muted-foreground">
-                قاعدة البيانات تكبر باستمرار, لذلك البحث يبدأ بالكود مباشرة.
+                استخدم البحث لتحديد المريض قبل استيراد صور JPG وربطها.
               </p>
             </section>
 
@@ -201,20 +201,21 @@ export default function PentacamSheet() {
                 </div>
               )}
             </section>
-            {user?.role === "admin" && selectedPatientId ? (
+
+            {selectedPatientId ? (
               <section className="rounded-[1.5rem] border border-border bg-background p-4 shadow-[0_12px_32px_rgba(15,23,42,0.05)]">
                 <div className="flex items-center justify-between gap-3">
                   <div className="flex items-center gap-2">
-                    <FolderCog className="h-4 w-4 text-primary" />
-                    <h2 className="text-sm font-semibold text-foreground">الربط الإداري</h2>
+                    <FileSpreadsheet className="h-4 w-4 text-primary" />
+                    <h2 className="text-sm font-semibold text-foreground">فتح صفحة العرض</h2>
                   </div>
                   <Button
                     type="button"
                     variant="outline"
                     size="sm"
-                    onClick={() => setLocation(`/admin/pentacam/${selectedPatientId}`)}
+                    onClick={() => setLocation(`/sheets/pentacam/${selectedPatientId}`)}
                   >
-                    فتح صفحة الربط
+                    عرض JPG
                   </Button>
                 </div>
               </section>
@@ -223,7 +224,7 @@ export default function PentacamSheet() {
 
           <section className="min-h-0">
             {selectedPatientId ? (
-              <PentacamFilesPanel patientId={selectedPatientId} active />
+              <LocalPentacamExportsPanel patientId={selectedPatientId} active />
             ) : (
               <EmptyPanel />
             )}
