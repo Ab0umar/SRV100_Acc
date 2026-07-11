@@ -4,7 +4,8 @@ param(
     [switch]$SkipWebBuild,
     [switch]$SkipCapSync,
     [string]$ApkOutputDir,
-    [switch]$DryRun
+    [switch]$DryRun,
+    [switch]$Bundle
 )
 
 $ErrorActionPreference = "Stop"
@@ -103,53 +104,83 @@ try {
 
     Push-Location $androidDir
     try {
-        Write-Step "Running Gradle assembleRelease"
+        $gradleTask = if ($Bundle) { "bundleRelease" } else { "assembleRelease" }
+        Write-Step "Running Gradle $gradleTask"
         $env:APP_VERSION_CODE = [string]$VersionCode
         if (-not $DryRun) {
-            .\gradlew assembleRelease "-PversionCode=$VersionCode"
+            .\gradlew $gradleTask "-PversionCode=$VersionCode"
         }
     }
     finally { Pop-Location }
 }
 finally { Pop-Location }
 
-# 2. تسمية الملف النهائي بنظام SELRS + VersionName
-Write-Step "Finalizing APK"
-$gradleApkDir = Join-Path $androidDir "app\build\outputs\apk\release"
-$apkFile = Get-ChildItem -Path $gradleApkDir -Filter "*.apk" | Sort-Object LastWriteTime -Descending | Select-Object -First 1
+if ($Bundle) {
+    # Play Console upload (.aab) — signed with the same release keystore as assembleRelease
+    Write-Step "Finalizing AAB"
+    $gradleBundleDir = Join-Path $androidDir "app\build\outputs\bundle\release"
+    $bundleFile = Get-ChildItem -Path $gradleBundleDir -Filter "*.aab" | Sort-Object LastWriteTime -Descending | Select-Object -First 1
 
-if ($apkFile) {
-    # تعديل الاسم هنا ليصبح SELRS_1.0.115.apk مثلاً
-    $newApkName = "SELRS_$VersionName.apk"
-    $copiedApkPath = Join-Path $resolvedDestDir $newApkName
+    if ($bundleFile) {
+        $newBundleName = "SELRS_$VersionName.aab"
+        $copiedBundlePath = Join-Path $resolvedDestDir $newBundleName
 
-    if (-not $DryRun) {
-        if (-not (Test-Path $resolvedDestDir)) {
-            New-Item -ItemType Directory -Path $resolvedDestDir -Force | Out-Null
+        if (-not $DryRun) {
+            if (-not (Test-Path $resolvedDestDir)) {
+                New-Item -ItemType Directory -Path $resolvedDestDir -Force | Out-Null
+            }
+            Write-Host "Source: $($bundleFile.FullName)"
+            Write-Host "Dest:   $copiedBundlePath"
+            Copy-Item -Path $bundleFile.FullName -Destination $copiedBundlePath -Force
+            Write-Host "Successfully generated: $newBundleName (upload this to Play Console)" -ForegroundColor Green
         }
-
-        # تنفيذ النسخ مع تغيير الاسم
-        Write-Host "Source: $($apkFile.FullName)"
-        Write-Host "Dest:   $copiedApkPath"
-        Copy-Item -Path $apkFile.FullName -Destination $copiedApkPath -Force
-
-        # Also copy to android/releases/ so the server can serve it for auto-updates
-        $localReleasesDir = Join-Path $androidDir "releases"
-        if (-not (Test-Path $localReleasesDir)) {
-            New-Item -ItemType Directory -Path $localReleasesDir -Force | Out-Null
+        else {
+            Write-Host "DryRun: AAB would be saved as '$newBundleName' in '$resolvedDestDir'." -ForegroundColor Yellow
         }
-        $localApkPath = Join-Path $localReleasesDir $newApkName
-        Copy-Item -Path $apkFile.FullName -Destination $localApkPath -Force
-        Write-Host "Also copied to: $localApkPath (served at /updates/android)" -ForegroundColor Green
-
-        Write-Host "Successfully generated: $newApkName" -ForegroundColor Green
     }
     else {
-        Write-Host "DryRun: APK would be saved as '$newApkName' in '$resolvedDestDir'." -ForegroundColor Yellow
+        Write-Host "AAB not found. Check Gradle logs." -ForegroundColor Red
     }
 }
 else {
-    Write-Host "APK not found. Check Gradle logs." -ForegroundColor Red
+    # 2. تسمية الملف النهائي بنظام SELRS + VersionName
+    Write-Step "Finalizing APK"
+    $gradleApkDir = Join-Path $androidDir "app\build\outputs\apk\release"
+    $apkFile = Get-ChildItem -Path $gradleApkDir -Filter "*.apk" | Sort-Object LastWriteTime -Descending | Select-Object -First 1
+
+    if ($apkFile) {
+        # تعديل الاسم هنا ليصبح SELRS_1.0.115.apk مثلاً
+        $newApkName = "SELRS_$VersionName.apk"
+        $copiedApkPath = Join-Path $resolvedDestDir $newApkName
+
+        if (-not $DryRun) {
+            if (-not (Test-Path $resolvedDestDir)) {
+                New-Item -ItemType Directory -Path $resolvedDestDir -Force | Out-Null
+            }
+
+            # تنفيذ النسخ مع تغيير الاسم
+            Write-Host "Source: $($apkFile.FullName)"
+            Write-Host "Dest:   $copiedApkPath"
+            Copy-Item -Path $apkFile.FullName -Destination $copiedApkPath -Force
+
+            # Also copy to android/releases/ so the server can serve it for auto-updates
+            $localReleasesDir = Join-Path $androidDir "releases"
+            if (-not (Test-Path $localReleasesDir)) {
+                New-Item -ItemType Directory -Path $localReleasesDir -Force | Out-Null
+            }
+            $localApkPath = Join-Path $localReleasesDir $newApkName
+            Copy-Item -Path $apkFile.FullName -Destination $localApkPath -Force
+            Write-Host "Also copied to: $localApkPath (served at /updates/android)" -ForegroundColor Green
+
+            Write-Host "Successfully generated: $newApkName" -ForegroundColor Green
+        }
+        else {
+            Write-Host "DryRun: APK would be saved as '$newApkName' in '$resolvedDestDir'." -ForegroundColor Yellow
+        }
+    }
+    else {
+        Write-Host "APK not found. Check Gradle logs." -ForegroundColor Red
+    }
 }
 
 Write-Step "Process Complete"

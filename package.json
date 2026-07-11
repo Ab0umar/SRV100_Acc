@@ -37,6 +37,7 @@
     "smoke": "tsx scripts/smoke.ts",
     "hooks:install": "git config core.hooksPath .githooks",
     "android:build-release": "powershell -ExecutionPolicy Bypass -File scripts/build-android-release.ps1",
+    "android:build-bundle": "powershell -ExecutionPolicy Bypass -File scripts/build-android-release.ps1 -Bundle",
     "web:deploy": "powershell -ExecutionPolicy Bypass -File scripts/deploy-web.ps1",
     "postinstall": "node scripts/postinstall.mjs"
   },
