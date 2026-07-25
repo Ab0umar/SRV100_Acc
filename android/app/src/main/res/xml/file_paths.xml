@@ -2,4 +2,7 @@
 <paths xmlns:android="http://schemas.android.com/apk/res/android">
     <external-path name="my_images" path="." />
     <cache-path name="my_cache_images" path="." />
+    <!-- Maps to Context.getExternalFilesDir(null) — where ApkUpdaterPlugin
+         downloads the update APK via DownloadManager.setDestinationInExternalFilesDir. -->
+    <external-files-path name="apk_updates" path="." />
 </paths>
