@@ -550,8 +550,8 @@
     "semantic_hash": ""
   },
   "client/src/components/today/TodayBottleneckBoard.tsx": {
-    "mtime": 1785593001.4528773,
-    "ast_hash": "b84bd49f1ac3d71e2918e67544ee358c",
+    "mtime": 1786908712.2982483,
+    "ast_hash": "08a2bb0490e460b9c7c7e36282ebc87a",
     "semantic_hash": ""
   },
   "client/src/components/today/TodayOperationListItemCard.tsx": {
@@ -5550,8 +5550,8 @@
     "semantic_hash": ""
   },
   "client/src/hooks/useTodayQueuePatientsMerged.ts": {
-    "mtime": 1785977188.7518148,
-    "ast_hash": "e0ab070f72f89d1e1200368f937059c8",
+    "mtime": 1786908575.5724711,
+    "ast_hash": "fcfef872cbb523247fd59029e0a8d426",
     "semantic_hash": ""
   },
   "client/src/lib/accountingPrint.ts": {
@@ -6815,8 +6815,8 @@
     "semantic_hash": ""
   },
   "drizzle/schema.ts": {
-    "mtime": 1786732156.6833675,
-    "ast_hash": "603cf206afaf16ee6255163bb7f649ca",
+    "mtime": 1786908515.8110855,
+    "ast_hash": "8bedf6d112212745540ee38e005c9ee1",
     "semantic_hash": ""
   },
   "ecosystem.config.cjs": {
@@ -7495,8 +7495,8 @@
     "semantic_hash": ""
   },
   "server/db.ts": {
-    "mtime": 1786196707.888244,
-    "ast_hash": "ee4624ea5cb779ea3a93475567677562",
+    "mtime": 1786908695.210869,
+    "ast_hash": "6c3315be1cbae3af0e2b259ebe5e286a",
     "semantic_hash": ""
   },
   "server/integrations/mssqlPatients.ts": {
@@ -7610,8 +7610,8 @@
     "semantic_hash": ""
   },
   "server/routers/medical-examinations.ts": {
-    "mtime": 1785972809.0967526,
-    "ast_hash": "0de439006354c9611a9e19d89abe7563",
+    "mtime": 1786908553.3194263,
+    "ast_hash": "fd47d0066a07e426fc31127811a142ae",
     "semantic_hash": ""
   },
   "server/routers/medical-mssql.ts": {
@@ -7625,8 +7625,8 @@
     "semantic_hash": ""
   },
   "server/routers/medical-patient.ts": {
-    "mtime": 1785668462.1889343,
-    "ast_hash": "b81aa011ab794479ae1eaaa25e0bff78",
+    "mtime": 1786908562.9039226,
+    "ast_hash": "75552bf9af4314cf6a70d695909e859f",
     "semantic_hash": ""
   },
   "server/routers/medical-pentacam.ts": {
@@ -8075,8 +8075,8 @@
     "semantic_hash": ""
   },
   "server/services/salary/payrollCompute.service.ts": {
-    "mtime": 1786829470.4315298,
-    "ast_hash": "45567eece2a5de8c8392c9c8f1924fd8",
+    "mtime": 1786831109.1773014,
+    "ast_hash": "fc899ddbf67b5efe6c7674c4920c6a53",
     "semantic_hash": ""
   },
   "server/sheets.test.ts": {
@@ -9495,13 +9495,13 @@
     "semantic_hash": ""
   },
   "client/src/payroll-overtime.test.ts": {
-    "mtime": 1786737791.7035778,
-    "ast_hash": "d22e6d3d98dd10e6813e5675458904a8",
+    "mtime": 1786831109.178303,
+    "ast_hash": "f9badcd91814c3b95fd736e0d73d6d02",
     "semantic_hash": ""
   },
   "server/services/salary/overtimePay.ts": {
-    "mtime": 1786737791.7016091,
-    "ast_hash": "9129520896f4fbd025a4f8e508352653",
+    "mtime": 1786831109.1762896,
+    "ast_hash": "3d56ad9b1ef4c79399af9acbe8665042",
     "semantic_hash": ""
   },
   ".codex-remote-attachments/01a00563-84b2-73f1-9cff-50002c354a87/bf02bf26-61fe-49ca-baa8-e255eb088bf6/1-Photo-1.jpg": {
@@ -9527,6 +9527,16 @@
   ".codex-remote-attachments/01a00563-84b2-73f1-9cff-50002c354a87/f74e8bde-c58c-4b3f-9567-ddb0579db999/1-Photo-1.jpg": {
     "mtime": 1786804339.3285358,
     "ast_hash": "19bf723bf20afec82c1c734c74ce2b4c",
+    "semantic_hash": ""
+  },
+  "drizzle/00079_visit_treated_by_user.sql": {
+    "mtime": 1786908515.8110855,
+    "ast_hash": "1956409a5101ebf19a8e62e5b4c75372",
+    "semantic_hash": ""
+  },
+  ".codex-remote-attachments/01a00563-84b2-73f1-9cff-50002c354a87/0e132f95-98d8-4d01-832e-d52f975c9df5/1-Photo-1.jpg": {
+    "mtime": 1786867764.77944,
+    "ast_hash": "9fb85d8185cb1e70d63b0f2da3d50fdd",
     "semantic_hash": ""
   }
 }

@@ -1,0 +1,1 @@
+import{t as e}from"./PrescriptionsList-kEnwVNAr.js";export{e as default};

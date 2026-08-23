@@ -85,8 +85,8 @@
     "semantic_hash": ""
   },
   "client/src/components/MedicalFilePanel.tsx": {
-    "mtime": 1785490494.8318594,
-    "ast_hash": "1e7efb56e5f08fc15f3518a002a14c23",
+    "mtime": 1787435529.1800208,
+    "ast_hash": "8b8a486f0c53e7ff05024aa27775b7bf",
     "semantic_hash": ""
   },
   "client/src/components/MobileAppEnhancements.tsx": {
@@ -165,9 +165,9 @@
     "semantic_hash": "3f590fc5228200da8e6bd4aa200169ec"
   },
   "client/src/components/admin-patients/AdminPatientsTable.tsx": {
-    "mtime": 1785490494.8476412,
-    "ast_hash": "bb82ad7ec72cc295bb5f0bcdd924e7c8",
-    "semantic_hash": "bb82ad7ec72cc295bb5f0bcdd924e7c8"
+    "mtime": 1787371614.1045275,
+    "ast_hash": "92db999a6e9ee5bd18b5586412f5de1b",
+    "semantic_hash": ""
   },
   "client/src/components/admin-patients/AdminPatientsToolbar.tsx": {
     "mtime": 1785490494.8476412,
@@ -190,8 +190,8 @@
     "semantic_hash": ""
   },
   "client/src/components/dashboard/AddPortalBookingDialog.tsx": {
-    "mtime": 1786823529.3517914,
-    "ast_hash": "c3a734f07cb2639d1075cdad53a06c40",
+    "mtime": 1787196767.5506465,
+    "ast_hash": "0386c50e6f239e98f70842e15c97f5a7",
     "semantic_hash": ""
   },
   "client/src/components/dashboard/AppointmentsActivity.tsx": {
@@ -215,8 +215,8 @@
     "semantic_hash": "fffab05e59bf462a2b83755366d65fa1"
   },
   "client/src/components/dashboard/QuickPatientEntryDialog.tsx": {
-    "mtime": 1786823479.298167,
-    "ast_hash": "af4c2a1f7cedd8faa992fc09fbc73a2d",
+    "mtime": 1787168513.263561,
+    "ast_hash": "0f2fe4251d67ecd3b4f79f221f0488ff",
     "semantic_hash": ""
   },
   "client/src/components/dashboard/QuickPatientEntryForm.tsx": {
@@ -230,8 +230,8 @@
     "semantic_hash": ""
   },
   "client/src/components/dashboard/appointments-activity.tsx": {
-    "mtime": 1786183188.6479845,
-    "ast_hash": "0459a1c21ae94dd88a33e8ab4976214e",
+    "mtime": 1787421449.7094958,
+    "ast_hash": "f1f3b8d246321df2ce04413e79231d86",
     "semantic_hash": ""
   },
   "client/src/components/dashboard/charts.tsx": {
@@ -270,13 +270,13 @@
     "semantic_hash": ""
   },
   "client/src/components/examination/ExaminationPatientInfoTab.tsx": {
-    "mtime": 1786009020.3018036,
-    "ast_hash": "6740ca44c633ddafea54acbdd2239417",
+    "mtime": 1787193166.7462385,
+    "ast_hash": "883722133bcd514cda27034d9ae0a1e3",
     "semantic_hash": ""
   },
   "client/src/components/examination/ExaminationPatientQuickDialogContent.tsx": {
-    "mtime": 1785978179.3895335,
-    "ast_hash": "5423354fdb6a90f7d80b991e45cdbb1a",
+    "mtime": 1787001435.8035748,
+    "ast_hash": "9d215a6170aecbc6fee080600f812f54",
     "semantic_hash": ""
   },
   "client/src/components/examination/ExaminationPentacamTab.tsx": {
@@ -320,8 +320,8 @@
     "semantic_hash": ""
   },
   "client/src/components/layout/AppTopNav.tsx": {
-    "mtime": 1786822790.2233894,
-    "ast_hash": "5796de471c2f88fc6bc13bc567e705fa",
+    "mtime": 1787443799.6073306,
+    "ast_hash": "07e3a08274c04fc27ad07727f4c5069b",
     "semantic_hash": ""
   },
   "client/src/components/loaders/OrganicLoaders.tsx": {
@@ -340,8 +340,8 @@
     "semantic_hash": ""
   },
   "client/src/components/operations/OperationsBookingFormContent.tsx": {
-    "mtime": 1785490494.8895657,
-    "ast_hash": "0ed308bd44c005ce0b90f20c42625145",
+    "mtime": 1787155485.596988,
+    "ast_hash": "9bec26ecf1ae39e7dcdb5720d1879548",
     "semantic_hash": ""
   },
   "client/src/components/operations/OperationsBookingInlinePanel.tsx": {
@@ -350,8 +350,8 @@
     "semantic_hash": ""
   },
   "client/src/components/operations/OperationsBookingQuickDialog.tsx": {
-    "mtime": 1786823548.9239407,
-    "ast_hash": "fe88449c0b3acc34eaa3ba51a5c82fd8",
+    "mtime": 1787157124.6920245,
+    "ast_hash": "cd793527bf167e2aac43ead6b4e70860",
     "semantic_hash": ""
   },
   "client/src/components/operations/OperationsHistoryDrawer.tsx": {
@@ -405,8 +405,8 @@
     "semantic_hash": ""
   },
   "client/src/components/patient-details/MedicalHistoryTab.tsx": {
-    "mtime": 1786009020.308811,
-    "ast_hash": "9ae82ae1fe4dac5835049e48dfc4c291",
+    "mtime": 1787001435.8096068,
+    "ast_hash": "b019effa3d6786e21920d24b11e0feb4",
     "semantic_hash": ""
   },
   "client/src/components/patient-details/PatientDetailsError.tsx": {
@@ -440,8 +440,8 @@
     "semantic_hash": ""
   },
   "client/src/components/patients/PatientMedicalStatusBadges.tsx": {
-    "mtime": 1785490494.8952246,
-    "ast_hash": "f43bc299adf059a80cf1356b60020828",
+    "mtime": 1787362472.1287863,
+    "ast_hash": "1cfb603c62f8ed71b9fededf7894003f",
     "semantic_hash": ""
   },
   "client/src/components/patients/PatientRowActions.tsx": {
@@ -535,8 +535,8 @@
     "semantic_hash": ""
   },
   "client/src/components/shared/ServicesHubNav.tsx": {
-    "mtime": 1785490494.9128041,
-    "ast_hash": "53c610d9d87c51900ba68da6d4645597",
+    "mtime": 1787445699.9078546,
+    "ast_hash": "5420a517683fa519c81ad688fa41c4dc",
     "semantic_hash": ""
   },
   "client/src/components/shared/StatCard.tsx": {
@@ -550,8 +550,8 @@
     "semantic_hash": ""
   },
   "client/src/components/today/TodayBottleneckBoard.tsx": {
-    "mtime": 1785593001.4528773,
-    "ast_hash": "b84bd49f1ac3d71e2918e67544ee358c",
+    "mtime": 1786909554.7434025,
+    "ast_hash": "afe7b3dc68c4a338a4ea9ff805fc61ce",
     "semantic_hash": ""
   },
   "client/src/components/today/TodayOperationListItemCard.tsx": {
@@ -775,8 +775,8 @@
     "semantic_hash": ""
   },
   "client/src/components/ui/sheet.tsx": {
-    "mtime": 1785490494.9600046,
-    "ast_hash": "641c991f73f408a26fae0bc7a370e1c5",
+    "mtime": 1787157219.202911,
+    "ast_hash": "36f8679788b9bb7a3588a61ad088ba86",
     "semantic_hash": ""
   },
   "client/src/components/ui/sidebar.tsx": {
@@ -910,8 +910,8 @@
     "semantic_hash": "295136b38389a6e789715b6446ef451a"
   },
   "client/src/features/accounting/AccountingShell.tsx": {
-    "mtime": 1785878000.9438164,
-    "ast_hash": "ee0169c945d53df018dbbf2ade9439a9",
+    "mtime": 1787440486.7805905,
+    "ast_hash": "7d73be14960d2ee352ad59a204cc351b",
     "semantic_hash": ""
   },
   "client/src/features/accounting/AccountingTopSection.tsx": {
@@ -1010,9 +1010,9 @@
     "semantic_hash": "4547b7541a515a9c10e058fea7a6c601"
   },
   "client/src/features/admin/AdminPatients.tsx": {
-    "mtime": 1785490495.014596,
-    "ast_hash": "59e1b306e68bd96ccc323410b83ab321",
-    "semantic_hash": "59e1b306e68bd96ccc323410b83ab321"
+    "mtime": 1787370682.1201425,
+    "ast_hash": "2e8a26af541602e035de9d9aa1b624ad",
+    "semantic_hash": ""
   },
   "client/src/features/admin/AdminPentacamDuplicates.tsx": {
     "mtime": 1785490495.014596,
@@ -1035,8 +1035,8 @@
     "semantic_hash": "fe3b82e35635495f4487fe9e9b131a0e"
   },
   "client/src/features/admin/AdminPortalBookings.tsx": {
-    "mtime": 1785490495.0211897,
-    "ast_hash": "61b51a39885cc23c4c2fdd45038b33a2",
+    "mtime": 1787166807.0698931,
+    "ast_hash": "d498828f6e5c6f18cac28a2cef8dfb28",
     "semantic_hash": ""
   },
   "client/src/features/admin/AdminServices.tsx": {
@@ -1275,7 +1275,7 @@
     "semantic_hash": ""
   },
   "client/src/features/kf/KfExaminationForm.tsx": {
-    "mtime": 1785490495.0844352,
+    "mtime": 1787015152.3151262,
     "ast_hash": "393f6c5b0b9b32097aec9e83f89cc601",
     "semantic_hash": ""
   },
@@ -1290,7 +1290,7 @@
     "semantic_hash": ""
   },
   "client/src/features/kf/KfHome.tsx": {
-    "mtime": 1785490495.0844352,
+    "mtime": 1787015007.837178,
     "ast_hash": "39becbf4f5dae5b093789ad3161de91a",
     "semantic_hash": ""
   },
@@ -1345,9 +1345,9 @@
     "semantic_hash": ""
   },
   "client/src/features/patient-portal/PatientBook.tsx": {
-    "mtime": 1785490495.100092,
-    "ast_hash": "890e393a52f472d85c2d9bc7d130bb89",
-    "semantic_hash": "890e393a52f472d85c2d9bc7d130bb89"
+    "mtime": 1787163576.7911181,
+    "ast_hash": "d8e3de0b52679f82ce091e31efe643a3",
+    "semantic_hash": ""
   },
   "client/src/features/patient-portal/PatientBookings.tsx": {
     "mtime": 1785490495.100092,
@@ -1365,8 +1365,8 @@
     "semantic_hash": ""
   },
   "client/src/features/patient-portal/PatientGuestBook.tsx": {
-    "mtime": 1785490495.100092,
-    "ast_hash": "5746d6ad00fe6209095b88430e925b52",
+    "mtime": 1787163648.6396434,
+    "ast_hash": "09534244a760d5a22457e405d20640da",
     "semantic_hash": ""
   },
   "client/src/features/patient-portal/PatientLayout.tsx": {
@@ -1445,8 +1445,8 @@
     "semantic_hash": ""
   },
   "client/src/features/salary/SalarySettings.tsx": {
-    "mtime": 1786741432.5625029,
-    "ast_hash": "211fbce58b87cd42c22e32122259d1d9",
+    "mtime": 1787273944.8514423,
+    "ast_hash": "ee84c3a57a06c25d51a810c1fd4e7ddc",
     "semantic_hash": ""
   },
   "client/src/features/salary/ShiftPayroll.tsx": {
@@ -1495,8 +1495,8 @@
     "semantic_hash": ""
   },
   "client/src/main.tsx": {
-    "mtime": 1785605445.4581525,
-    "ast_hash": "a6ec2ab1e0ddd4ed932afced12206259",
+    "mtime": 1787155618.187116,
+    "ast_hash": "d9bc206c5b0eafc167c5660c10390b75",
     "semantic_hash": ""
   },
   "client/src/pages/AutorefsDashboard.tsx": {
@@ -1525,8 +1525,8 @@
     "semantic_hash": ""
   },
   "client/src/pages/Dashboard.tsx": {
-    "mtime": 1785593001.4528773,
-    "ast_hash": "1f435cd4c86eb6f46f360303e723bfb2",
+    "mtime": 1787192672.8699448,
+    "ast_hash": "16c8d4c32f24ea64cc973c08c212b735",
     "semantic_hash": ""
   },
   "client/src/pages/DoctorPatientView.tsx": {
@@ -1580,8 +1580,8 @@
     "semantic_hash": ""
   },
   "client/src/pages/LasikExamSheet.tsx": {
-    "mtime": 1786014900.31361,
-    "ast_hash": "7eb7cc0a303002e9618fdf9a5485c8e5",
+    "mtime": 1787421889.3710158,
+    "ast_hash": "e2796a99f0bf68bfe1f7605d68669b5d",
     "semantic_hash": ""
   },
   "client/src/pages/LasikFollowupPage.tsx": {
@@ -1730,13 +1730,13 @@
     "semantic_hash": "046e6a52176ab73a6266dc1e37d48f59"
   },
   "client/src/pages/RequestTests.tsx": {
-    "mtime": 1786020201.0006423,
-    "ast_hash": "96326b4870feda0af93529e36b930389",
+    "mtime": 1787204142.397801,
+    "ast_hash": "ef0996b8691d58e632e254fb777ad17a",
     "semantic_hash": ""
   },
   "client/src/pages/ServicesHubShell.tsx": {
-    "mtime": 1785490495.2110608,
-    "ast_hash": "18c955a726277143bac7bba50f6bcd87",
+    "mtime": 1787445699.8818445,
+    "ast_hash": "9814e61adb62bf99082fffe0193b09f6",
     "semantic_hash": ""
   },
   "client/src/pages/SpecialistSheet.tsx": {
@@ -1755,8 +1755,8 @@
     "semantic_hash": ""
   },
   "client/src/pages/TodayPatients.tsx": {
-    "mtime": 1785490495.2110608,
-    "ast_hash": "4d7f85f7253cb2c38aeb6cf1c4eb804e",
+    "mtime": 1787093684.7044337,
+    "ast_hash": "b46214723a0ddeda0d118d7967d906c3",
     "semantic_hash": ""
   },
   "client/src/pages/TxHubPage.tsx": {
@@ -1780,8 +1780,8 @@
     "semantic_hash": ""
   },
   "client/src/pages/WritePrescription.tsx": {
-    "mtime": 1786020200.7506635,
-    "ast_hash": "ba80493dc75448385b960de8b9e37f4d",
+    "mtime": 1787445700.172869,
+    "ast_hash": "9977e481aeea6d6e2098f08ed5afd3de",
     "semantic_hash": ""
   },
   "client/src/pages/dev/ComponentsGallery.tsx": {
@@ -1870,9 +1870,9 @@
     "semantic_hash": ""
   },
   "client/src/routes/misc-routes.tsx": {
-    "mtime": 1785490495.2334456,
-    "ast_hash": "c99def5ef889957113efcb52213f04cd",
-    "semantic_hash": "c99def5ef889957113efcb52213f04cd"
+    "mtime": 1787358773.152558,
+    "ast_hash": "755ec52cde5076ca89a198f82f2e5603",
+    "semantic_hash": ""
   },
   "client/src/routes/salary-routes.tsx": {
     "mtime": 1785490495.2334456,
@@ -2090,8 +2090,8 @@
     "semantic_hash": ""
   },
   ".claude/launch.json": {
-    "mtime": 1785490493.6434727,
-    "ast_hash": "98a4fb7a3c28611aaa8b03254993c872",
+    "mtime": 1787090399.8763044,
+    "ast_hash": "b716241c0727f3600b7e93bc5f14ff38",
     "semantic_hash": ""
   },
   ".claude/settings.json": {
@@ -2495,8 +2495,8 @@
     "semantic_hash": ""
   },
   "desktop-electron/package.json": {
-    "mtime": 1785492806.6136363,
-    "ast_hash": "cb51cd4ef6afa4521c14b32790c78e10",
+    "mtime": 1787436623.8718617,
+    "ast_hash": "f8db1a9716d20d00ba67665799bbaeda",
     "semantic_hash": ""
   },
   "desktop-electron/win7/package.json": {
@@ -2510,8 +2510,8 @@
     "semantic_hash": ""
   },
   "desktop/SelrsDesktop/Form1.cs": {
-    "mtime": 1785490495.2903268,
-    "ast_hash": "f1e5c47e4b90ae37d501b41a0bc03f5c",
+    "mtime": 1787443180.155663,
+    "ast_hash": "b756ed8c2e2eda98ef5d057815283a34",
     "semantic_hash": ""
   },
   "desktop/SelrsDesktop/Program.cs": {
@@ -2550,8 +2550,8 @@
     "semantic_hash": ""
   },
   "package.json": {
-    "mtime": 1785882495.2487023,
-    "ast_hash": "b83cbcb072b17ccbddabae938d41bd1d",
+    "mtime": 1787441442.2705398,
+    "ast_hash": "1a4bc630c3cac477a5e7ab1e5bb2b35e",
     "semantic_hash": ""
   },
   "playwright.config.ts": {
@@ -2585,7 +2585,7 @@
     "semantic_hash": ""
   },
   "vite.config.ts": {
-    "mtime": 1785490496.392354,
+    "mtime": 1787133414.7742374,
     "ast_hash": "09e1d0e175dc8c7ae3d96bfa39ebc158",
     "semantic_hash": ""
   },
@@ -4205,8 +4205,8 @@
     "semantic_hash": ""
   },
   "desktop-electron/builder-debug.yml": {
-    "mtime": 1785492432.3642082,
-    "ast_hash": "063423746204a3ef20f4b838434f08a6",
+    "mtime": 1787436671.1902704,
+    "ast_hash": "945cdeb3a7038c87a1aaee72294cbfd9",
     "semantic_hash": ""
   },
   "desktop-electron/builder-effective-config.yaml": {
@@ -4215,8 +4215,8 @@
     "semantic_hash": ""
   },
   "desktop-electron/latest.yml": {
-    "mtime": 1785490495.2744026,
-    "ast_hash": "6e4f539fa0ebcbacdc6df98c32a958ee",
+    "mtime": 1787436671.1952708,
+    "ast_hash": "49c4bfab7ec2940aa6c4993f408c2f13",
     "semantic_hash": ""
   },
   "desktop-electron/pnpm-workspace.yaml": {
@@ -5180,7 +5180,7 @@
     "semantic_hash": ""
   },
   "android/app/capacitor.build.gradle": {
-    "mtime": 1785882523.6101737,
+    "mtime": 1787440860.510244,
     "ast_hash": "4585d242a58214dc742d9431511bea52",
     "semantic_hash": ""
   },
@@ -5200,8 +5200,8 @@
     "semantic_hash": ""
   },
   "android/app/src/main/java/cc/selrs/app/MainActivity.java": {
-    "mtime": 1785605034.8282623,
-    "ast_hash": "e6b58c330257341a6985f49c3f02e8a3",
+    "mtime": 1787105937.0304234,
+    "ast_hash": "de33969f6264cee0e3af2d641b74ca24",
     "semantic_hash": ""
   },
   "android/app/src/main/java/cc/selrs/app/NativePrintPlugin.java": {
@@ -5220,7 +5220,7 @@
     "semantic_hash": ""
   },
   "android/capacitor.settings.gradle": {
-    "mtime": 1785882523.6101737,
+    "mtime": 1787440860.5092692,
     "ast_hash": "7acb4cc3180f440a6be06f4417e0a553",
     "semantic_hash": ""
   },
@@ -5420,8 +5420,8 @@
     "semantic_hash": ""
   },
   "client/src/features/kf/KfAddBookingDialog.tsx": {
-    "mtime": 1785490495.0684555,
-    "ast_hash": "1a91ba1d9e1af697bd31a8e4dbd423bc",
+    "mtime": 1787166807.008445,
+    "ast_hash": "743964f0fe40acf019a926a48bbe61bb",
     "semantic_hash": ""
   },
   "client/src/features/kf/KfBookings.tsx": {
@@ -5460,13 +5460,13 @@
     "semantic_hash": ""
   },
   "client/src/hooks/admin-patients/useAdminPatientsList.ts": {
-    "mtime": 1785490495.1158473,
-    "ast_hash": "950b2fe80d7396e40fd62aecfbca1ac6",
+    "mtime": 1787370529.7437735,
+    "ast_hash": "8064a722c61bd67ef1dde81044297543",
     "semantic_hash": ""
   },
   "client/src/hooks/examination/useExaminationForm.ts": {
-    "mtime": 1786008418.9517643,
-    "ast_hash": "cab7ce8c86d72ac4441ba69289fdd0c1",
+    "mtime": 1787368577.956597,
+    "ast_hash": "070ac39ef75afaf29595d88a639d2865",
     "semantic_hash": ""
   },
   "client/src/hooks/operations/operationsShared.ts": {
@@ -5550,8 +5550,8 @@
     "semantic_hash": ""
   },
   "client/src/hooks/useTodayQueuePatientsMerged.ts": {
-    "mtime": 1785977188.7518148,
-    "ast_hash": "e0ab070f72f89d1e1200368f937059c8",
+    "mtime": 1787370858.354458,
+    "ast_hash": "65a14563a5f635dcbd42698d1f304811",
     "semantic_hash": ""
   },
   "client/src/lib/accountingPrint.ts": {
@@ -5815,8 +5815,8 @@
     "semantic_hash": ""
   },
   "desktop-electron/main.js": {
-    "mtime": 1785490495.2744026,
-    "ast_hash": "1ae202c979ab2eb431a181f4d575dad9",
+    "mtime": 1787433633.4281447,
+    "ast_hash": "84647074eda64e180d1b3ceeaca13149",
     "semantic_hash": ""
   },
   "desktop-electron/preload.js": {
@@ -5865,8 +5865,8 @@
     "semantic_hash": ""
   },
   "desktop/build-selrs-installer.ps1": {
-    "mtime": 1785490495.3062131,
-    "ast_hash": "3357f297a7bc2df5902edcf6109cb225",
+    "mtime": 1787421183.783832,
+    "ast_hash": "c6c3bbde446ab12bbda9b801707fd7a9",
     "semantic_hash": ""
   },
   "desktop/install-webview2.ps1": {
@@ -6815,8 +6815,8 @@
     "semantic_hash": ""
   },
   "drizzle/schema.ts": {
-    "mtime": 1786732156.6833675,
-    "ast_hash": "603cf206afaf16ee6255163bb7f649ca",
+    "mtime": 1787162995.8953738,
+    "ast_hash": "bc71b0c45637e0168301e4d8758ccf80",
     "semantic_hash": ""
   },
   "ecosystem.config.cjs": {
@@ -7495,13 +7495,13 @@
     "semantic_hash": ""
   },
   "server/db.ts": {
-    "mtime": 1786196707.888244,
-    "ast_hash": "ee4624ea5cb779ea3a93475567677562",
+    "mtime": 1787381167.4090416,
+    "ast_hash": "5611b96c70f0a97a95d9da9e83fb1a82",
     "semantic_hash": ""
   },
   "server/integrations/mssqlPatients.ts": {
-    "mtime": 1785662362.8276255,
-    "ast_hash": "07046222ffc4fec1d2f3acc5f0832c4a",
+    "mtime": 1787371558.971687,
+    "ast_hash": "064f75cccf778a4f0b4ffb93f5bffa27",
     "semantic_hash": ""
   },
   "server/integrations/syncYearPatients.ts": {
@@ -7605,13 +7605,13 @@
     "semantic_hash": ""
   },
   "server/routers/medical-catalog.ts": {
-    "mtime": 1786020201.6081824,
-    "ast_hash": "8fb5e20758a7f2ee12d0c9a830aafc0b",
+    "mtime": 1787447313.513611,
+    "ast_hash": "57666eb6d872a8b0c62629454c9a8528",
     "semantic_hash": ""
   },
   "server/routers/medical-examinations.ts": {
-    "mtime": 1785972809.0967526,
-    "ast_hash": "0de439006354c9611a9e19d89abe7563",
+    "mtime": 1787381946.303419,
+    "ast_hash": "b4f89f0140fc20accb581201ae7c73b0",
     "semantic_hash": ""
   },
   "server/routers/medical-mssql.ts": {
@@ -7620,13 +7620,13 @@
     "semantic_hash": ""
   },
   "server/routers/medical-ops.ts": {
-    "mtime": 1786196708.1851099,
-    "ast_hash": "f592e6af4a32476df839829bb2842c06",
+    "mtime": 1787381960.6998532,
+    "ast_hash": "650a57bc81cd15fda5bff8eeb37e87c1",
     "semantic_hash": ""
   },
   "server/routers/medical-patient.ts": {
-    "mtime": 1785668462.1889343,
-    "ast_hash": "b81aa011ab794479ae1eaaa25e0bff78",
+    "mtime": 1787371578.3030615,
+    "ast_hash": "209eb4d433b21e1b3b967a9e66584f82",
     "semantic_hash": ""
   },
   "server/routers/medical-pentacam.ts": {
@@ -7660,8 +7660,8 @@
     "semantic_hash": ""
   },
   "server/routers/patientPortal.ts": {
-    "mtime": 1785978060.684978,
-    "ast_hash": "5801cafd42956fc4bd8cfe78cafc2175",
+    "mtime": 1787163104.9541926,
+    "ast_hash": "fe0371f5d3abd815482b47ea0dc01b75",
     "semantic_hash": ""
   },
   "server/routers/salary.ts": {
@@ -8075,8 +8075,8 @@
     "semantic_hash": ""
   },
   "server/services/salary/payrollCompute.service.ts": {
-    "mtime": 1786831109.1773014,
-    "ast_hash": "fc899ddbf67b5efe6c7674c4920c6a53",
+    "mtime": 1787273944.8494465,
+    "ast_hash": "2eb6bd15576a3fc449b240b128c4fa58",
     "semantic_hash": ""
   },
   "server/sheets.test.ts": {
@@ -8175,8 +8175,8 @@
     "semantic_hash": ""
   },
   "shared/routes.ts": {
-    "mtime": 1785878000.8398824,
-    "ast_hash": "880d53c63f5ddc08cada02050cab1542",
+    "mtime": 1787358773.152558,
+    "ast_hash": "78321e1ee13b5195a93a1aad3bb70ff2",
     "semantic_hash": ""
   },
   "shared/serviceType.ts": {
@@ -9475,8 +9475,8 @@
     "semantic_hash": ""
   },
   "client/src/payroll-late-recurrence.test.ts": {
-    "mtime": 1786741432.5645032,
-    "ast_hash": "b90826cf5691ffa788a4932d95afb52c",
+    "mtime": 1787273944.8524468,
+    "ast_hash": "e349d1555b7e3c20f7409ece715908a8",
     "semantic_hash": ""
   },
   "drizzle/00077_split_overtime_minimums.sql": {
@@ -9490,8 +9490,8 @@
     "semantic_hash": ""
   },
   "server/services/salary/lateDeduction.ts": {
-    "mtime": 1786741432.5535462,
-    "ast_hash": "8f43a4ee5b8ffced645a2eb31ad4fe62",
+    "mtime": 1787273944.8484468,
+    "ast_hash": "6ac541818073f5abf912d2f77596417b",
     "semantic_hash": ""
   },
   "client/src/payroll-overtime.test.ts": {
@@ -9527,6 +9527,1906 @@
   ".codex-remote-attachments/01a00563-84b2-73f1-9cff-50002c354a87/f74e8bde-c58c-4b3f-9567-ddb0579db999/1-Photo-1.jpg": {
     "mtime": 1786804339.3285358,
     "ast_hash": "19bf723bf20afec82c1c734c74ce2b4c",
+    "semantic_hash": ""
+  },
+  "drizzle/00079_visit_treated_by_user.sql": {
+    "mtime": 1786908515.8110855,
+    "ast_hash": "1956409a5101ebf19a8e62e5b4c75372",
+    "semantic_hash": ""
+  },
+  ".codex-remote-attachments/01a00563-84b2-73f1-9cff-50002c354a87/0e132f95-98d8-4d01-832e-d52f975c9df5/1-Photo-1.jpg": {
+    "mtime": 1786867764.77944,
+    "ast_hash": "9fb85d8185cb1e70d63b0f2da3d50fdd",
+    "semantic_hash": ""
+  },
+  "client/src/features/kf/KfDashboardMobile.tsx": {
+    "mtime": 1787014783.3003695,
+    "ast_hash": "e151a5e8988d74a3a05ecb4a27e2d1d0",
+    "semantic_hash": ""
+  },
+  "scripts/fix-legacy-media-queries.mjs": {
+    "mtime": 1787133748.5705533,
+    "ast_hash": "461286024f0995cf6e14e9c804df3e34",
+    "semantic_hash": ""
+  },
+  ".codex-remote-attachments/01a01191-a995-7ee3-8d48-b9ef72856cd9/6cf5d405-f2a6-4fa1-b31e-5af40c6a28b6/1-Photo-1.jpg": {
+    "mtime": 1787001155.997934,
+    "ast_hash": "ba95fb0e64799b5271d3550ce7534b3b",
+    "semantic_hash": ""
+  },
+  ".codex-remote-attachments/01a01191-a995-7ee3-8d48-b9ef72856cd9/6cf5d405-f2a6-4fa1-b31e-5af40c6a28b6/2-Photo-2.jpg": {
+    "mtime": 1787001156.8192139,
+    "ast_hash": "0fde735ca0cc11b04df96c9f118f1f91",
+    "semantic_hash": ""
+  },
+  ".codex-remote-attachments/01a01191-a995-7ee3-8d48-b9ef72856cd9/6cf5d405-f2a6-4fa1-b31e-5af40c6a28b6/3-Photo-3.jpg": {
+    "mtime": 1787001157.7447734,
+    "ast_hash": "c6fc34dd47572798f89dbe7a4b5873c0",
+    "semantic_hash": ""
+  },
+  "client/src/pages/WorkflowPrototypeLive.tsx": {
+    "mtime": 1787445682.407367,
+    "ast_hash": "a4aff53ad2395dff8db38bb8cafa0354",
+    "semantic_hash": ""
+  },
+  "drizzle/00080_booking_type_pentacam.sql": {
+    "mtime": 1787165382.569748,
+    "ast_hash": "a88401af9dc47444f7825befebe005aa",
+    "semantic_hash": ""
+  },
+  "scripts/check-workflow-encoding.py": {
+    "mtime": 1787174240.1065805,
+    "ast_hash": "2c14671b114c27ac33625f97749b2a97",
+    "semantic_hash": ""
+  },
+  "scripts/inspect-live-queue.ts": {
+    "mtime": 1787162235.0113666,
+    "ast_hash": "d4c27ad2d606d3072279597932ba9892",
+    "semantic_hash": ""
+  },
+  "scripts/inspect-visit-medical-data.ts": {
+    "mtime": 1787162084.707297,
+    "ast_hash": "993bd1a1c737e04e0b951a46107f5fc8",
+    "semantic_hash": ""
+  },
+  "scripts/move-refraction-to-specialist.ps1": {
+    "mtime": 1787174135.4981794,
+    "ast_hash": "81f42c64de5e17da81c007a578941cea",
+    "semantic_hash": ""
+  },
+  "scripts/replace-workflow-renderer.py": {
+    "mtime": 1787182802.4157848,
+    "ast_hash": "77807130fea540915dea09199fec120d",
+    "semantic_hash": ""
+  },
+  "scripts/simplify-workflow-shell.py": {
+    "mtime": 1787180720.7162,
+    "ast_hash": "5b0a22699b3f0faa6c0913f00b124291",
+    "semantic_hash": ""
+  },
+  "idx10.html": {
+    "mtime": 1787161014.5403564,
+    "ast_hash": "416d33b771e935027c6360098601fd72",
+    "semantic_hash": ""
+  },
+  "scripts/replace-final-report.cjs": {
+    "mtime": 1787185329.2267232,
+    "ast_hash": "63413bdc594cb24649be37977401212b",
+    "semantic_hash": ""
+  },
+  "scripts/replace-autoref-receipt.cjs": {
+    "mtime": 1787192277.883026,
+    "ast_hash": "5693bddbe16dfcb1be3079021e86c6c8",
+    "semantic_hash": ""
+  },
+  "scripts/replace-workflow-refraction.cjs": {
+    "mtime": 1787193704.3633115,
+    "ast_hash": "70a56ba3598168a6aefcfc457d73faa6",
+    "semantic_hash": ""
+  },
+  "scripts/rebuild-final-report-layout.cjs": {
+    "mtime": 1787195339.1320798,
+    "ast_hash": "329e8d207d40f7d6bd34ca56f35e471d",
+    "semantic_hash": ""
+  },
+  "scripts/horizontal-workflow-nav.cjs": {
+    "mtime": 1787198961.3151145,
+    "ast_hash": "d8299651ae20222a098361c8b2d32901",
+    "semantic_hash": ""
+  },
+  "scripts/integrate-top-nav.cjs": {
+    "mtime": 1787199875.892046,
+    "ast_hash": "47af33256b9b812edd36b834efd6d022",
+    "semantic_hash": ""
+  },
+  "scripts/rebuild-measurements-ltr.cjs": {
+    "mtime": 1787200367.1358216,
+    "ast_hash": "83ae164094d460ccadf23e3edccc9fab",
+    "semantic_hash": ""
+  },
+  "scripts/rebuild-examination-grid.cjs": {
+    "mtime": 1787201743.3642042,
+    "ast_hash": "3c78ec71fb34ba542ea29ce803fb45c4",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/App.tsx": {
+    "mtime": 1785490494.7368896,
+    "ast_hash": "bf06f9c35c31d9203f24db4bd00b3414",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/__manus__/debug-collector.js": {
+    "mtime": 1785490494.7368896,
+    "ast_hash": "a955ab33163a598f14d10e353686e38e",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AbsentReport-oU-jKcL1.js": {
+    "mtime": 1787358511.2033494,
+    "ast_hash": "f2a3bbf5d9e9be0d251ab0971f065b16",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AccountingAdvances-B1QxCHVY.js": {
+    "mtime": 1787358511.2033494,
+    "ast_hash": "8d6bce77549e56698bf3370904e5391b",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AccountingCashbook-B8ejE90Z.js": {
+    "mtime": 1787358511.2048583,
+    "ast_hash": "a638d32ac48cc5021bf78d2a22a1431f",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AccountingDrSaadany-BmjQEarB.js": {
+    "mtime": 1787358511.2058697,
+    "ast_hash": "8f6b986ffa59026a69b0e753ebeadc9a",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AccountingHome-CoKNutcW.js": {
+    "mtime": 1787358511.2058697,
+    "ast_hash": "474f2060d39ff75c4f8b08ae55ecc04e",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AccountingHomeFund-CZZ8oPPe.js": {
+    "mtime": 1787358511.2068715,
+    "ast_hash": "5ed2b6be55edaeca27dea7648ec49dea",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AccountingInstapay-EblVrCye.js": {
+    "mtime": 1787358511.2068715,
+    "ast_hash": "9affa7dcbe1e316626c01a13e92f2088",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AccountingLedger-DoVA-WeX.js": {
+    "mtime": 1787358511.2078712,
+    "ast_hash": "a8ae8839b013a661908b603d7f361907",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AccountingLoans-C_9QaSmt.js": {
+    "mtime": 1787358511.2078712,
+    "ast_hash": "c6c263d34536f88124b912e6bc0c195b",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AccountingOpReport.module-CcWyL80x.js": {
+    "mtime": 1787358511.2088873,
+    "ast_hash": "c0cc74d7ee289e268527219f8c332c6f",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AccountingPagePrimitives-buMI1J_1.js": {
+    "mtime": 1787358511.20987,
+    "ast_hash": "78aaca54d17132542d0477fa7c816a01",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AccountingPatientsInquiry-TVgWVvd7.js": {
+    "mtime": 1787358511.20987,
+    "ast_hash": "dc5e512b6b24b173201cab0bcf15bb13",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AccountingPrototypes-BJBO2jae.js": {
+    "mtime": 1787358511.20987,
+    "ast_hash": "657aaa1ce9d229222c569847ef429fb7",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AdminApiTools-BetXvwnF.js": {
+    "mtime": 1787358511.2129195,
+    "ast_hash": "e4823374f9f84cde2237f8a483e1950e",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AdminApiTools-D46dgHlC.js": {
+    "mtime": 1787358511.2129195,
+    "ast_hash": "ac1070a42829a00fc5fe9dd281dd7d19",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AdminCardVisibility-BjvvsNHC.js": {
+    "mtime": 1787358511.213899,
+    "ast_hash": "4a4bbb912ee9255a97aecdba2e5dcc0d",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AdminCardVisibility-CZ5Qi5sT.js": {
+    "mtime": 1787358511.213899,
+    "ast_hash": "749459ea717ed8dfbbb12072d49b0e50",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AdminDataSourceAudit-AdvF-1m-.js": {
+    "mtime": 1787358511.213899,
+    "ast_hash": "d45745d1284e785b53bd119aa5980c4c",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AdminDataSourceAudit-BpgM-thh.js": {
+    "mtime": 1787358511.215407,
+    "ast_hash": "2252b577ff992727ceb5836919703cd9",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AdminDoctors-BRXDGSsg.js": {
+    "mtime": 1787358511.215407,
+    "ast_hash": "7ebd28a53b8c24e8ca196ccf4afe2427",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AdminDoctors-DvlZWU7Y.js": {
+    "mtime": 1787358511.2164187,
+    "ast_hash": "9538c39b5c81691ef41e29e9c601824b",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AdminFormsHub-BDNM_JML.js": {
+    "mtime": 1787358511.2164187,
+    "ast_hash": "6a1783f2588d313fb6039d6bc7d61150",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AdminFormsHub-CEw2c6NK.js": {
+    "mtime": 1787358511.2174249,
+    "ast_hash": "c1ee50c9895fe0f0843a2ac6aebc3e17",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AdminHubShell-tX9irZYx.js": {
+    "mtime": 1787358511.2174249,
+    "ast_hash": "693bdc233e7d9a08d96276fe1383169c",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AdminLegacyPatients-TljjuEsN.js": {
+    "mtime": 1787358511.2184174,
+    "ast_hash": "f6ecd90dfe4dd478313f554e0922c32d",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AdminMigrations-CZNs2aeD.js": {
+    "mtime": 1787358511.2224503,
+    "ast_hash": "dd3dfb4770995e3b9296ee766eadbc7c",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AdminMigrations-q54cH3y7.js": {
+    "mtime": 1787358511.2234187,
+    "ast_hash": "e5cf9ab52fd1a1e14d856750fcf4fafe",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AdminNotificationSettings-D-nMdt5E.js": {
+    "mtime": 1787358511.2254517,
+    "ast_hash": "2d84c9fe02858ae3a20f90eb03dacc6b",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AdminNotificationSettings-DZ8NhhJi.js": {
+    "mtime": 1787358511.2254517,
+    "ast_hash": "e2268e607f486ab926cc9d74f84b15ec",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AdminPatients-B6Am-Re8.js": {
+    "mtime": 1787358511.2264185,
+    "ast_hash": "a29a2d9b514610bcdd397db474ba5bed",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AdminPatients-CVknlfWK.js": {
+    "mtime": 1787358511.2274182,
+    "ast_hash": "10a3927222d677859724ace74ad34f4a",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AdminPentacamFailed-5A1fg108.js": {
+    "mtime": 1787358511.2274182,
+    "ast_hash": "12b7e133c914d49fffadfb7c57a5558f",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AdminPentacamFailed-PaEsI4yy.js": {
+    "mtime": 1787358511.2274182,
+    "ast_hash": "d2df3733d09d779e1100e60ff41ac171",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AdminPentacamLinking-DBc_6gZj.js": {
+    "mtime": 1787358511.228419,
+    "ast_hash": "a5932f7b78ab922d01fe6aab3fbd1c33",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AdminPermissions-CSnzNRSh.js": {
+    "mtime": 1787358511.228419,
+    "ast_hash": "a7cce25a672580aadb3c4444b7481a15",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AdminPermissions-CyOFJFwL.js": {
+    "mtime": 1787358511.2294173,
+    "ast_hash": "be302741b369ea5b3d4e2eca8744c808",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AdminPortalBookings-BCboT1yr.js": {
+    "mtime": 1787358511.2294173,
+    "ast_hash": "d981aa46455a1d3264b37fbacd45be98",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AdminPortalBookings-D2GIJgjO.js": {
+    "mtime": 1787358511.2336557,
+    "ast_hash": "a4494ff214e0ade09ec208d00c55a75d",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AdminServices-Dgj8KW1G.js": {
+    "mtime": 1787358511.2336557,
+    "ast_hash": "6851af260a65ddc6f716ba1ce2ed4f1a",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AdminServices-Yrj70tug.js": {
+    "mtime": 1787358511.2336557,
+    "ast_hash": "1af4f9cd409a73e1daaf9cda7d88d363",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AdminSettings-Bk2fnliu.js": {
+    "mtime": 1787358511.2346568,
+    "ast_hash": "e02d26f3039b46a5654d43170e8be33b",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AdminSettings-CAxOaLd-.js": {
+    "mtime": 1787358511.2399695,
+    "ast_hash": "eb1c442b4763e97da158c6f064fbb2ef",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AdminSheetCopies-CFbm3GUi.js": {
+    "mtime": 1787358511.240964,
+    "ast_hash": "4a3f714d1b42018cbac26350d035344f",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AdminSheetCopies-Df7EyGJ0.js": {
+    "mtime": 1787358511.240964,
+    "ast_hash": "ea3d5b83e7966d2d40a5512974e60959",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AdminSheetDesigner-DivPlDDC.js": {
+    "mtime": 1787358511.240964,
+    "ast_hash": "972fe772b34097827d0820353fb84fe8",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AdminSheetDesigner-Q11Kd89N.js": {
+    "mtime": 1787358511.2440076,
+    "ast_hash": "ae7462acfcad5de13247aee2fc7dc1c3",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AdminSheets-BNAtgTBq.js": {
+    "mtime": 1787358511.2450035,
+    "ast_hash": "310862640c0995ad6473add7cb235a65",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AdminSheets-CNiaQQIv.js": {
+    "mtime": 1787358511.2450035,
+    "ast_hash": "0b5efed9e8e7b6a594e29abf6fb47641",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AdminStatus-3wQtW8Ii.js": {
+    "mtime": 1787358511.2450035,
+    "ast_hash": "a699f60122f9345c79d7220e7c1a7995",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AdminStatus-giHHx01w.js": {
+    "mtime": 1787358511.2470224,
+    "ast_hash": "9e08381c645d033a15071437b700034b",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AdminUsers-BtetrQgj.js": {
+    "mtime": 1787358511.247973,
+    "ast_hash": "a185795900abd0590303348a7f3ffde9",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AdminUsers-Cz0wvBVU.js": {
+    "mtime": 1787358511.247973,
+    "ast_hash": "f29ea68d81279425f862add27951d7ce",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AdminWhatsAppInbox-Cg-Ru7O9.js": {
+    "mtime": 1787358511.247973,
+    "ast_hash": "1926578340b745ad413ed392df588c59",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/App-hcx9U_5s.js": {
+    "mtime": 1787358511.25113,
+    "ast_hash": "0e4b60da6a7198a1185d73d8ed9c07f2",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AppShellSkeleton-Db-EsELn.js": {
+    "mtime": 1787358511.25113,
+    "ast_hash": "d28d225e0c73f736182d70e5523ec4d0",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AttendanceHome-zCNmdtKa.js": {
+    "mtime": 1787358511.2523997,
+    "ast_hash": "0ff8607c994bf93ecb60025da7a3162e",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AuthenticatedImage-BJwxf1f8.js": {
+    "mtime": 1787358511.2523997,
+    "ast_hash": "2e4cbeba14e058e9cfd5bdb2f7024838",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AutorefsDashboard-BYwrd0sx.js": {
+    "mtime": 1787358511.2586539,
+    "ast_hash": "97b6e96267a22e525848244cbb5d207a",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/AutorefsDashboard-G5f6dfUw.js": {
+    "mtime": 1787358511.2586539,
+    "ast_hash": "dde2e49fc54e0202676e1376282712c9",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/BrandLibrary-CVILvecl.js": {
+    "mtime": 1787358511.2596488,
+    "ast_hash": "177a8741df455233bbf61fe9883ad4c6",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/BrandLogo-CZIhGH3S.js": {
+    "mtime": 1787358511.2596488,
+    "ast_hash": "9dd4fb2ec5910c69b8d7e98033209bbb",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/ClinicalPortal-CFvNgcxk.js": {
+    "mtime": 1787358511.2626832,
+    "ast_hash": "68f66c5db09c0bdd1e2d0ca8e3e8898e",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/ClinicalReport-BEkOx2kJ.js": {
+    "mtime": 1787358511.263651,
+    "ast_hash": "24d9cf50ac57b539d8d0fafdd616104c",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/ClinicalReport-J3RCbc5l.js": {
+    "mtime": 1787358511.263651,
+    "ast_hash": "31e7de6effb31c43d179a1f3a69f584c",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/ClinicalReportFrame-C_U5N443.js": {
+    "mtime": 1787358511.263651,
+    "ast_hash": "978e1a3fc6c8d37272ab6c429327758d",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/ClinicsHubShell-B7M03T-F.js": {
+    "mtime": 1787358511.2656484,
+    "ast_hash": "dcc85164a73b21d9f5a149b060b9c5e9",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/CollapsibleSection-oi6NVGbd.js": {
+    "mtime": 1787358511.2666478,
+    "ast_hash": "b5d0dbf2face8b2cb61cc81558ea8dc3",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/CommissionPools-BxK6Rw-v.js": {
+    "mtime": 1787358511.2666478,
+    "ast_hash": "6d813c2d004de98998ffeb4b907e10b0",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/ComponentShowcase-DN6TfEAF.js": {
+    "mtime": 1787358511.2676468,
+    "ast_hash": "50a17a7417481887c206040cb3a2db21",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/ComponentsGallery-CfnuXFgs.js": {
+    "mtime": 1787358511.269673,
+    "ast_hash": "b18c32e7428677949a89c1f783e8cc5f",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/ConsultantFollowupPage-_u5QZQv7.js": {
+    "mtime": 1787358511.2707033,
+    "ast_hash": "9dd61635023ceeab8b6226393f49b6b4",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/ConsultantSheet-CPsoKtVL.js": {
+    "mtime": 1787358511.2707033,
+    "ast_hash": "8902f88628b07312ed1f198eaf852889",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/ConsultantSheet-NCu0VH5F.js": {
+    "mtime": 1787358511.2798564,
+    "ast_hash": "109263e58248a37e83a50064f09ef1da",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/CurrentSalaryData.redesigned-Bnr3xmYT.js": {
+    "mtime": 1787358511.2905784,
+    "ast_hash": "113c38e4787f1347d8639da1916b77c4",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/DailyRevenue-C17TLh1g.js": {
+    "mtime": 1787358511.2905784,
+    "ast_hash": "cd0d75e68acbb9a16051df80a4281748",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/Dashboard-BtqIzq73.js": {
+    "mtime": 1787358511.2905784,
+    "ast_hash": "b7fa56ea19faad1097ea8dc8108b256b",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/DeviceConsole-BKqZMgF7.js": {
+    "mtime": 1787358511.291627,
+    "ast_hash": "a684d0306d0abd96bfc5f0add4b47a07",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/DeviceSettings-Cj-gH3vz.js": {
+    "mtime": 1787358511.2942224,
+    "ast_hash": "683fb298cf512610a6efeb36cc12f51f",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/DeviceSettings-CnAMUZW5.js": {
+    "mtime": 1787358511.2942224,
+    "ast_hash": "05d90087368b23e9c09bf0674624695d",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/DiagnosisImagesPanel-BaG4r6wj.js": {
+    "mtime": 1787358511.2952468,
+    "ast_hash": "0e26e8756ae0034efd0228012a8a9dd1",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/DoctorAccount-CtpwWjdz.js": {
+    "mtime": 1787358511.2952468,
+    "ast_hash": "ae96cb8e7af5d679a41b91800826727b",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/DoctorDashboard-jfj4bJVa.js": {
+    "mtime": 1787358511.2972424,
+    "ast_hash": "d6ba7d19690dc6602e4838e6bda8a8cd",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/DoctorLayout-C9hAwCY-.js": {
+    "mtime": 1787358511.2982342,
+    "ast_hash": "b3029845dab67ae40f68a805bc07e090",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/DoctorLogin-B2bQ3qrw.js": {
+    "mtime": 1787358511.2982342,
+    "ast_hash": "52c587b856a1afc298bd8b67cee800b9",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/DoctorPatientImages-Iq2S6yoA.js": {
+    "mtime": 1787358511.2992804,
+    "ast_hash": "0fdb9356230a221323ec91ad7fcc18c5",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/DoctorPatientView-Q5N4Gihb.js": {
+    "mtime": 1787358511.300742,
+    "ast_hash": "59bfcca271d18952e6f69803129a7eb2",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/Documentation-r55lZYGw.js": {
+    "mtime": 1787358511.3017826,
+    "ast_hash": "0b6399f21586f112111e59eaa701266a",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/DraftPosts-BHzy3Pyg.js": {
+    "mtime": 1787358511.3077493,
+    "ast_hash": "27d697330b64c886c8ad05dbeeed8817",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/EmployeeDetail-zL6p1K0o.js": {
+    "mtime": 1787358511.3077493,
+    "ast_hash": "9981236831b98f870038fe6ce3df00cf",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/EmployeesHub-O1z_FsiF.js": {
+    "mtime": 1787358511.3117504,
+    "ast_hash": "408e66397ba75abee452cb15477c2176",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/ExaminationForm-BZ2_UajN.js": {
+    "mtime": 1787358511.3117504,
+    "ast_hash": "138c5618d3b8211159519dafb96bade5",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/ExaminationForm-E8-25Uzo.js": {
+    "mtime": 1787358511.3127525,
+    "ast_hash": "58640ce9c4db22e358f46077d55cc20b",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/ExaminationsCatalogPage-BWslMGAA.js": {
+    "mtime": 1787358511.3127525,
+    "ast_hash": "1350fc1830994ca01eade2aad1778eef",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/ExternalDoctorReferrals-CKOsJw8E.js": {
+    "mtime": 1787358511.3147562,
+    "ast_hash": "d863a363c2222dd1d64c8eaa5664b433",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/ExternalDoctorReferrals-D6AVAWH7.js": {
+    "mtime": 1787358511.3147562,
+    "ast_hash": "212f6b895cc4a75762e5149e6e6f0283",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/ExternalDoctors-BtLWWGKu.js": {
+    "mtime": 1787358511.3147562,
+    "ast_hash": "cf774f2ef26c2be4faf7c4206eb25788",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/ExternalDoctors-teRoE0XK.js": {
+    "mtime": 1787358511.3157523,
+    "ast_hash": "cd77df3d9dbeed39256e4b8871a6e5b7",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/ExternalOperationSheet-1-4Bbkee.js": {
+    "mtime": 1787358511.3177774,
+    "ast_hash": "2d73e58706fe8f0426750c4d549f36bc",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/FilterBar-Uz49AnS6.js": {
+    "mtime": 1787358511.3188205,
+    "ast_hash": "3ed954346da51e4f5f8cfdde66bf1432",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/FollowupForm-xWKclN11.js": {
+    "mtime": 1787358511.3188205,
+    "ast_hash": "c9972fedfab377b87f891ff39d9314e7",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/FollowupTablesBody-DWjvILHE.js": {
+    "mtime": 1787358511.3198144,
+    "ast_hash": "dcf7dc4a9db17ef01c7c467a8d6ef939",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/Followups-Bn4kF6jb.js": {
+    "mtime": 1787358511.3217876,
+    "ast_hash": "e238dd8c327dbc6f3e89cd98dbcbe7f6",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/Followups-DhJwTYh8.js": {
+    "mtime": 1787358511.3217876,
+    "ast_hash": "e299d67e3d2bb476a81703b47c7a7f14",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/ForcePasswordChange-Czb5neR3.js": {
+    "mtime": 1787358511.3227851,
+    "ast_hash": "5d8ee220fb9c9cb18fa136c58eaeb982",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/Home-D1jAQly7.js": {
+    "mtime": 1787358511.3227851,
+    "ast_hash": "2184d678d170176c2737afaaafd1577d",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/KfAccounting-30iJrAy8.js": {
+    "mtime": 1787358511.3237846,
+    "ast_hash": "a4acf5853333a2bc4085e6629c3152ac",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/KfBookings-BW8SOuro.js": {
+    "mtime": 1787358511.3237846,
+    "ast_hash": "dd9b76ea164e157334678657a2d8fcf5",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/KfConsultantFollowupSheet-AfPr49OH.js": {
+    "mtime": 1787358511.3237846,
+    "ast_hash": "e1b70b937dc5f8591d5b9be5ff8a62bb",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/KfConsultantSheet-CPD7SAU7.js": {
+    "mtime": 1787358511.3248153,
+    "ast_hash": "551ac5c7db38593166e3803dce4390fc",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/KfDailyRevenue-Dn8s21GK.js": {
+    "mtime": 1787358511.3248153,
+    "ast_hash": "4a969bebea1307c5f460186f124b2b14",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/KfExamPage-C77bukbh.js": {
+    "mtime": 1787358511.3257864,
+    "ast_hash": "8c78077bda2608ed9a8ac4814f1d1d0a",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/KfExaminationForm-BWAwkTOK.js": {
+    "mtime": 1787358511.3257864,
+    "ast_hash": "0274d649165ecf77bbf5037f663bbbe8",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/KfFollowupForm-Byeq1anO.js": {
+    "mtime": 1787358511.3268137,
+    "ast_hash": "500e791face9394f39ff959b273efd95",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/KfFollowups-voNwx4he.js": {
+    "mtime": 1787358511.3268137,
+    "ast_hash": "b9901cf468a8e15dea00b6fa9981c657",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/KfHome-C3PRCoEr.js": {
+    "mtime": 1787358511.3277838,
+    "ast_hash": "267b179b2d464281f112446bba9f21a5",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/KfLedger-DjfHTBkV.js": {
+    "mtime": 1787358511.3287847,
+    "ast_hash": "c671ed35b625432ef38f701078dc20e4",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/KfOperationForm-D-bFolm3.js": {
+    "mtime": 1787358511.3287847,
+    "ast_hash": "fbcfbf1051398525d1f5a6bbea0b1dc3",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/KfOperations-D7wfdkGL.js": {
+    "mtime": 1787358511.3386908,
+    "ast_hash": "f6b48b4a45143d3a86017f2d09789819",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/KfPatientDetail-SUz9fm1F.js": {
+    "mtime": 1787358511.339689,
+    "ast_hash": "766d82f3b06e0b60524b0fa2bd5d8e92",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/KfPatientForm-v-ofZTeh.js": {
+    "mtime": 1787358511.339689,
+    "ast_hash": "bfe9316b1440d1d7bf6a8958d25f33d8",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/KfPatients-De9aA2DQ.js": {
+    "mtime": 1787358511.3407178,
+    "ast_hash": "d317821d538ecc8575c62c36fa0b1c02",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/KfReceipts-CtlzFMQe.js": {
+    "mtime": 1787358511.3427386,
+    "ast_hash": "fa48bfac8381043e7d344785eb441eca",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/KfServiceRevenue-DOxXSkQP.js": {
+    "mtime": 1787358511.3436959,
+    "ast_hash": "55b84a5df4891b54f1cb053c905c3a57",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/KfShell-CyoF9K-G.js": {
+    "mtime": 1787358511.344705,
+    "ast_hash": "8ee885f90566461156c264d42ac3a13a",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/KfVisitForm-vH0QnH2J.js": {
+    "mtime": 1787358511.3456974,
+    "ast_hash": "f1cd575a8c9aa5f8d84b77909f6c9eb3",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/LasikCost-B2RHJ2Ez.js": {
+    "mtime": 1787358511.3466942,
+    "ast_hash": "e0130c94fd5f2288aa4996a11243b0fa",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/LasikExamSheet-7eFKBEVd.js": {
+    "mtime": 1787358511.3476937,
+    "ast_hash": "7d9fd00b98a33ee42224ee6a514e101a",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/LasikExamSheet-D_v2DtYd.js": {
+    "mtime": 1787358511.3476937,
+    "ast_hash": "2d73e58706fe8f0426750c4d549f36bc",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/LasikFollowupPage-CTs_bn5Y.js": {
+    "mtime": 1787358511.3487031,
+    "ast_hash": "00df8e3e07a3b2aeaf6530c399e4458e",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/LasikRevenue-aDZ8NkF7.js": {
+    "mtime": 1787358511.3497007,
+    "ast_hash": "2577b3095f50b5f00c300a4b8025ca27",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/LasikServices-DOap3UUz.js": {
+    "mtime": 1787358511.3497007,
+    "ast_hash": "54842e4deaf2556b58b4623dd6cd27a6",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/LiveBoard-DxefAKcq.js": {
+    "mtime": 1787358511.3507054,
+    "ast_hash": "5ada362be8c7ec7080c350f54b9518e3",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/MarketingDashboard-LL2wiaS_.js": {
+    "mtime": 1787358511.353698,
+    "ast_hash": "8cf1f8cfa4ada466a9b420d80d6e6a91",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/MarketingSettings-Di6jurD7.js": {
+    "mtime": 1787358511.3546968,
+    "ast_hash": "83863b54be2817fada4527c7fa7264bb",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/MedicalConditionReport-CJ_0bo7U.js": {
+    "mtime": 1787358511.3546968,
+    "ast_hash": "ac2acd096b77dacfe05541787eba1a28",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/MedicalFilePanel-D4aXIjud.js": {
+    "mtime": 1787358511.3546968,
+    "ast_hash": "33cc00c098b0cf4e394d6fd7d3e3518d",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/MedicalFilePanel-FGGOA-_y.js": {
+    "mtime": 1787358511.3616958,
+    "ast_hash": "6de9a043d59c82df0db8a65d9b5d7722",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/MedicalHistoryTab-CKGsa00R.js": {
+    "mtime": 1787358511.3627121,
+    "ast_hash": "807eb05e48be5539a13826d86fa98a63",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/MedicalReference-BlNOI-br.js": {
+    "mtime": 1787358511.3627121,
+    "ast_hash": "b119f5f6522292a1dc576c672882190e",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/MedicalReports-Bi6g4CZ-.js": {
+    "mtime": 1787358511.363736,
+    "ast_hash": "f487ab275733092eaaac8c7568b56abf",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/MedicalReports-lW0nm4_-.js": {
+    "mtime": 1787358511.4260378,
+    "ast_hash": "cb48b5e21590269bc9a35bb064634839",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/MedicationsCatalogPage-Dqwnd0GT.js": {
+    "mtime": 1787358511.4260378,
+    "ast_hash": "75d5b8a17e3a4a238d3aa7c433e07fa3",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/MedicationsManagement-CswLS0_j.js": {
+    "mtime": 1787358511.4270768,
+    "ast_hash": "7cadefe7220a7482005b97c2ed6855f5",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/MedicationsTestsManagement-DaA5fatN.js": {
+    "mtime": 1787358511.4270768,
+    "ast_hash": "d2b5a435627a576170d970b75a8eebd3",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/MyAttendanceProfile-Bgtxsh19.js": {
+    "mtime": 1787358511.4340355,
+    "ast_hash": "21a6f010d72029c922f688acecad6aa0",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/NewCases-DjtdsiK6.js": {
+    "mtime": 1787358511.4340355,
+    "ast_hash": "000e3734759814fa64cdaf42a013cfd3",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/NotFound-Bz3N2BIC.js": {
+    "mtime": 1787358511.4350336,
+    "ast_hash": "a4df7805e3d39aa7ff7ff312c4b17e2f",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/OfflinePageState-CSVn9z9Y.js": {
+    "mtime": 1787358511.4856966,
+    "ast_hash": "a5f8c1accb916ca0b7956db80ee613a8",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/OpHistory-e2Q60XDI.js": {
+    "mtime": 1787358511.4967117,
+    "ast_hash": "c7ff75d1f23603adac56b00851f6621b",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/Operations-B_S0BQAU.js": {
+    "mtime": 1787358511.4967117,
+    "ast_hash": "6a0898ddbffe4b0665ba48af8517dc06",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/OperationsBookingQuickDialog-CiK6OyoW.js": {
+    "mtime": 1787358511.4977388,
+    "ast_hash": "8f6ddacd22cd40fde9d2c9691c02d8fa",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/PageHeader-C95DrguX.js": {
+    "mtime": 1787358511.4977388,
+    "ast_hash": "e0528c112388c4c637bb5b1c4b6ed1bc",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/PageHeader-tT-auuqP.js": {
+    "mtime": 1787358511.5101287,
+    "ast_hash": "a6cb99e1ca0e4fae7234804212de9fce",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/PaginationBar-CuZ6-feD.js": {
+    "mtime": 1787358511.5111184,
+    "ast_hash": "cdd34bc0e3e6a19bd2bbc99b3eb6e8b1",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/PatientAccount-Bb6IDgkm.js": {
+    "mtime": 1787358511.51213,
+    "ast_hash": "f1d80f21b4a03c5d47ec0c386d62c302",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/PatientBook-CaOk4gRF.js": {
+    "mtime": 1787358511.51213,
+    "ast_hash": "9d378657b360969e6cabc65b6837c339",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/PatientBookings-Cd1qSUtA.js": {
+    "mtime": 1787358511.5241475,
+    "ast_hash": "b89fc024e1d67ec9361ad2d741a3dbb9",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/PatientDetails-B1KmsSsn.js": {
+    "mtime": 1787358511.5241475,
+    "ast_hash": "799e59154e152c23824076453484e031",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/PatientDetails-BYyzT35A.js": {
+    "mtime": 1787358511.5251503,
+    "ast_hash": "13016964d37922f08b5506bddbf85196",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/PatientFile-CF4SZ0W1.js": {
+    "mtime": 1787358511.526144,
+    "ast_hash": "e35ce261b805f48fc23758d5f28bd775",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/PatientGuestBook-B2lBLRQx.js": {
+    "mtime": 1787358511.533673,
+    "ast_hash": "3f279bc34747a20e6bc7e1b4fffd9c2a",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/PatientHubShell-DZa7BgRq.js": {
+    "mtime": 1787358511.534277,
+    "ast_hash": "142ababef4cb584a3a097e4f3727b332",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/PatientLayout-Dr8ciEcx.js": {
+    "mtime": 1787358511.5353024,
+    "ast_hash": "4faef064627d383eb4bf6893fb0a7e01",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/PatientLogin-lruVtQDJ.js": {
+    "mtime": 1787358511.536329,
+    "ast_hash": "9350deb9413ef4b38303663b45c84d8e",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/PatientMedicalStatusBadges-jN_iKwwQ.js": {
+    "mtime": 1787358511.5423355,
+    "ast_hash": "856f7df20cdbd2b4fa58e0371aec72e6",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/PatientPicker-D7JxMJT6.js": {
+    "mtime": 1787358511.5423355,
+    "ast_hash": "7432210d41ebc5ddcc18bb113de65993",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/PatientPrescription-DiNsLWj_.js": {
+    "mtime": 1787358511.5433352,
+    "ast_hash": "04157e5bc90bb9720e76edf243f413de",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/PatientRefraction-hZZaSWHe.js": {
+    "mtime": 1787358511.5443223,
+    "ast_hash": "91b8f153a8694cf1c577910f0fe18fd2",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/PatientScans-BrBFZvG3.js": {
+    "mtime": 1787358511.5533502,
+    "ast_hash": "73c51b19e6d9679a3f4e27e01bb243c5",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/PatientSummary-C81UHZOU.js": {
+    "mtime": 1787358511.554325,
+    "ast_hash": "e1262ef2b16cbd120e6d5c749cf03d87",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/PatientSummary-z61dXbxp.js": {
+    "mtime": 1787358511.554325,
+    "ast_hash": "4f8d9a93fab30feceda4f3d9dc8a95b2",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/Patients-CHgLauPo.js": {
+    "mtime": 1787358511.5553234,
+    "ast_hash": "f8fef6573e39980c04265493ced8e22d",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/PatientsHubShell-CBI-H0ZU.js": {
+    "mtime": 1787358511.5553234,
+    "ast_hash": "83ec08f4bcf8c5df7dff05d61e5f8946",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/PayrollReport-Dc0_-Nj4.js": {
+    "mtime": 1787358511.5563235,
+    "ast_hash": "5af731e5e01a2269f2a2c88e40705b42",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/PentacamFilesPanel-DXLJQOym.js": {
+    "mtime": 1787358511.5563235,
+    "ast_hash": "4208275c13b8ce66e460516feb880bc9",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/PentacamResultsDashboard-C6j9-tTH.js": {
+    "mtime": 1787358511.5573235,
+    "ast_hash": "948cb00abda150293733f5d0308ae8ba",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/PentacamResultsDashboard-DZuvhZjT.js": {
+    "mtime": 1787358511.5738094,
+    "ast_hash": "e7b8b8101010d66063f4c99b1fb5bfb0",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/PentacamSheet-BpK-rNoT.js": {
+    "mtime": 1787358511.5738094,
+    "ast_hash": "1072f90deeafbf5fe0e441ea48c0c412",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/PentacamThumbnail-C4HorgBe.js": {
+    "mtime": 1787358511.5738094,
+    "ast_hash": "a0e690c0734a985525d230f6567c04b1",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/PostHistory-C2_cczxl.js": {
+    "mtime": 1787358511.5748086,
+    "ast_hash": "b8cbb0678e1a19f338253d1bb9f76741",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/PostOpOffdays-lLmtedLQ.js": {
+    "mtime": 1787358511.5768332,
+    "ast_hash": "ffe45ea8cd24184def7ca5c3c2a73c72",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/PostOpOffdaysEnglish-HssXRCpp.js": {
+    "mtime": 1787358511.577805,
+    "ast_hash": "814cc2e19643166844939853cbaf64a2",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/PrePostOpReport-BSbYRHt9.js": {
+    "mtime": 1787358511.5788107,
+    "ast_hash": "e06d46347a27c0487cbc2372bad6342c",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/PrescriptionsDashboard-BRZibMN1.js": {
+    "mtime": 1787358511.5788107,
+    "ast_hash": "7f15bc444481d6a8a34e62ec0d31077c",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/PrescriptionsDashboard-BsTZm53s.js": {
+    "mtime": 1787358511.5828042,
+    "ast_hash": "cb7590b15ef46898efeb7e5762b9af06",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/PrescriptionsList-PIyT8SIe.js": {
+    "mtime": 1787358511.5828042,
+    "ast_hash": "35ecd1ca2adfc139a5de652b2451d17f",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/PrescriptionsList-kEnwVNAr.js": {
+    "mtime": 1787358511.5838103,
+    "ast_hash": "0d26b57339126714f9bd1318e2c16e2d",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/PrintPreview-xeJ6SAiA.js": {
+    "mtime": 1787358511.5848055,
+    "ast_hash": "b23324e84a03a5ee06ad0690d50d82cd",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/PrintPreviewBanner-BYn_8kj1.js": {
+    "mtime": 1787358511.5853212,
+    "ast_hash": "926d66a48461691d87cd7c1cc23d55a5",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/PrivacyPolicy-CnT2wene.js": {
+    "mtime": 1787358511.5853212,
+    "ast_hash": "641a2aa04d5d2f41e9193cc3d2c5e8d4",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/Profile-DiLf9muz.js": {
+    "mtime": 1787358511.586338,
+    "ast_hash": "3a009949f95d8e58f9c17c76ad992874",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/Prototypes-DQUpCn-l.js": {
+    "mtime": 1787358511.5873575,
+    "ast_hash": "bad73b4e19254698d8f732c0ed02f9ee",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/PullToRefresh-Cdx6cud5.js": {
+    "mtime": 1787358511.591411,
+    "ast_hash": "64440ad5733a3b31ef283a75594ae1e4",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/QuickPatientEntry-BO7cC3uD.js": {
+    "mtime": 1787358511.591411,
+    "ast_hash": "4eef38309b9f3ea6c46d99931c633340",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/QuickPatientEntry-E6HT6hXN.js": {
+    "mtime": 1787358511.591411,
+    "ast_hash": "3230370bfbc92eae0657f5d57271e5e0",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/ReceiptDetail-DIBAaajp.js": {
+    "mtime": 1787358511.5923986,
+    "ast_hash": "801eb5361b30ad7c46e119d7caa7778d",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/ReceiptsInquiry-Ci9MH8Ne.js": {
+    "mtime": 1787358511.5939133,
+    "ast_hash": "f6543775012faf694ca83f0fd66054d3",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/ReferralLetter-NShG0Nvp.js": {
+    "mtime": 1787358511.5949345,
+    "ast_hash": "30a9f51f8e1607b3eca6da6dc2313fd4",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/RefractionPage-BIoKfvlZ.js": {
+    "mtime": 1787358511.5949345,
+    "ast_hash": "1b4f12db9608f5e8bbd38858d068af23",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/RefractionValueSelect-vfls7YZ9.js": {
+    "mtime": 1787358511.5949345,
+    "ast_hash": "8e8ceb694ab74be184d2414a0b3440d8",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/RefractionsDashboard-CIPnp1z3.js": {
+    "mtime": 1787358511.595957,
+    "ast_hash": "ab2d99a9459f01d7d05c89c2d66dba36",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/RefractionsDashboard-CUQWHUyB.js": {
+    "mtime": 1787358511.5969296,
+    "ast_hash": "c29a4bb40706f8af20b2b641603aca65",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/ReportsHub-Dolm_Y0w.js": {
+    "mtime": 1787358511.5969296,
+    "ast_hash": "01f7ce0c7369853c0c582882d778d93d",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/RequestTests-BGno_K-3.js": {
+    "mtime": 1787358511.5969296,
+    "ast_hash": "e9cf41c7eba1156e794b32dfdc50e56c",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/RequestTests-CkvwOYuv.js": {
+    "mtime": 1787358511.5979307,
+    "ast_hash": "5520917074bf439d286583f6421bd5d6",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/SalaryBasics-BnnFSN-j.js": {
+    "mtime": 1787358511.599321,
+    "ast_hash": "da61c9a6e5680c5739cc657fb962f54f",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/SalaryDashboard.redesigned-Ce5ZtXCt.js": {
+    "mtime": 1787358511.600368,
+    "ast_hash": "7190ed1881976c5e464f80d01271035c",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/SalaryPenalties-C1oEz0Ee.js": {
+    "mtime": 1787358511.600368,
+    "ast_hash": "90edf92b88d34fbcf1d8d826769a7d4a",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/SalarySettings-B_q8KmPP.js": {
+    "mtime": 1787358511.6023264,
+    "ast_hash": "ec86e2c3527d13e8b6f00f726a187f3c",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/SearchBar-Ce-RzauS.js": {
+    "mtime": 1787358511.6033194,
+    "ast_hash": "6e7bc323a7ff1438fb0e86e20c361b57",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/ServicesHubNav-hvisrG4v.js": {
+    "mtime": 1787358511.6048284,
+    "ast_hash": "1efc2a3d98e330179564e6fd01250261",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/ServicesHubShell-q-ymUK1_.js": {
+    "mtime": 1787358511.6048284,
+    "ast_hash": "c0c83e7b1c52677ac4186b9b8f624f6f",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/SettingsHub-fukbnhZO.js": {
+    "mtime": 1787358511.6068418,
+    "ast_hash": "4c48877c8b9a3d9ec5e5b9ceeda76f63",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/SheetWatermark-TeRURNLx.js": {
+    "mtime": 1787358511.6068418,
+    "ast_hash": "7255d43a36db97f574ac31b82928f255",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/ShiftPayroll-Dxb6jep5.js": {
+    "mtime": 1787358511.6080925,
+    "ast_hash": "c6ce7e8eeb07acd070c0c384a3659490",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/ShiftSchedule-DOOO1f3C.js": {
+    "mtime": 1787358511.6080925,
+    "ast_hash": "74648418264fa1f2c990b6ec7a51e0c2",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/ShiftStaff-Cem7I8eo.js": {
+    "mtime": 1787358511.611094,
+    "ast_hash": "c86d59c74b06e6099829adace84f3b63",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/SpecialistSheet-gu70iDTr.js": {
+    "mtime": 1787358511.611094,
+    "ast_hash": "f11c81bdc1e947f51ec0e843a2ce1d6f",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/StatCard-C7cXa5hn.js": {
+    "mtime": 1787358511.611094,
+    "ast_hash": "199670611e0133c5e6887ac46b6aae52",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/StockroomCategory-CWqpzHIu.js": {
+    "mtime": 1787358511.6120927,
+    "ast_hash": "850ff7bba5e8f490077ff79a96637249",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/StockroomDashboard.redesigned-CSFlE8Bn.js": {
+    "mtime": 1787358511.6130934,
+    "ast_hash": "1d70dc4f9c400d807a26467f48bc7822",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/StockroomReports.redesigned-Bxk03xYY.js": {
+    "mtime": 1787358511.6130934,
+    "ast_hash": "72e631a2cd594d1a80c46e3958cf012a",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/StockroomShell-CeRfPKl9.js": {
+    "mtime": 1787358511.6130934,
+    "ast_hash": "c8cd9ea787afde2bc41517bd9047c539",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/Styleguide-xtEg27on.js": {
+    "mtime": 1787358511.6140924,
+    "ast_hash": "0afca8fde0f5fac774ecd27d5e5cb933",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/SyncStatus-C2xVgw3A.js": {
+    "mtime": 1787358511.6182618,
+    "ast_hash": "3958071e98a5ac10bfe8462e1cb09f25",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/SyncStatus-D-fyt0ss.js": {
+    "mtime": 1787358511.61928,
+    "ast_hash": "8f9728aad50bf24a96c84efd58fb46d2",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/TestsCatalogDashboard-BZMKgtPo.js": {
+    "mtime": 1787358511.6203024,
+    "ast_hash": "fe183ea4555de639e505afc68baee2b4",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/TestsManagement-BX8HNAyR.js": {
+    "mtime": 1787358511.6203024,
+    "ast_hash": "9fbfc9f5c3050f33893e37ae625651af",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/TestsManagement-BudS5Bij.js": {
+    "mtime": 1787358511.6213424,
+    "ast_hash": "0e17664e4f4765b7ec2371e303b41eea",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/ThemeContext-BbAVYmGT.js": {
+    "mtime": 1787358511.6223178,
+    "ast_hash": "c0306d67977f8268ac21e6c4eb5c064f",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/TodayPatients-r9Xq2xoV.js": {
+    "mtime": 1787358511.623341,
+    "ast_hash": "9ba0a5da042c9a7182fdf29c6c2e92ff",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/TxHubPage-CkZNwIS9.js": {
+    "mtime": 1787358511.6243193,
+    "ast_hash": "e08e8c656ec9b96fe3fc0a20dbf2675c",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/Visits-C7nhvj41.js": {
+    "mtime": 1787358511.6243193,
+    "ast_hash": "1ead6bf295b37c40f5c4951684b0b5aa",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/Visits-xQs6gAyg.js": {
+    "mtime": 1787358511.6253183,
+    "ast_hash": "9c7217d1d89c7e59005af6ee63b71433",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/WorkflowDemo-D6DRSYX7.js": {
+    "mtime": 1787358511.62632,
+    "ast_hash": "a0d0e37c37e4b45c1387f4eeedd6e0df",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/WorkflowHub-C-dUVtMO.js": {
+    "mtime": 1787358511.62632,
+    "ast_hash": "a893c2c95b7b157cb52a115e555fc3f9",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/WorkflowPrototype-B_XIHpZy.js": {
+    "mtime": 1787358511.6347835,
+    "ast_hash": "cfe50ca2e148e2ae2eb3054e6e95460f",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/WorkflowPrototypeLive-f297nji4.js": {
+    "mtime": 1787358511.6362998,
+    "ast_hash": "4c4b3bcaeeba58645f6e492decb470a8",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/WritePrescription-BcZLDjIH.js": {
+    "mtime": 1787358511.6362998,
+    "ast_hash": "3459ff09e015c7454e4a6c4c5f774e23",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/WritePrescription-Y64XCw1v.js": {
+    "mtime": 1787358511.6378875,
+    "ast_hash": "8e62d244ebca3610eb04a93066d33520",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/accountingFormat-CtppvnBB.js": {
+    "mtime": 1787358511.638929,
+    "ast_hash": "bc726941c8435547f42d7d10bc938339",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/adminPatientsShared-C7l0FSuU.js": {
+    "mtime": 1787358511.638929,
+    "ast_hash": "8ee98a8877ca269c24a73a96f2f620ee",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/alert-DTsG6jid.js": {
+    "mtime": 1787358511.639904,
+    "ast_hash": "d44b84e2b707ff1025f8a48d145d441f",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/appRuntime-BpGW2Ssj.js": {
+    "mtime": 1787358511.6409314,
+    "ast_hash": "c77c263eb3e16cc8918657b27e83a171",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/appointments-activity-Dk3iLrkU.js": {
+    "mtime": 1787358511.642953,
+    "ast_hash": "bfbe4d5ed32b8b192060c903afce3335",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/avatar-K3kTXK61.js": {
+    "mtime": 1787358511.642953,
+    "ast_hash": "3f865da408e9e9e8cc4a8d0eb7085684",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/badge-Dn7rYYyo.js": {
+    "mtime": 1787358511.6439054,
+    "ast_hash": "f8eade702276df57b9ce500271680afd",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/brand-D7fI0lnz.js": {
+    "mtime": 1787358511.6439054,
+    "ast_hash": "a97acf1580e65205c4a8f1f93edacf4b",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/button--382im4U.js": {
+    "mtime": 1787358511.645951,
+    "ast_hash": "49112cc9e6c95abf6ce43a5399214acd",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/calendar-BhtRz6wK.js": {
+    "mtime": 1787358511.6469035,
+    "ast_hash": "41af6b736818aeea8280dfa227acb785",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/card-D56TG7P5.js": {
+    "mtime": 1787358511.6469035,
+    "ast_hash": "f68f5e7b69635da43c1692a3161dab35",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/charts-Bnwx77Nk.js": {
+    "mtime": 1787358511.6479053,
+    "ast_hash": "12caed799238304047cdf9b528bab49f",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/charts-CC4tyjnx.js": {
+    "mtime": 1787358511.6489062,
+    "ast_hash": "a8e08f2914a73d88dee806828c906950",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/checkbox-DRt3B_6Q.js": {
+    "mtime": 1787358511.6489062,
+    "ast_hash": "8bb6622981ee872da0a9b2bb3e286fe1",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/command-Bu1mxh_v.js": {
+    "mtime": 1787358511.649903,
+    "ast_hash": "58538ebe0e92eef14db63dac7d5030aa",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/const-OLP944Go.js": {
+    "mtime": 1787358511.649903,
+    "ast_hash": "bc04a390b82e1520a92cd73c8d622130",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/dashboard-data-DCt0SrVF.js": {
+    "mtime": 1787358511.6509075,
+    "ast_hash": "604fa7f9b766f2e62c043b4395073845",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/data-core-u1TPZzGK.js": {
+    "mtime": 1787358511.6519141,
+    "ast_hash": "4e21e0e177c01454b92dc819767b3924",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/date-input-Da2a2JTk.js": {
+    "mtime": 1787358511.6529064,
+    "ast_hash": "2490329dedd98d7d96684afcfb2ce284",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/date-utils-DolFOHtA.js": {
+    "mtime": 1787358511.6529064,
+    "ast_hash": "10cf3dd6d37901e86316c777edbf824c",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/dialog-BVd-h9kG.js": {
+    "mtime": 1787358511.6549032,
+    "ast_hash": "dfa83632a12040f5f3dff200f79671db",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/dist-CkmEpYJW.js": {
+    "mtime": 1787358511.6559048,
+    "ast_hash": "2b895dad8f0ffa87aaebd9bdf14eff5b",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/dropdown-menu-B-YWDeks.js": {
+    "mtime": 1787358511.656904,
+    "ast_hash": "788d4ec6103fcb565d71f7e0e98f717f",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/errorMessages-B6hGclXr.js": {
+    "mtime": 1787358511.656904,
+    "ast_hash": "9cf7c8c0cceeb365591940b72c1db74a",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/excel-CN8KTP0b.js": {
+    "mtime": 1787358511.6579044,
+    "ast_hash": "403ef4eab882ff108a362fceac5450b9",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/highlighted-body-OFNGDK62-BsR44X4R.js": {
+    "mtime": 1787358511.6589055,
+    "ast_hash": "93dda864b791844eaca124ffab048fc2",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/html2canvas-gw2Fcr40.js": {
+    "mtime": 1787358511.6589055,
+    "ast_hash": "859a376117e9b1f0c91464feeb5c3532",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/icons-dRIQAKyU.js": {
+    "mtime": 1787358511.6599028,
+    "ast_hash": "1be8cf03822d030eb2fcd226ed74a239",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/importUtils-n0PsIGas.js": {
+    "mtime": 1787358511.666326,
+    "ast_hash": "6fa9de2c664de45b33796b822555b576",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/index-CHKfAtd9.js": {
+    "mtime": 1787358511.2033494,
+    "ast_hash": "58631c8d56ab2c7227c5f024e8994dfc",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/input-Dyj6KgtD.js": {
+    "mtime": 1787358511.6672997,
+    "ast_hash": "24bc6a7b2d3933f4d98d7a07e9ca1cbd",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/label-CYpCmUVd.js": {
+    "mtime": 1787358511.6672997,
+    "ast_hash": "ef612f8505f7eb4f8b9bbfb24dfa7128",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/medical-reference-DQIBFpCt.js": {
+    "mtime": 1787358511.668299,
+    "ast_hash": "c63d00593a6768b106c91af9ea5a6f83",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/mermaid-GHXKKRXX-CDfW38pb.js": {
+    "mtime": 1787358511.6703,
+    "ast_hash": "2553e333e964ffe35044dcd30bb6332b",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/mobileQa-Cwxe1CDK.js": {
+    "mtime": 1787358511.6703,
+    "ast_hash": "7bfc918c00f81234941eb669bcbfecfe",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/motion-HLqd7Jop.js": {
+    "mtime": 1787358511.671296,
+    "ast_hash": "50dad082dc27ad3da2a69649934e30a8",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/nativePdf-DjByE9r5.js": {
+    "mtime": 1787358511.671296,
+    "ast_hash": "82221c79db8e89c3e1c11539a87bf1de",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/nativePrint-CDl9nff-.js": {
+    "mtime": 1787358511.6722956,
+    "ast_hash": "ce1bb25ca13ec87a42776c5ef8fdb37b",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/nativeStorage-9kSchlt9.js": {
+    "mtime": 1787358511.673299,
+    "ast_hash": "9c47c849504e411fe648cd5bfc586db6",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/nav-permission-utils-DL16D_q_.js": {
+    "mtime": 1787358511.673299,
+    "ast_hash": "4e51b580e3a63780819e8d8eb410cfda",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/opTypes-CRoDXuzl.js": {
+    "mtime": 1787358511.6742985,
+    "ast_hash": "9c34ecbfee339d98683d552c01c2fb1b",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/operationsPricing-BPuO5B_T.js": {
+    "mtime": 1787358511.6752982,
+    "ast_hash": "c112bf459db027d69bf60c57eb0dd262",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/page-permissions-BQnCLkwg.js": {
+    "mtime": 1787358511.6762965,
+    "ast_hash": "5fc27f787b4397d66df5448a2a4eb594",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/patientFiltering-CSfaIoaD.js": {
+    "mtime": 1787358511.6773045,
+    "ast_hash": "f4986030b42ea3754798fab999538a7c",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/patientNavPaths-C9LmFUGb.js": {
+    "mtime": 1787358511.6773045,
+    "ast_hash": "a0dc7e29f4670fcb5641922041efa76f",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/pdf-lib-D_4Iyb2m.js": {
+    "mtime": 1787358511.680643,
+    "ast_hash": "9ac1317a2a958cde88b14eae99597ee5",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/popover-DlJH1MzG.js": {
+    "mtime": 1787358511.68166,
+    "ast_hash": "4a29a3f1d7485b6c117cceaef6a5dfde",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/portal-ui-ZEeh4KmO.js": {
+    "mtime": 1787358511.68166,
+    "ast_hash": "e1a4af7513abc33c03d97d5c050acba1",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/print-B7EHV5oR.js": {
+    "mtime": 1787358511.6826558,
+    "ast_hash": "88ec441da40d464066b47dc297ab92f4",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/printUtils-DxnrDe-u.js": {
+    "mtime": 1787358511.6836567,
+    "ast_hash": "c77f1c38f8caceef63eede8417446129",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/progress-C3I-35KR.js": {
+    "mtime": 1787358511.684653,
+    "ast_hash": "ed97c91cea70ac9432b38d2acb0673e0",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/radix-ui-C_ZFbfKW.js": {
+    "mtime": 1787358511.684653,
+    "ast_hash": "0624f8bc8333782ffa84c461a6993e51",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/react-core-DaLBU1SO.js": {
+    "mtime": 1787358511.6856544,
+    "ast_hash": "91e2d7ecf1cf17a57ebc507a289f6a66",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/refractionOptions-Ds5ra_6J.js": {
+    "mtime": 1787358511.6856544,
+    "ast_hash": "229436a510d1c1573bc2b92c06851ab0",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/rolldown-runtime-Dw2cE7zH.js": {
+    "mtime": 1787358511.6866603,
+    "ast_hash": "6ea83fa7e10f46f9b5896f936be613bb",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/routes-DYyAtCsZ.js": {
+    "mtime": 1787358511.6866603,
+    "ast_hash": "c4d5b46cc25159ea40271b125b0627f6",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/select-B4csBrGI.js": {
+    "mtime": 1787358511.6876569,
+    "ast_hash": "aceb6893616b14856981e412704393b0",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/separator-DPt0Zxvg.js": {
+    "mtime": 1787358511.6876569,
+    "ast_hash": "820f84c6ca536533521d2a44ba3d2768",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/sheet-qrMi2jyL.js": {
+    "mtime": 1787358511.68866,
+    "ast_hash": "7ba3901d0afae8b9d25b5f44610784ad",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/sheetDates-DiI1jePr.js": {
+    "mtime": 1787358511.68866,
+    "ast_hash": "586c484bdb045e180a982317f2767a3c",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/sheetDesigner-BkKvtxSj.js": {
+    "mtime": 1787358511.6896691,
+    "ast_hash": "dcd4fc5c7cd57241d74c8fee7491c026",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/skeleton-Cc59p5MR.js": {
+    "mtime": 1787358511.6906579,
+    "ast_hash": "8b4faade27f9f20fadd00f0663e633c4",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/switch-CKzYdmER.js": {
+    "mtime": 1787358511.6916616,
+    "ast_hash": "80516ee5feae7bc4abdbbef2e045ab1d",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/table-Carwn2w5.js": {
+    "mtime": 1787358511.6916616,
+    "ast_hash": "2080e7d6d4b0b8aa0a3679aabb4d2124",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/tabs-YART6IxV.js": {
+    "mtime": 1787358511.6926603,
+    "ast_hash": "e1259f97e73fd77acad725fbe9e5cb87",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/textarea-ChW0uJDD.js": {
+    "mtime": 1787358511.6947062,
+    "ast_hash": "619eb956478667a11de1b086d98e4360",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/tooltip-COGWT8vI.js": {
+    "mtime": 1787358511.6956627,
+    "ast_hash": "bcc59dee3f82e913daaba5190296166e",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/trpc-f87YPGMk.js": {
+    "mtime": 1787358511.6956627,
+    "ast_hash": "ad39089437708521c6d2a8cefd6dcbc0",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/ui-misc-C67Xdctg.js": {
+    "mtime": 1787358511.697123,
+    "ast_hash": "d9f685a95e8ee7d71912fe5e59b0d754",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/useAppNavigation-426vm028.js": {
+    "mtime": 1787358511.699156,
+    "ast_hash": "a6c992300a9d75c285fb852b373e51a9",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/useAuth-D_ZuRiHx.js": {
+    "mtime": 1787358511.7001262,
+    "ast_hash": "4137295e6d41e78e7458552dba2333a9",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/useComposition-C-y9fJJq.js": {
+    "mtime": 1787358511.7001262,
+    "ast_hash": "8202902e2b8b581b3ffa4c6f8e58aaff",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/useDoctorAuth-BrjY_76O.js": {
+    "mtime": 1787358511.7011247,
+    "ast_hash": "a2ee54b3e27a898d15114f05dd4c69e3",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/useExaminationForm-DaZ5rkVn.js": {
+    "mtime": 1787358511.7021544,
+    "ast_hash": "39667cc0bf68c8f0bb0c24ecda730127",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/useMobile-G7WlmUWc.js": {
+    "mtime": 1787358511.7031286,
+    "ast_hash": "7039bcb216a7692a2ef640da57de448d",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/usePatientAuth-oAy16qeN.js": {
+    "mtime": 1787358511.7031286,
+    "ast_hash": "4666c7b6a60a3f035de0f48f48792e8a",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/usePatientDetails-CervKpR3.js": {
+    "mtime": 1787358511.7041295,
+    "ast_hash": "1c17892652330ef8c60dc319956cc09a",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/usePermissions-D4cSEubY.js": {
+    "mtime": 1787358511.7061768,
+    "ast_hash": "12522f8c3f3035bb8afe947710f83158",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/useTodayQueuePatientsMerged-DWssF5QA.js": {
+    "mtime": 1787358511.707126,
+    "ast_hash": "535d52b6c0b5a88ae60369ef919cbe18",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/utils-Cnb6lgNC.js": {
+    "mtime": 1787358511.707126,
+    "ast_hash": "3bd2c5eb428044baedb642885e7de3fd",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/vendor-B0fgRO9K.js": {
+    "mtime": 1787358511.7081292,
+    "ast_hash": "dd31a31fd0fdd8f321fe70d46513a58f",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/web-2SNpInWw.js": {
+    "mtime": 1787358511.7091296,
+    "ast_hash": "bb2baa1e06fb4542a6df5da88eae2608",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/web-CN1i9n64.js": {
+    "mtime": 1787358511.7091296,
+    "ast_hash": "eec743264dcb4c75c1b74c14ac13bda1",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/web-CUWbfNDJ.js": {
+    "mtime": 1787358511.7101266,
+    "ast_hash": "a94faf4da78770eedde22149ff732407",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/web-CUraxqaB.js": {
+    "mtime": 1787358511.7101266,
+    "ast_hash": "be39c7c1477395a1989a9cf767db7059",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/web-D9QFAUNt.js": {
+    "mtime": 1787358511.7131557,
+    "ast_hash": "b6b91876377b6c88c05fe992b4582be1",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/web-Dhi4ZMa6.js": {
+    "mtime": 1787358511.7141283,
+    "ast_hash": "06122291efbb2f94caf0675e745cca2b",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/web-qRI1Mjar.js": {
+    "mtime": 1787358511.7141283,
+    "ast_hash": "a7b1f70bf13b52f339574e05b10cbd7e",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/ws-D6N0sQFg.js": {
+    "mtime": 1787358511.715128,
+    "ast_hash": "2f242796747562837bea5c17df1f2fac",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/xlsx-DGktq4ku.js": {
+    "mtime": 1787358511.7171214,
+    "ast_hash": "91dfd96b8f05c00fe35fe30607dd64f1",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/assets/xlsx-RS556sRu.js": {
+    "mtime": 1787358511.7171214,
+    "ast_hash": "b400649eaf2300e1d4fed37e642ed6c1",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/sw.js": {
+    "mtime": 1785490494.8161309,
+    "ast_hash": "8fbbf861476691b17bf90aba674f8f01",
+    "semantic_hash": ""
+  },
+  "server/scripts/fix-midnight-visit-dates.ts": {
+    "mtime": 1787382461.7446432,
+    "ast_hash": "f1069ba4fe00224772522159905975c6",
+    "semantic_hash": ""
+  },
+  "server/scripts/fix-visit-date-off-by-one.ts": {
+    "mtime": 1787384034.8056295,
+    "ast_hash": "095233cabff26720a96604799b6c2d12",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/README.txt": {
+    "mtime": 1785490494.7368896,
+    "ast_hash": "75a4b40628d621e7140600213104e158",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/index.html": {
+    "mtime": 1787358511.7251399,
+    "ast_hash": "8ae56c47a61d7c94ec368200aa5f5231",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/apple-touch-icon.png": {
+    "mtime": 1785490494.7368896,
+    "ast_hash": "7bd23084f5a997829fc7c32a3ec77a85",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/brand-fallback.svg": {
+    "mtime": 1785490494.7368896,
+    "ast_hash": "272b2f261b2425490f8cc2f32fd5e8f6",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/center-logo.png": {
+    "mtime": 1785490494.7368896,
+    "ast_hash": "c85d3f2c534a47b41bc53e5604089f53",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/clinic-interior.png": {
+    "mtime": 1785490494.7529285,
+    "ast_hash": "0eedcfc0f034376fecdc0ccb08464c7f",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/corneal_explanation_clinical.png": {
+    "mtime": 1785490494.7529285,
+    "ast_hash": "87676951fc58f5f257d0b67e379c9d0a",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/favicon.svg": {
+    "mtime": 1785490494.7529285,
+    "ast_hash": "9e743a6051408d1640bb606792346c30",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/icon-192-maskable.png": {
+    "mtime": 1785490494.7529285,
+    "ast_hash": "2f96a078938c01dba5185b22067afb0a",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/icon-192.png": {
+    "mtime": 1785490494.7529285,
+    "ast_hash": "79058cc21832ec754116b8363bd9064b",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/icon-512-maskable.png": {
+    "mtime": 1785490494.7647157,
+    "ast_hash": "9f4b3a42612238d972e85c8821fcd31d",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/icon-512.png": {
+    "mtime": 1785490494.7647157,
+    "ast_hash": "3d6d91b1eb69c331bebfda8f0a5a6a44",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/login-bg.jpg": {
+    "mtime": 1785490494.8003223,
+    "ast_hash": "1ab7ca891977c5c840afb221fbd6dad6",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/login-concept-reference.png": {
+    "mtime": 1785490494.8003223,
+    "ast_hash": "0e8054c1e685db4ff5fc1c3a966da2d2",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/logo.png": {
+    "mtime": 1785490494.8003223,
+    "ast_hash": "c85d3f2c534a47b41bc53e5604089f53",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/logos/arabic.png": {
+    "mtime": 1785490494.8003223,
+    "ast_hash": "c85d3f2c534a47b41bc53e5604089f53",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/logos/eye.png": {
+    "mtime": 1785490494.8161309,
+    "ast_hash": "c85d3f2c534a47b41bc53e5604089f53",
+    "semantic_hash": ""
+  },
+  "client/.workflow-demo-build/logos/full.png": {
+    "mtime": 1785490494.8161309,
+    "ast_hash": "c85d3f2c534a47b41bc53e5604089f53",
+    "semantic_hash": ""
+  },
+  "client/src/pages/EgyptianDrugReferencePage.tsx": {
+    "mtime": 1787447313.5156085,
+    "ast_hash": "849f478d4bfb1670eb70fddbdd7af22a",
+    "semantic_hash": ""
+  },
+  "server/services/egyptianDrugReference.ts": {
+    "mtime": 1787447408.3818371,
+    "ast_hash": "e8524dd07c376d87ab410ff367fbb5f5",
     "semantic_hash": ""
   }
 }

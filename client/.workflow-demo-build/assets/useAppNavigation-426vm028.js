@@ -1,0 +1,1 @@
+import{a as e}from"./react-core-DaLBU1SO.js";function t(){let[,t]=e(),n=(e,n)=>{if(n?.replace&&typeof window<`u`){window.history.replaceState(null,``,e),window.dispatchEvent(new PopStateEvent(`popstate`));return}t(e)};return{goTo:n,goBack:(e=`/`)=>{if(typeof window<`u`&&window.history.length>1){window.history.back();return}t(e)},goHome:()=>t(`/`),navigate:n}}export{t};

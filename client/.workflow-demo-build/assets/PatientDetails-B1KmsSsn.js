@@ -1,0 +1,1 @@
+import{t as e}from"./PatientDetails-BYyzT35A.js";export{e as default};

@@ -34,6 +34,12 @@ public class MainActivity extends BridgeActivity {
         webSettings.setDisplayZoomControls(false);
         webSettings.setMediaPlaybackRequiresUserGesture(false);
         webSettings.setCacheMode(WebSettings.LOAD_DEFAULT);
+        // Force a fresh fetch of the app shell on every cold start — this WebView's
+        // disk cache is per-app and isolated from Chrome's, and has been observed
+        // serving stale HTML/JS/CSS even after the origin sends no-store headers.
+        // clearCache(true) wipes it before the first navigation each launch, so a
+        // new build is guaranteed to show up without requiring a fresh APK install.
+        bridge.getWebView().clearCache(true);
         bridge.getWebView().setOverScrollMode(View.OVER_SCROLL_NEVER);
         bridge.getWebView().setDownloadListener((url, userAgent, contentDisposition, mimeType, contentLength) -> {
             try {

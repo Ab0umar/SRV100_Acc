@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/xlsx-DGktq4ku.js","assets/excel-CN8KTP0b.js"])))=>i.map(i=>d[i]);
+import{M as e}from"./vendor-B0fgRO9K.js";var t=null;function n(){return t||=e(()=>import(`./xlsx-DGktq4ku.js`),__vite__mapDeps([0,1])),t}export{n as t};

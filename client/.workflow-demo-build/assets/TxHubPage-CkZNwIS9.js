@@ -1,0 +1,1 @@
+import{s as e}from"./data-core-u1TPZzGK.js";import{t}from"./TestsCatalogDashboard-BZMKgtPo.js";var n=e();function r(){return(0,n.jsx)(t,{mode:`txhub`})}export{r as default};

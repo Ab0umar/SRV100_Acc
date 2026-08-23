@@ -1,0 +1,1 @@
+import{t as e}from"./MedicalReports-lW0nm4_-.js";export{e as default};

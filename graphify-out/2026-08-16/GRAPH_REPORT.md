@@ -1,16 +1,16 @@
-# Graph Report - selrs.cc  (2026-08-15)
+# Graph Report - selrs.cc  (2026-08-16)
 
 ## Corpus Check
-- 1717 files · ~3,468,971 words
+- 1718 files · ~3,473,667 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 16522 nodes · 32389 edges · 1094 communities (894 shown, 200 thin omitted)
+- 16525 nodes · 32401 edges · 1141 communities (899 shown, 242 thin omitted)
 - Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 787 edges (avg confidence: 0.62)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `40f58b8c`
+- Built from commit: `7ba2842b`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -19,51 +19,51 @@
 - browser-client.mjs
 - cn
 - appointments-activity.tsx
-- MedicalReports.tsx
+- includes
 - server/db.ts
 - schema.ts
 - eye_mark_rgba
-- _processEvent
+- e
 - r
 - medical.ts
 - procedures.ts
 - db.js
 - zktecoAdms.ts
-- useAuth
-- ProtectedRoute.tsx
+- MedicalReports.tsx
+- kf-routes.tsx
 - kf/contracts.ts
-- kf.ts
-- parse
+- frameRouteForFirstOopif
+- constructor
 - patientPortal.ts
-- e
+- AdminUsers.tsx
 - push
-- TestsCatalogDashboard.tsx
+- PatientsHubList.tsx
 - Implementation Steps - Salary & Attendance Redesign
 - getOptions
 - _core/index.ts
-- constructor
+- then
 - FK
 - accounting/contracts.ts
 - syncEngine.ts
-- EmployeesList.tsx
+- PentacamResultsDashboard.tsx
 - src/App.tsx
-- kf-routes.tsx
+- admin-routes.tsx
 - lib/trpc.ts
 - attendance-sync.ts
-- Pd
-- error
-- warn
+- parse
+- dailyMaterializer.ts
+- get
 - Production Setup Guide - Attendance Module
 - validate.py
 - zkTcpClient.ts
 - support.js
 - sqlBuilders.ts
-- Brand register
+- 3.1.1/skills/impeccable/reference/typeset.md
 - Salary & Attendance Modules Redesign Guide
 - TARATUS_ORIGINAL_VIEWS.md
 - adminPatientsShared.ts
 - PAJRNRCVH Registration Diagnostic Report
-- input.tsx
+- useAuth
 - Form1
 - sqlBuilders.js
 - Implementation Checklist - Salary & Attendance Redesign
@@ -107,7 +107,7 @@
 - nsis
 - Domain File Assignment
 - scripts
-- portal-ui.tsx
+- DoctorDashboard.tsx
 - handleClick
 - Responsive Design Guidelines (SRV100 Production)
 - Testing Skills With Subagents
@@ -121,8 +121,8 @@
 - patientPageStates Cache Policy
 - Presentations
 - .agents/skills/impeccable/scripts/live-session-store.mjs
-- AdminPortalBookings.tsx
-- LasikRevenue.tsx
+- fkDeviceSyncService.ts
+- commissionPoolsMssql.service.ts
 - 3.1.1/skills/impeccable/scripts/live-session-store.mjs
 - What You Must Do When Invoked
 - Medical Data Ownership & Source-of-Truth Policy
@@ -143,7 +143,7 @@
 - Agent Skill: Principal UI/UX Architect & Motion Choreographer (Awwwards-Tier)
 - ShiftSchedule.tsx
 - Web Push Notifications Implementation
-- 3.1.1/skills/impeccable/reference/typeset.md
+- updateBarContent
 - llm.ts
 - .agents/skills/impeccable/reference/document.md
 - 3.1.1/skills/impeccable/reference/document.md
@@ -153,8 +153,8 @@
 - What You Must Do When Invoked
 - .agents/skills/impeccable/SKILL.md
 - .agents/skills/impeccable/reference/live.md
-- PayrollReport.tsx
-- updateBarContent
+- ShiftPayroll.tsx
+- PatientLayout.tsx
 - 3.1.1/skills/impeccable/SKILL.md
 - render_docx.py
 - /specify — SRV100 Accounting Module (Phase 1: Read-Only, Lasik)
@@ -214,7 +214,7 @@
 - Attendance Module: Queries & Reports Design
 - Attendance Module - Quick Reference
 - Delight Techniques
-- Operations.tsx
+- OperationsHistoryDrawer.tsx
 - ZKTeco Device Connection Test Results
 - Delight Techniques
 - docx_ooxml_patch.py
@@ -233,11 +233,11 @@
 - .agents/skills/impeccable/scripts/live-inject.mjs
 - WebAppEnhancements.tsx
 - Examination Sheets
-- loadXlsx
+- src/hooks/useAuth.ts
 - cursor_commands.md — SRV100 Accounting Phase 1
 - Touch-Point Checklist (in order)
 - SRV100_EditFeature_Skill.md
-- routers/medical-reference.ts
+- getSystemSetting
 - ZKTecoDevice
 - 3.1.1/skills/impeccable/reference/animate.md
 - 3.1.1/skills/impeccable/reference/colorize.md
@@ -256,7 +256,7 @@
 - Medical Module
 - win7/main.js
 - Operations Page Shape Brief
-- useOperations.ts
+- operationsShared.ts
 - MedicalReference.tsx
 - The Process
 - Systematic Debugging
@@ -284,7 +284,7 @@
 - Persuasion Principles for Skill Design
 - SELRS Design System
 - Administration
-- package.json
+- onlyBuiltDependencies
 - Post-Deployment Verification (Manual Smoke Tests)
 - Writing Skills
 - comments_extract.py
@@ -302,7 +302,7 @@
 - Improve Copy Systematically
 - Typography
 - .agents/skills/impeccable/scripts/impeccable-paths.mjs
-- Profile
+- nativeServerSwitcher.ts
 - Core Principles
 - SalaryBasics.tsx
 - 3. Page-Specific Refinement Goals
@@ -325,7 +325,7 @@
 - Quickstart — SRV100 Attendance Module (Phase 1)
 - Tasks: Medical Router Split and Route Cleanup
 - Caveman Help
-- OperationTotals.tsx
+- operationTypeLabel
 - Handle `generate`
 - FK
 - .agents/skills/impeccable/reference/optimize.md
@@ -345,7 +345,7 @@
 - .FK_ConnectNet
 - DeviceAdapterService
 - cavecrew/SKILL.md
-- operationsShared.ts
+- attendance-routes.tsx
 - Attendance Module
 - Treatment & Prescriptions
 - SELRS Medical Center Platform
@@ -376,11 +376,11 @@
 - Patient Portal (public-facing)
 - Salary Module
 - ModuleNavigation.tsx
-- Admin Sub-module (`attendance/admin/`)
+- Medical Forms/Sheets
 - Shape: Quick Patient Entry
 - Shape: QuickPatientEntryForm
 - SELRS
-- AdminPermissions
+- Brand register
 - CurrentSalaryData.tsx
 - CurrentSalaryData.redesigned.tsx
 - Simplify the Design
@@ -400,7 +400,7 @@
 - Presentation Design Workflow
 - notification.js
 - DevicePushListener
-- AbsentReport.tsx
+- DoctorPatientImages.tsx
 - Shape: Accounting Page
 - caveman-commit
 - caveman-review
@@ -415,10 +415,10 @@
 - .agents/skills/impeccable/scripts/pin.mjs
 - operationWhatsApp.service.ts
 - useMedicalSheets.ts
-- ip
+- form.tsx
 - dashboardLocalState.ts
 - Product
-- OperationsBookingInlinePanel.tsx
+- PatientBook.tsx
 - 📱 Frontend Applications
 - Nielsen's 10 Heuristics
 - 3.1.1/skills/impeccable/reference/quieter.md
@@ -457,7 +457,7 @@
 - Task: Captions + cross-references (SEQ + REF)
 - Task: Redaction / anonymization (layout-preserving)
 - Artifact Tool Presentation JSX Reference
-- we
+- warn
 - manusTypes.ts
 - Core Principles
 - 001-attendance-fingerprint/plan.md
@@ -523,7 +523,7 @@
 - graphify reference: extra exports and benchmark
 - Create Feature Branch
 - .ShowStartupUrlChooser
-- Phase 1 — Data Model: SRV100 Attendance Module
+- portal-ui.tsx
 - ShiftStaff.tsx
 - PatientHubHome.tsx
 - Map.tsx
@@ -546,11 +546,11 @@
 - FK
 - Database Separation Rules
 - MySQL Workflow
-- ErrorBoundary.tsx
+- PatientGuestBook.tsx
 - Appointments
 - Surgeries
 - Tests & Diagnostics
-- opTypes.ts
+- formatArabicDate
 - attendance/types.ts
 - Design Principles
 - SocratiCode Management
@@ -586,7 +586,7 @@
 - .claude/skills/speckit-specify/SKILL.md
 - .claude/skills/speckit-tasks/SKILL.md
 - OrganicLoaders.tsx
-- commissionPoolsMssql.service.ts
+- payrollCompute.service.ts
 - printLayout.ts
 - Doctors
 - Examinations
@@ -599,7 +599,7 @@
 - OOXML: Tracked changes (true redlines)
 - SELRS Desktop (WebView2)
 - apply_template_styles.py
-- 📦 Stockroom Module (`client/src/features/stockroom/`)
+- captureElementToBlob
 - insert_toc.py
 - merge_docx_append.py
 - main
@@ -626,7 +626,7 @@
 - caveman-stats
 - Impeccable Asset Producer
 - readyPrescriptionTemplates.ts
-- captureElementToBlob
+- AuditLogService
 - SalaryLayout.tsx
 - CodeRabbit Review
 - Requesting Code Review
@@ -662,7 +662,7 @@
 - Troubleshooting: Optional LibreOffice headless rendering
 - Healthcare (clinical/administrative) spreadsheets
 - Marketing/Advertising Guidance
-- SalaryPenalties.tsx
+- zk4370Sync.service.ts
 - shared/pentacam.ts
 - DeviceSyncEngine
 - appNotifications.js
@@ -730,14 +730,14 @@
 - .agents/skills/speckit-clarify/SKILL.md
 - .agents/skills/speckit-constitution/SKILL.md
 - .agents/skills/speckit-taskstoissues/SKILL.md
-- AttendanceLayout.redesigned.tsx
+- LeaveManagementService
 - .claude/skills/speckit-clarify/SKILL.md
 - .claude/skills/speckit-constitution/SKILL.md
 - .claude/skills/speckit-taskstoissues/SKILL.md
 - batch-wrap-pages.ts
 - cleanup-fullscreen-tags.ts
 - moduleThemes.ts
-- 🔐 Security Practices
+- input.tsx
 - 8. Advanced Patterns
 - Web Interface Guidelines
 - shareContent
@@ -753,7 +753,7 @@
 - Presentations
 - Spreadsheets
 - Scientific Research Guidance
-- call
+- gt
 - backfill_glassesRecords.mjs
 - fix_autoref_in_glasses.mjs
 - fix_autoref_in_glassesRecords.mjs
@@ -853,26 +853,27 @@
 - __init__.py
 - async-cheap-condition-before-await.md
 - receiptsInquiry.service.ts
-- Other Pages
+- Phase 1 — Data Model: SRV100 Attendance Module
 - Prefer Statically Analyzable Paths
-- 👨‍⚕️ Doctor Portal (`client/src/features/doctor-portal/`)
-- axios
-- PortalStyleguide.tsx
+- Admin Sub-module (`attendance/admin/`)
+- PatientFile.tsx
+- DeviceDiagnosticsService
+- PermissionAdjustmentService
 - @capacitor/status-bar
 - server-hoist-static-io.md
 - Leaves & Permissions
 - date-fns
 - AppointmentsActivity.tsx
-- jose
+- PatientScans.tsx
 - advanced-effect-event-deps.md
-- drizzle-orm
+- package.json
 - lasikServices.service.ts
 - advanced-event-handler-refs.md
 - @capacitor/preferences
-- @radix-ui/react-accordion
+- Core / Auth
 - advanced-init-once.md
 - advanced-use-latest.md
-- @capacitor/core
+- 📦 Stockroom Module (`client/src/features/stockroom/`)
 - .claude/CLAUDE.md
 - .claude/skills/graphify/references/extraction-spec.md
 - async-api-routes.md
@@ -900,48 +901,62 @@
 - bundle-barrel-imports.md
 - bundle-conditional.md
 - pre-commit
-- @capacitor/action-sheet
+- 🔐 Security Practices
+- 📊 Performance Optimizations
+- @aws-sdk/client-s3
 - bundle-defer-third-party.md
 - @capacitor/android
 - bundle-dynamic-imports.md
-- @capacitor/camera
+- bcryptjs
+- @capacitor/browser
+- @capacitor/cli
 - bundle-preload.md
 - client-event-listeners.md
 - client-localstorage-schema.md
-- @hookform/resolvers
+- @capacitor/geolocation
 - @capacitor/keyboard
+- @capacitor/network
 - mssqlPatients.ts
 - client-passive-event-listeners.md
-- @bcyesil/capacitor-plugin-printer
+- @capacitor/splash-screen
 - @radix-ui/react-aspect-ratio
 - client-swr-dedup.md
-- mysql2
+- @aws-sdk/s3-request-presigner
+- @bcyesil/capacitor-plugin-printer
 - js-batch-dom-css.md
-- @capacitor/filesystem
+- cross-env
 - js-cache-function-results.md
+- dotenv
 - js-cache-property-access.md
 - js-cache-storage.md
 - js-combine-iterations.md
-- @radix-ui/react-radio-group
-- clsx
+- drizzle-kit
+- msnodesqlv8
+- nanoid
 - js-early-exit.md
 - js-flatmap-filter.md
 - voiceTranscription.ts
-- cmdk
+- node-adodb
 - @radix-ui/react-tabs
 - @radix-ui/react-toggle
+- node-cron
 - @capacitor/haptics
 - @radix-ui/react-slider
-- @esbuild-kit/core-utils
+- node-windows
 - js-hoist-regexp.md
+- puppeteer
 - sonner
+- @radix-ui/react-collapsible
+- @capacitor/action-sheet
+- @capacitor/camera
 - js-index-maps.md
-- @esbuild-kit/esm-loader
+- @radix-ui/react-hover-card
 - @trpc/client
 - js-length-check-first.md
 - zod
 - @types/jsonwebtoken
 - @types/web-push
+- @radix-ui/react-navigation-menu
 - js-min-max-loop.md
 - wouter
 - ws
@@ -964,7 +979,8 @@
 - cookie.d.ts
 - fixtures/README.md
 - 005-frontend-feature-folders/prompts/claude.md
-- .HandleFormClosing
+- @radix-ui/react-popover
+- recharts
 - rendering-hydration-suppress-warning.md
 - rendering-resource-hints.md
 - rendering-script-defer-async.md
@@ -993,40 +1009,71 @@
 - server-parallel-nested-fetching.md
 - server-serialization.md
 - _template.md
-- jsonwebtoken
+- tailwindcss-animate
+- vaul
+- patch-package
 - input-otp
+- tailwindcss
 - lasikCost.service.ts
 - lucide-react
 - nodemailer
-- @openai/codex
+- @tailwindcss/postcss
 - pdf-lib
-- @radix-ui/react-context-menu
-- @radix-ui/react-label
+- tsx
+- tw-animate-css
+- @types/node
+- @types/nodemailer
 - streamdown
+- @types/react
+- vite-plugin-manus-runtime
+- @capacitor/core
+- @capacitor/device
+- @capacitor/filesystem
+- @capacitor/push-notifications
+- cmdk
+- cookie
+- .HandleFormClosing
+- @esbuild-kit/core-utils
+- framer-motion
+- @hookform/resolvers
+- html2canvas
+- jsonwebtoken
+- mdb-reader
+- react-day-picker
+- mssql
+- @openai/codex
+- @radix-ui/react-accordion
+- @radix-ui/react-alert-dialog
+- @radix-ui/react-checkbox
+- @radix-ui/react-context-menu
+- react-resizable-panels
+- @radix-ui/react-label
+- @trpc/react-query
 - @radix-ui/react-menubar
+- @radix-ui/react-avatar
+- @radix-ui/react-radio-group
 - @radix-ui/react-scroll-area
 - @radix-ui/react-select
 - @radix-ui/react-slot
-- @radix-ui/react-tooltip
-- react-hook-form
-- react-day-picker
-- superjson
-- react-resizable-panels
-- @tanstack/react-query
-- @trpc/react-query
-- @tanstack/react-virtual
-- @radix-ui/react-avatar
-- web-push
 - @radix-ui/react-progress
 - @radix-ui/react-separator
+- @radix-ui/react-toggle-group
+- @radix-ui/react-tooltip
+- react-hook-form
+- tailwind-merge
+- @tanstack/react-query
+- @tanstack/react-virtual
+- @trpc/server
+- web-push
+- typescript
 - How to Use
 
 ## God Nodes (most connected - your core abstractions)
 1. `cn()` - 572 edges
-2. `getDb()` - 354 edges
+2. `getDb()` - 355 edges
 3. `Button()` - 247 edges
 4. `_trpc` - 232 edges
-5. `useAuth()` - 170 edges
+5. `useAuth()` - 172 edges
 6. `getDb()` - 160 edges
 7. `Input()` - 124 edges
 8. `r()` - 119 edges
@@ -1048,115 +1095,115 @@
 ## Import Cycles
 - None detected.
 
-## Communities (1094 total, 200 thin omitted)
+## Communities (1141 total, 242 thin omitted)
 
 ### Community 0 - "dependencies"
-Cohesion: 0.03
-Nodes (75): @aws-sdk/client-s3, @aws-sdk/s3-request-presigner, bcryptjs, @capacitor/browser, @capacitor/device, @capacitor/geolocation, @capacitor/network, @capacitor/push-notifications (+67 more)
+Cohesion: 0.09
+Nodes (23): axios, class-variance-authority, clsx, drizzle-orm, @esbuild-kit/esm-loader, jose, mysql2, next-themes (+15 more)
 
 ### Community 1 - "browser-client.mjs"
 Cohesion: 0.01
-Nodes (274): _4(), A1(), a8(), AC(), add(), addBreadcrumb(), _addCheck(), ae() (+266 more)
+Nodes (252): AD(), addBreadcrumb(), _addCheck(), ae(), all(), an(), aR(), assertCompatibleLocator() (+244 more)
 
 ### Community 2 - "cn"
 Cohesion: 0.01
-Nodes (306): AIChatBox(), AIChatBoxProps, Message, BentoShell(), BentoShellProps, isItemActive(), QuickActions, FormField() (+298 more)
+Nodes (300): AIChatBox(), AIChatBoxProps, Message, BentoShell(), BentoShellProps, isItemActive(), QuickActions, FormField() (+292 more)
 
 ### Community 3 - "appointments-activity.tsx"
 Cohesion: 0.01
-Nodes (225): AddPortalBookingDialog(), BookingType, Branch, BRANCHES, PatientType, STAFF_BOOKING_TYPES, AppointmentsSection(), BOOKING_STATUS_AR (+217 more)
+Nodes (209): AddPortalBookingDialog(), BookingType, Branch, BRANCHES, PatientType, STAFF_BOOKING_TYPES, AppointmentsSection(), BOOKING_STATUS_AR (+201 more)
 
-### Community 4 - "MedicalReports.tsx"
-Cohesion: 0.04
-Nodes (68): BrandLogo(), BrandLogoProps, SRC_CHAIN, QuickPatientEntryForm(), DoctorPortalRoute(), AppShellFooter(), LOGO_SOURCES, SheetWatermarkProps (+60 more)
+### Community 4 - "includes"
+Cohesion: 0.05
+Nodes (49): AC(), add(), Ah(), Bo(), DC(), eg(), ensureRuntimeEnabled(), exclude() (+41 more)
 
 ### Community 5 - "server/db.ts"
 Cohesion: 0.01
-Nodes (289): users, main(), main(), main(), addServiceInDb(), anyMeaningfulValueCondition(), applyPatientImportBatch(), arePermissionListsEqual() (+281 more)
+Nodes (295): users, main(), main(), main(), addServiceInDb(), anyMeaningfulValueCondition(), applyPatientImportBatch(), arePermissionListsEqual() (+287 more)
 
 ### Community 6 - "schema.ts"
 Cohesion: 0.01
-Nodes (259): tiers, accCategories, accEmployees, accHome, accInstapay, accLedger, accLoans, accSaadany (+251 more)
+Nodes (204): accCategories, accEmployees, accHome, accInstapay, accLedger, accLoans, accSaadany, Appointment (+196 more)
 
 ### Community 7 - "eye_mark_rgba"
 Cohesion: 0.60
 Nodes (5): Image, eye_mark_rgba(), main(), Path, save_square()
 
-### Community 8 - "_processEvent"
-Cohesion: 0.08
-Nodes (36): ak(), B0(), ba(), Bt(), captureEvent(), captureException(), captureMessage(), captureSession() (+28 more)
+### Community 8 - "e"
+Cohesion: 0.04
+Nodes (65): Ale(), attach(), b_(), BC(), claimUserTab(), clear(), clone(), cn() (+57 more)
 
 ### Community 9 - "r"
 Cohesion: 0.03
 Nodes (190): ae(), be(), bt(), Ce(), Ct(), de(), dt(), _e() (+182 more)
 
 ### Community 10 - "medical.ts"
-Cohesion: 0.05
-Nodes (157): value(), AfterRefractionData, AutorefractometryData, doctorReports, doctorsLookup, examinationChecklistItems, examinations, glassesRecords (+149 more)
+Cohesion: 0.06
+Nodes (146): value(), AfterRefractionData, AutorefractometryData, doctorReports, doctorsLookup, examinationChecklistItems, examinations, glassesRecords (+138 more)
 
 ### Community 11 - "procedures.ts"
-Cohesion: 0.04
-Nodes (79): externalDoctorAccessLogs, externalDoctorReferrals, externalDoctors, InsertVisitScheduleRequest, whatsappInboundMessages, AuthenticatedUser, CookieCall, createContext() (+71 more)
+Cohesion: 0.05
+Nodes (62): externalDoctorAccessLogs, externalDoctorReferrals, externalDoctors, InsertVisitScheduleRequest, whatsappInboundMessages, getSessionCookieOptions(), isSecureRequest(), LOCAL_HOSTS (+54 more)
 
 ### Community 12 - "db.js"
 Cohesion: 0.03
 Nodes (131): autoAdvanceQueuePatients(), cascadeQueueStatus(), checkInvalidVisitIds(), checkVisitsWithoutAppointments(), createAppointment(), createConsentForm(), createDisease(), createDoctorReport() (+123 more)
 
 ### Community 13 - "zktecoAdms.ts"
-Cohesion: 0.06
-Nodes (33): AttendanceDeviceSettings, broadcastPunch(), AdmsCommand, cmdQueue, effectiveOffsetHours(), hydrateDetectedOffset(), isAdmsEnabled(), maybeDetectOffset() (+25 more)
+Cohesion: 0.07
+Nodes (30): broadcastPunch(), AdmsCommand, cmdQueue, effectiveOffsetHours(), hydrateDetectedOffset(), isAdmsEnabled(), maybeDetectOffset(), parseAttlogBody() (+22 more)
 
-### Community 14 - "useAuth"
-Cohesion: 0.02
-Nodes (172): AdminSettings(), clonePricing(), toSafeNumber(), ShortcutsMenu(), GlobalCommandPalette(), AdminKey, ALL_ADMIN_TABS, ALL_STAFF_TABS (+164 more)
-
-### Community 15 - "ProtectedRoute.tsx"
+### Community 14 - "MedicalReports.tsx"
 Cohesion: 0.04
-Nodes (58): cachePermissions(), DEFINED_PERMISSION_PATHS, normalizePath(), ProtectedRoute(), ProtectedRouteProps, readCachedPermissions(), AttendanceLayout(), isItemActive() (+50 more)
+Nodes (90): BrandLogo(), BrandLogoProps, SRC_CHAIN, AdminKey, ALL_ADMIN_TABS, ALL_STAFF_TABS, AppBottomNav(), AppBottomNavProps (+82 more)
+
+### Community 15 - "kf-routes.tsx"
+Cohesion: 0.08
+Nodes (23): KfAccounting, KfBookings, KfConsultantFollowupSheet, KfConsultantSheet, KfDailyRevenue, KfExaminationForm, KfExamPage, KfFollowupForm (+15 more)
 
 ### Community 16 - "kf/contracts.ts"
-Cohesion: 0.04
-Nodes (47): dateStringSchema, emptyToUndefined(), KfBridgeLookupSelrsPatientInput, KfCreateExaminationInput, KfCreateFollowupInput, KfCreateOperationInput, KfCreatePatientInput, KfCreatePrescriptionInput (+39 more)
+Cohesion: 0.03
+Nodes (91): kfLedger, kfPrescriptionItems, kfPrescriptions, kfTestRequestItems, kfTestRequests, tests, accountingQuery(), ensureExaminationExists() (+83 more)
 
-### Community 17 - "kf.ts"
+### Community 17 - "frameRouteForFirstOopif"
+Cohesion: 0.07
+Nodes (41): a8(), c8(), callCdpTarget(), clickLocator(), currentFrameContentOffset(), currentTopLevelPointForAction(), describeBackendNodeForHitTarget(), ensurePlaywrightInjected() (+33 more)
+
+### Community 18 - "constructor"
 Cohesion: 0.05
-Nodes (36): kfExaminations, kfFollowups, kfLedger, kfOperations, kfPrescriptionItems, kfPrescriptions, kfTestRequestItems, kfTestRequests (+28 more)
-
-### Community 18 - "parse"
-Cohesion: 0.11
-Nodes (23): abort(), Ap(), b_(), dirty(), _getCached(), _getInvalidInput(), _getOrReturnCtx(), _getType() (+15 more)
+Nodes (57): addTabAttachHandler(), call(), _checkInitializationStatus(), _checkUserHasIdForEvaluation(), _configureUser(), constructor(), _createErrorUpdateDetails(), detachAttachedFrameTargets() (+49 more)
 
 ### Community 19 - "patientPortal.ts"
 Cohesion: 0.03
-Nodes (76): bookingClosures, BookingScheduleConfig, marketingBrandProfile, marketingLogs, marketingPosts, marketingReferenceDesigns, MarketingSettings, patientPortalBookings (+68 more)
+Nodes (85): bookingClosures, BookingScheduleConfig, marketingBrandProfile, marketingLogs, marketingPosts, marketingReferenceDesigns, MarketingSettings, patientPortalBookings (+77 more)
 
-### Community 20 - "e"
-Cohesion: 0.04
-Nodes (62): Ale(), attach(), BC(), claimUserTab(), clear(), clone(), cn(), configureAndConnect() (+54 more)
+### Community 20 - "AdminUsers.tsx"
+Cohesion: 0.02
+Nodes (113): GlobalCommandPalette(), AlertDialog(), AlertDialogAction(), AlertDialogCancel(), AlertDialogContent(), AlertDialogDescription(), AlertDialogFooter(), AlertDialogHeader() (+105 more)
 
 ### Community 21 - "push"
 Cohesion: 0.02
-Nodes (170): _1(), _6(), _8(), a4(), a6(), AB(), addEventListener(), addTabCleanupHandler() (+162 more)
+Nodes (153): _1(), _4(), _6(), _8(), A1(), a4(), a6(), AB() (+145 more)
 
-### Community 22 - "TestsCatalogDashboard.tsx"
-Cohesion: 0.02
-Nodes (123): OfflinePageState(), ExternalDoctorReferralPanel(), PatientDetailsError(), PatientDetailsErrorProps, PentacamTab(), PentacamTabProps, TestsTab(), TreatmentTab() (+115 more)
+### Community 22 - "PatientsHubList.tsx"
+Cohesion: 0.04
+Nodes (61): QuickPatientEntryForm(), AppShellSkeleton(), Badge, getBadges(), PatientMedicalStatusDots(), PatientMedicalStatusStrip(), CollapsibleSection(), CollapsibleSectionProps (+53 more)
 
 ### Community 23 - "Implementation Steps - Salary & Attendance Redesign"
 Cohesion: 0.04
 Nodes (45): Common Issues & Solutions, Deployment, Desktop (1024px+), Implementation Steps - Salary & Attendance Redesign, Issue 1: TypeScript Errors, Issue 2: Navigation Not Working, Issue 3: Metrics Not Showing, Issue 4: Layout Issues on Mobile (+37 more)
 
 ### Community 24 - "getOptions"
-Cohesion: 0.06
-Nodes (59): ag(), Al(), bl(), captureCheckIn(), cg(), _clearOutcomes(), close(), cU() (+51 more)
+Cohesion: 0.05
+Nodes (69): ag(), Al(), bl(), captureCheckIn(), cg(), _clearOutcomes(), close(), cU() (+61 more)
 
 ### Community 25 - "_core/index.ts"
 Cohesion: 0.05
-Nodes (75): options(), express, express, migrateSrv100ToS3(), PORT, server, getSyncScriptPath(), runSync() (+67 more)
+Nodes (77): options(), express, express, migrateSrv100ToS3(), PORT, server, getSyncScriptPath(), runSync() (+69 more)
 
-### Community 26 - "constructor"
-Cohesion: 0.03
-Nodes (99): addCloseListener(), addEvent(), addTabAttachHandler(), addToPendingEventsQueue(), appendAndResetNonExposedChecks(), attachDebuggerFrameTarget(), attachErrorIfNoneExists(), attachTarget() (+91 more)
+### Community 26 - "then"
+Cohesion: 0.04
+Nodes (89): addCloseListener(), addEvent(), addToPendingEventsQueue(), appendAndResetNonExposedChecks(), attachErrorIfNoneExists(), _attemptScheduledFlush(), B0(), cachedBlocked() (+81 more)
 
 ### Community 28 - "accounting/contracts.ts"
 Cohesion: 0.05
@@ -1175,37 +1222,37 @@ Nodes (25): { FUTURE_GUID, MISSING_EMP_GUID, MOCK_EMPLOYEES, buildMockPunches, n
   mockRecomputeRange,
 }, validPunch(), EmployeesService, PunchesService, AccessDbAdapter (+17 more)
 
-### Community 30 - "EmployeesList.tsx"
-Cohesion: 0.11
-Nodes (20): BASE_TABS, EmployeesHub(), TabKey, AssignmentPanel(), DAYS_SH, EmployeesList(), maskLabel(), maskToDays() (+12 more)
+### Community 30 - "PentacamResultsDashboard.tsx"
+Cohesion: 0.14
+Nodes (24): PentacamTab(), evaluateMedicalReference(), findMedicalReference(), MedicalReference, medicalReferenceClass(), MedicalReferenceState, normalizeReferenceKey(), parseMeasurementValue() (+16 more)
 
 ### Community 31 - "src/App.tsx"
-Cohesion: 0.07
-Nodes (54): @capacitor/app, App(), copyToClipboard(), fetchHealthSnapshot(), Router, BuildInfo, Props, RuntimeIssue (+46 more)
+Cohesion: 0.06
+Nodes (59): @capacitor/app, App(), copyToClipboard(), fetchHealthSnapshot(), Router, BuildInfo, Props, RuntimeIssue (+51 more)
 
-### Community 32 - "kf-routes.tsx"
+### Community 32 - "admin-routes.tsx"
 Cohesion: 0.08
-Nodes (23): KfAccounting, KfBookings, KfConsultantFollowupSheet, KfConsultantSheet, KfDailyRevenue, KfExaminationForm, KfExamPage, KfFollowupForm (+15 more)
+Nodes (23): AdminApiTools, AdminCardVisibility, AdminDataSourceAudit, AdminDoctors, AdminFormsHub, AdminHubShell, AdminLegacyPatients, AdminMigrations (+15 more)
 
 ### Community 33 - "lib/trpc.ts"
-Cohesion: 0.02
-Nodes (258): PricingConfig, AdminPatientCard, AdminPatientItemProps, AdminPatientRow, AdminPatientsTable, AdminPatientsTableProps, AdminPatientsToolbar(), AdminPatientsToolbarProps (+250 more)
+Cohesion: 0.01
+Nodes (311): PricingConfig, BookingShortcutModuleProps, iconBgMap, IconKey, Kpi, QuickPatientEntryFormProps, ExaminationPentacamTab(), Props (+303 more)
 
 ### Community 34 - "attendance-sync.ts"
-Cohesion: 0.03
-Nodes (93): asn(), baseCtx(), punch(), SHIFT_1, SHIFT_2, shiftsById, AttendanceDaily, attendanceEmployees (+85 more)
-
-### Community 35 - "Pd"
 Cohesion: 0.13
-Nodes (19): AD(), an(), dD(), DR(), fR(), Fu(), getActiveFallbackUrl(), getChecksum() (+11 more)
+Nodes (40): AttendanceDaily, attendanceEmployees, attendanceHolidays, attendanceLeaveBalances, attendanceLeaves, attendancePermissions, attendancePunches, attendanceShiftAssignments (+32 more)
 
-### Community 36 - "error"
+### Community 35 - "parse"
 Cohesion: 0.12
-Nodes (12): accountingQuery(), ensureExaminationExists(), ensureFollowupExists(), ensureOperationExists(), ensurePatientExists(), ensureVisitExists(), error(), insertIdOf() (+4 more)
+Nodes (21): abort(), Ap(), dirty(), _getCached(), _getInvalidInput(), _getOrReturnCtx(), _getType(), isNullable() (+13 more)
 
-### Community 37 - "warn"
-Cohesion: 0.03
-Nodes (100): AA(), addToNumericResult(), Ah(), ai(), aR(), beacon(), BS(), Ca() (+92 more)
+### Community 36 - "dailyMaterializer.ts"
+Cohesion: 0.11
+Nodes (23): asn(), baseCtx(), punch(), SHIFT_1, SHIFT_2, shiftsById, dailyMaterializer, applyOTMinimum() (+15 more)
+
+### Community 37 - "get"
+Cohesion: 0.06
+Nodes (46): AA(), addToNumericResult(), beacon(), BS(), _d(), Da(), e8(), emitNamedEntityData() (+38 more)
 
 ### Community 38 - "Production Setup Guide - Attendance Module"
 Cohesion: 0.04
@@ -1227,9 +1274,9 @@ Nodes (44): react-dom, boot(), collectProps(), compileAttr(), compileTemplate(),
 Cohesion: 0.09
 Nodes (45): escCell(), FIXTURES_DIR, main(), writeCsv(), getDashboardSummary(), mapDashboardSummaryRow(), andWhere(), buildDailyRevenueSql() (+37 more)
 
-### Community 43 - "Brand register"
-Cohesion: 0.14
-Nodes (14): Brand bans (on top of the shared absolute bans), Brand permissions, Brand register, Color, Font selection procedure, Imagery, Layout, Motion (+6 more)
+### Community 43 - "3.1.1/skills/impeccable/reference/typeset.md"
+Cohesion: 0.08
+Nodes (22): Amplify the Design, Assess Current State, Color Intensification, Composition Boldness, Motion & Animation, Plan Amplification, Register, Spatial Drama (+14 more)
 
 ### Community 44 - "Salary & Attendance Modules Redesign Guide"
 Cohesion: 0.04
@@ -1247,9 +1294,9 @@ Nodes (42): PatientTransactions, PatientTransactionsProps, AdminPatients(), Bulk
 Cohesion: 0.04
 Nodes (44): 1. SQL Server Implementation Status, 2. Web Registration UI Status, 3. Missing Fields Analysis, 4. Column Types Being Manually Handled, 5. Legacy OP System Linkage, Additional Service Columns, Additional Service Columns, Changed Files (+36 more)
 
-### Community 48 - "input.tsx"
+### Community 48 - "useAuth"
 Cohesion: 0.02
-Nodes (229): AppointmentDistributionChart(), MedicalFilePanelProps, mockAfterRefraction, mockDiseases, mockExaminations, mockFundus, mockGlasses, mockMeasurements (+221 more)
+Nodes (190): AdminSettings(), clonePricing(), toSafeNumber(), ShortcutsMenu(), Window, READY_TABS, ExternalDoctorReferralPanel(), PatientDetailsError() (+182 more)
 
 ### Community 49 - "Form1"
 Cohesion: 0.09
@@ -1264,8 +1311,8 @@ Cohesion: 0.05
 Nodes (42): Accessibility Testing, Attendance Dashboard (`/attendance` or dedicated route), Attendance Module (`/attendance`), Browser Compatibility, Browser Console Testing, Commit, Cross-Module Testing, Dashboard Components (NEW) (+34 more)
 
 ### Community 52 - "ClinicalPortal.tsx"
-Cohesion: 0.07
-Nodes (42): displayValue(), EyeValues, RefractionField, UnifiedRefractionTable(), UnifiedRefractionTableProps, DiagnosisTab(), AfterMeasurement, ClinicalRefraction (+34 more)
+Cohesion: 0.10
+Nodes (35): displayValue(), EyeValues, RefractionField, UnifiedRefractionTable(), UnifiedRefractionTableProps, DiagnosisTab(), FollowupTab(), firstNonEmpty() (+27 more)
 
 ### Community 53 - "medical-routes.tsx"
 Cohesion: 0.04
@@ -1273,7 +1320,7 @@ Nodes (49): AdminPentacamLinking, AdminSheetCopies, AutorefsDashboard, ClinicalP
 
 ### Community 54 - "create"
 Cohesion: 0.06
-Nodes (36): args(), array(), click(), create(), createConnection(), dblclick(), deepPartial(), double_click() (+28 more)
+Nodes (40): args(), array(), bundle(), click(), content(), create(), createConnection(), dblclick() (+32 more)
 
 ### Community 55 - "3.1.1/skills/impeccable/scripts/live-browser.js"
 Cohesion: 0.11
@@ -1292,8 +1339,8 @@ Cohesion: 0.05
 Nodes (40): 1. Navigation Structure, 2. Information Architecture, 3. Metrics Placement, 4. Navigation Item Details, 5. Layout Responsiveness, 6. User Experience Improvements, Accessibility Improvements, After (+32 more)
 
 ### Community 59 - "accounting-routes.tsx"
-Cohesion: 0.10
-Nodes (20): AccountingAdvances, AccountingCashbook, AccountingDrSaadany, AccountingHome, AccountingHomeFund, AccountingInstapay, AccountingLedger, AccountingLoans (+12 more)
+Cohesion: 0.06
+Nodes (34): cachePermissions(), normalizePath(), ProtectedRoute(), readCachedPermissions(), isActive(), MarketingLayout(), MarketingLayoutProps, navItems (+26 more)
 
 ### Community 60 - ".agents/skills/impeccable/scripts/live-accept.mjs"
 Cohesion: 0.10
@@ -1329,19 +1376,19 @@ Nodes (39): mysql_core_1, mysql_core_2, appNotifications_1, buildMssqlBackfillOb
 
 ### Community 68 - "public/App.tsx"
 Cohesion: 0.05
-Nodes (35): AdminApiTools, AdminDoctors, AdminMigrations, AdminPermissions, AdminSettings, AdminSheetDesigner, AdminSheets, AdminStatus (+27 more)
+Nodes (34): AdminApiTools, AdminDoctors, AdminMigrations, AdminPermissions, AdminSettings, AdminSheetDesigner, AdminSheets, AdminStatus (+26 more)
 
 ### Community 69 - "main.tsx"
-Cohesion: 0.07
-Nodes (28): AppShellSkeleton(), isItemActive(), navigationSections, isItemActive(), navigationSections, StockroomCategory, StockroomDashboard, StockroomReports (+20 more)
+Cohesion: 0.14
+Nodes (14): installHardReloadBlocker(), App, attemptNativeFetch(), browserFetch, clearStoredSession(), getTrpcErrorMeta(), headersToObject(), nativeAwareFetch() (+6 more)
 
 ### Community 70 - "ThemeContext.tsx"
 Cohesion: 0.11
 Nodes (32): getLoginUrl(), applyDocumentTheme(), canUseStorage(), EffectiveTheme, ensureThemeColorMeta(), isNativeApp(), loadStoredPref(), savePref() (+24 more)
 
 ### Community 71 - "ZK4370Client"
-Cohesion: 0.13
-Nodes (15): main(), port, buildUserPacket72(), calcChecksum(), decodeZKTime(), makePacket(), parseAttendance24(), parseAttendance40() (+7 more)
+Cohesion: 0.10
+Nodes (20): ip(), main(), port, calcChecksum(), main(), makeUdpPacket(), port, buildUserPacket72() (+12 more)
 
 ### Community 72 - "Browser"
 Cohesion: 0.05
@@ -1408,8 +1455,8 @@ Cohesion: 0.06
 Nodes (27): After This File, Codex: Visual Direction & Asset Production, Four stop points before code, Step A: Explore Directions with the User, Step B: Generate the Brand Palette First, Step C: Generate 1-3 Visual Mocks Against the Palette, Step D: Approval Loop, Step E: Mock Fidelity Inventory (+19 more)
 
 ### Community 88 - "MobileAppEnhancements.tsx"
-Cohesion: 0.11
-Nodes (27): AppNotificationItem, AppNotificationsBridge(), buildPushRegistrationFingerprint(), canCurrentUserSeeNotification(), clearPushRegistrationFingerprint(), getOrCreatePushDeviceId(), isNewerVersion(), loadPushRegistrationFingerprint() (+19 more)
+Cohesion: 0.12
+Nodes (25): AppNotificationItem, AppNotificationsBridge(), buildPushRegistrationFingerprint(), canCurrentUserSeeNotification(), clearPushRegistrationFingerprint(), getOrCreatePushDeviceId(), isNewerVersion(), loadPushRegistrationFingerprint() (+17 more)
 
 ### Community 89 - "nsis"
 Cohesion: 0.05
@@ -1423,9 +1470,9 @@ Nodes (29): Accounting → `features/accounting/`, Admin → `features/admin/`, 
 Cohesion: 0.05
 Nodes (39): scripts, android:build-release, build, build:server:watch, build:watch, check, check:encoding, create-user (+31 more)
 
-### Community 92 - "portal-ui.tsx"
-Cohesion: 0.05
-Nodes (60): DoctorPatientImages(), EyeCard(), formatScanDate(), GENDER_LABEL, mimeIcon(), PrescriptionCard(), RefractionRecord(), SERVICE_LABEL (+52 more)
+### Community 92 - "DoctorDashboard.tsx"
+Cohesion: 0.23
+Nodes (8): DoctorDashboard(), formatDate(), GENDER_AR, matchesSearch(), PatientRow(), showBrowserNotification(), DoctorLayout(), NAV
 
 ### Community 93 - "handleClick"
 Cohesion: 0.14
@@ -1440,8 +1487,8 @@ Cohesion: 0.07
 Nodes (29): 1. Explicit Negation in Rules, 2. Entry in Rationalization Table, 3. Red Flag Entry, 4. Update description, Common Mistakes (Same as TDD), Example: TDD Skill Bulletproofing, GREEN Phase: Write Minimal Skill (Make It Pass), Initial Test (Failed) (+21 more)
 
 ### Community 96 - "kf.test.ts"
-Cohesion: 0.16
-Nodes (20): kfPatients, AppRouter, LEAVE_1, LEAVE_2, resetAttendanceTables(), seedTestEmployee(), makeCallerAs(), seedEmployee() (+12 more)
+Cohesion: 0.07
+Nodes (39): kfExaminations, kfFollowups, kfOperations, kfPatients, kfVisits, AuthenticatedUser, CookieCall, DoctorSession (+31 more)
 
 ### Community 97 - "mappers.ts"
 Cohesion: 0.13
@@ -1479,13 +1526,13 @@ Nodes (28): 10. Data, Charts, Tables, 11. Template-Following, 12. Author JSX, 13
 Cohesion: 0.13
 Nodes (22): getLegacyLiveServerPath(), getLegacyLiveSessionsDir(), readLiveServerInfo(), completeCli(), completeThroughServer(), parseArgs(), readServerInfo(), parseArgs() (+14 more)
 
-### Community 106 - "AdminPortalBookings.tsx"
-Cohesion: 0.10
-Nodes (21): AddStaffBookingForm(), AdminPortalBookings(), BOOKING_TYPES, BookingCard(), BookingRow, BookingStatus, BookingType, CLOSURE_TYPES (+13 more)
+### Community 106 - "fkDeviceSyncService.ts"
+Cohesion: 0.11
+Nodes (17): main(), main(), ATTENDANCE_ENABLED, BIZ_INTERVAL_MS, BUSINESS_HOURS_END, BUSINESS_HOURS_START, getCurrentIntervalMs(), isBusinessHours() (+9 more)
 
-### Community 107 - "LasikRevenue.tsx"
-Cohesion: 0.03
-Nodes (119): formatCountAr(), formatDateAr(), formatMoneyAr(), toArabicDigits(), AccountingHome(), formatTime(), AccountingPatientsInquiry(), AccountingTrpc (+111 more)
+### Community 107 - "commissionPoolsMssql.service.ts"
+Cohesion: 0.12
+Nodes (28): CommissionCalculationMode, CommissionIncludedService, computeMarkazAutoPools(), computeMarkazEffectivePools(), EXAM_CONSULTANT_CODES, EXAM_SPECIALIST_CODES, getMarkazManualPoolOverrides(), getPriceOverrides() (+20 more)
 
 ### Community 108 - "3.1.1/skills/impeccable/scripts/live-session-store.mjs"
 Cohesion: 0.13
@@ -1529,11 +1576,11 @@ Nodes (25): 1. Initialize Analysis Context, 2. Load Artifacts (Progressive Discl
 
 ### Community 118 - "SELRS Frontend Architecture & Component Guide"
 Cohesion: 0.05
-Nodes (36): Browser DevTools Integration, Build Process, Build Process, Building for Production, Bundle Splitting, Caching, Capacitor Integration, 📝 Common Patterns (+28 more)
+Nodes (37): Browser DevTools Integration, Build Process, Build Process, Building for Production, Capacitor Integration, 📝 Common Patterns, CSS Files, Data Fetching (+29 more)
 
 ### Community 119 - "devDependencies"
-Cohesion: 0.03
-Nodes (59): add, autoprefixer, @capacitor/cli, cross-env, drizzle-kit, esbuild, devDependencies, add (+51 more)
+Cohesion: 0.06
+Nodes (33): add, autoprefixer, esbuild, devDependencies, add, autoprefixer, esbuild, @playwright/test (+25 more)
 
 ### Community 120 - "ApkUpdaterPlugin"
 Cohesion: 0.13
@@ -1567,9 +1614,9 @@ Nodes (23): AddForm, arabicDigits(), compactStaffName(), dateRange(), DAYS_AR, D
 Cohesion: 0.07
 Nodes (26): 1. **Client: Web Push Implementation**, 2. **Server: Web Push Support**, Changes Made, `client/public/sw.js` (NEW), `client/src/App.tsx` (CLEANED UP), `client/src/components/WebAppEnhancements.tsx` (UPDATED), `client/src/lib/pushNotifications.ts` (REWRITTEN), Compatibility (+18 more)
 
-### Community 128 - "3.1.1/skills/impeccable/reference/typeset.md"
-Cohesion: 0.08
-Nodes (22): Amplify the Design, Assess Current State, Color Intensification, Composition Boldness, Motion & Animation, Plan Amplification, Register, Spatial Drama (+14 more)
+### Community 128 - "updateBarContent"
+Cohesion: 0.18
+Nodes (21): actionLabel(), buildConfigureRow(), buildConfirmedRow(), buildCyclingRow(), buildDots(), buildGeneratingRow(), buildSavingRow(), connectSSE() (+13 more)
 
 ### Community 129 - "llm.ts"
 Cohesion: 0.10
@@ -1607,13 +1654,13 @@ Nodes (22): Extract Flow, Step 1: Discover the Design System, Step 2: Identify P
 Cohesion: 0.08
 Nodes (23): append-arrays, append-string, Cleanup, Consent prompt template, CSP detection (first-time only), Drift-heal warning, Exit, First-time setup (config missing or invalid) (+15 more)
 
-### Community 138 - "PayrollReport.tsx"
-Cohesion: 0.10
-Nodes (22): DEFAULT_FROM, fmt(), isoMonth(), MONTHS, now, PayrollReport(), pct(), Section (+14 more)
+### Community 138 - "ShiftPayroll.tsx"
+Cohesion: 0.22
+Nodes (7): AttendedEditableCell(), DEFAULT_TO, fmt(), MONTHS, MONTHS_AR, now, ShiftPayroll()
 
-### Community 139 - "updateBarContent"
-Cohesion: 0.18
-Nodes (21): actionLabel(), buildConfigureRow(), buildConfirmedRow(), buildCyclingRow(), buildDots(), buildGeneratingRow(), buildSavingRow(), connectSSE() (+13 more)
+### Community 139 - "PatientLayout.tsx"
+Cohesion: 0.20
+Nodes (12): PatientPortalRoute(), PatientBookings(), STATUS_META, NAV, PatientLayout(), subscribePush(), VAPID_KEY, formatArabicDateTime() (+4 more)
 
 ### Community 140 - "3.1.1/skills/impeccable/SKILL.md"
 Cohesion: 0.08
@@ -1737,7 +1784,7 @@ Nodes (20): "Connection refused" or "ECONNREFUSED", "Connection timeout", "Devic
 
 ### Community 170 - "🎯 Key Pages"
 Cohesion: 0.07
-Nodes (30): **Appointments** (`Appointments.tsx`), Appointments & Scheduling, **ConsultantSheet** (`ConsultantSheet.tsx`), **Dashboard** (`Dashboard.tsx`), Dashboard Pages, Diagnostics & Testing, **ExaminationForm** (`ExaminationForm.tsx`) - Largest file (123KB), **ExternalOperationSheet** (`ExternalOperationSheet.tsx`) (+22 more)
+Nodes (27): **Appointments** (`Appointments.tsx`), Appointments & Scheduling, **ConsultantFollowupPage** (`ConsultantFollowupPage.tsx`), **Dashboard** (`Dashboard.tsx`), Dashboard Pages, Diagnostics & Testing, **ForcePasswordChange** (`ForcePasswordChange.tsx`), **Home** (`Home.tsx`) (+19 more)
 
 ### Community 171 - "Original Taraus Schema & Pre-built Queries"
 Cohesion: 0.09
@@ -1796,8 +1843,8 @@ Cohesion: 0.23
 Nodes (16): parseLocalDateOnly(), validateAge(), validateAppointmentData(), validateDate(), validateDateOfBirth(), validateEmail(), validateMedicalReportData(), validateNumberField() (+8 more)
 
 ### Community 185 - "misc-routes.tsx"
-Cohesion: 0.07
-Nodes (31): PatientPortalRoute(), decodeJwtPayload(), PatientAuthState, usePatientAuth(), ClinicsHubShell, ComponentsGallery, ComponentShowcase, DoctorDashboard (+23 more)
+Cohesion: 0.06
+Nodes (32): DoctorPortalRoute(), DoctorLogin(), decodeJwtPayload(), DoctorAuthState, useDoctorAuth(), ClinicsHubShell, ComponentsGallery, ComponentShowcase (+24 more)
 
 ### Community 186 - "Polish Systematically"
 Cohesion: 0.10
@@ -1828,8 +1875,8 @@ Cohesion: 0.11
 Nodes (19): 🏥 KF Branch Module (`client/src/features/kf/`), **KfAccounting** — KF branch accounting summary, **KfConsultantFollowupSheet** — KF consultant follow-up sheet, **KfConsultantSheet** — KF consultant examination sheet, **KfDailyRevenue** — KF daily revenue report, **KfExaminationForm** — KF eye examination form, **KfFollowupForm** — KF follow-up form, **KfFollowups** — list of KF follow-up visits (+11 more)
 
 ### Community 193 - "SELRS — Pages Design Reference"
-Cohesion: 0.08
-Nodes (23): `/clinics-hub/*`, Clinics Hub / Services Hub / Patients Hub, Core / Auth, `/dashboard`, Design Patterns (applies to all pages), `/doctor/patient/:id`, `/doctor-portal/dashboard`, `/doctor-portal/login` (+15 more)
+Cohesion: 0.11
+Nodes (18): `/clinics-hub/*`, Clinics Hub / Services Hub / Patients Hub, Design Patterns (applies to all pages), `/doctor/patient/:id`, `/doctor-portal/dashboard`, `/doctor-portal/login`, `/doctor-portal/patient/:patientCode`, Doctor Portal (separate login) (+10 more)
 
 ### Community 194 - "create_presentation_workspace.js"
 Cohesion: 0.18
@@ -1851,9 +1898,9 @@ Nodes (19): 1. Set Up System (First Time), 2. Import Attendance Data, 3. Calcula
 Cohesion: 0.11
 Nodes (18): Appropriate to Context, Assess Delight Opportunities, Celebration Moments, Compound Over Time, Delight Amplifies, Never Blocks, Delight Principles, Delight Techniques, Easter Eggs & Hidden Delights (+10 more)
 
-### Community 199 - "Operations.tsx"
-Cohesion: 0.21
-Nodes (13): HISTORY_GROUPS_SAADANY, HistoryItem(), OperationBooking, OperationsHistoryDrawer(), OperationsHistoryDrawerProps, OperationsTabs(), OperationsTabsProps, formatDayDate() (+5 more)
+### Community 199 - "OperationsHistoryDrawer.tsx"
+Cohesion: 0.22
+Nodes (9): HISTORY_GROUPS_SAADANY, HistoryItem(), OperationBooking, OperationsHistoryDrawer(), OperationsHistoryDrawerProps, formatDayDate(), OPERATION_LABELS, TAB_OTHERS (+1 more)
 
 ### Community 200 - "ZKTeco Device Connection Test Results"
 Cohesion: 0.11
@@ -1920,16 +1967,16 @@ Cohesion: 0.21
 Nodes (17): appendOriginToDirective(), buildTagBlock(), commentClose(), commentOpen(), CONFIG_PATH, __dirname, findCspMetaTags(), getAttr() (+9 more)
 
 ### Community 216 - "WebAppEnhancements.tsx"
-Cohesion: 0.20
-Nodes (16): AppNotificationItem, AppNotificationPanel(), AppNotificationsBridge(), canCurrentUserSeeNotification(), fireBrowserNotification(), getBrowserNotificationPermission(), isBrowserNotificationSupported(), requestBrowserNotificationPermission() (+8 more)
+Cohesion: 0.21
+Nodes (15): AppNotificationItem, AppNotificationPanel(), AppNotificationsBridge(), canCurrentUserSeeNotification(), fireBrowserNotification(), getBrowserNotificationPermission(), isBrowserNotificationSupported(), requestBrowserNotificationPermission() (+7 more)
 
 ### Community 217 - "Examination Sheets"
 Cohesion: 0.12
 Nodes (17): Examination Sheets, `/pentacam`, `/refraction` / `/refraction/:id`, `/sheets/autorefs/dashboard`, `/sheets/consultant/:id`, `/sheets/consultant/:id/followup`, `/sheets/external/:id`, `/sheets/lasik/:id` (+9 more)
 
-### Community 218 - "loadXlsx"
-Cohesion: 0.16
-Nodes (12): ImportPreviewRow, usePatientsActions(), loadXlsx(), MedicationsManagement(), medicationTypeLabel(), REGISTRY_TAB_VALUES, tabFromSearch(), testTypeLabel() (+4 more)
+### Community 218 - "src/hooks/useAuth.ts"
+Cohesion: 0.02
+Nodes (185): MedicalFilePanelProps, mockAfterRefraction, mockDiseases, mockExaminations, mockFundus, mockGlasses, mockMeasurements, mockMedications (+177 more)
 
 ### Community 219 - "cursor_commands.md — SRV100 Accounting Phase 1"
 Cohesion: 0.12
@@ -1943,13 +1990,13 @@ Nodes (16): 10. Add dashboard shortcut (optional), 1. Plan the permission model 
 Cohesion: 0.12
 Nodes (16): Adding a New Procedure to an Existing Router, Change Type Playbooks, Changing a Drizzle Schema Column, Changing a Frontend Page or Component, Changing a Route Path, Changing a Shared Type in `shared/`, Changing a tRPC Procedure, Changing Access Control / Permissions (+8 more)
 
-### Community 222 - "routers/medical-reference.ts"
-Cohesion: 0.21
-Nodes (11): operationListItems, operationLists, buildCriterion(), criterionSchema, EXTERNAL_PATIENT_SERVICE_TYPES, eyeCondition(), eyeSchema, medicalReferenceRoutes (+3 more)
+### Community 222 - "getSystemSetting"
+Cohesion: 0.07
+Nodes (40): operationListItems, operationLists, asBool(), getRuntimeConfig(), startMssqlSyncScheduler(), SyncRuntimeConfig, toNumber(), getLastSentDate() (+32 more)
 
 ### Community 223 - "ZKTecoDevice"
-Cohesion: 0.30
-Nodes (3): main(), testZKTecoConnection(), ZKTecoDevice
+Cohesion: 0.22
+Nodes (6): main(), DeviceConfig, DeviceInfo, PunchRecord, testZKTecoConnection(), ZKTecoDevice
 
 ### Community 224 - "3.1.1/skills/impeccable/reference/animate.md"
 Cohesion: 0.11
@@ -2019,9 +2066,9 @@ Nodes (17): buildAppMenu(), ALLOWED_PERMISSIONS, { app, BrowserWindow, shell, se
 Cohesion: 0.12
 Nodes (16): 10. Resolved Decisions, 1. Feature Summary, 2. Primary User Action, 3. Design Direction, 4. Scope, 5. Layout Strategy, 6. Key States, 7. Interaction Model (+8 more)
 
-### Community 241 - "useOperations.ts"
-Cohesion: 0.25
-Nodes (15): formatTime12h(), sanitizePayment(), toHindi(), ViewMode, OperationsState, useOperations(), OperationsActions, useOperationsActions() (+7 more)
+### Community 241 - "operationsShared.ts"
+Cohesion: 0.18
+Nodes (23): AccountsAdjustmentInputs, AccountsAdjustments, arabicWeekdays, arabicWeekdaysByIndex, formatTime12h(), getWeekdayIndex(), sanitizePayment(), shiftDateToWeekday() (+15 more)
 
 ### Community 242 - "MedicalReference.tsx"
 Cohesion: 0.15
@@ -2131,9 +2178,9 @@ Nodes (28): Accessibility (Standard), Alerts / Callouts, Anti-Patterns (Absolute
 Cohesion: 0.14
 Nodes (14): **AdminApiTools** (`AdminApiTools.tsx`), **AdminDoctors** (`AdminDoctors.tsx`), Administration, **AdminMigrations** (`AdminMigrations.tsx`), **AdminPatients** (`AdminPatients.tsx`), **AdminPentacamFailed** (`AdminPentacamFailed.tsx`), **AdminPermissions** (`AdminPermissions.tsx`), **AdminServices** (`AdminServices.tsx`) (+6 more)
 
-### Community 269 - "package.json"
-Cohesion: 0.11
-Nodes (17): license, name, tailwindcss>nanoid, packageManager, @capacitor/camera@8.2.0, @capacitor/filesystem@8.1.2, @capacitor/geolocation@8.2.0, pnpm (+9 more)
+### Community 269 - "onlyBuiltDependencies"
+Cohesion: 0.17
+Nodes (12): tailwindcss>nanoid, @capacitor/camera@8.2.0, @capacitor/filesystem@8.1.2, @capacitor/geolocation@8.2.0, pnpm, onlyBuiltDependencies, overrides, patchedDependencies (+4 more)
 
 ### Community 270 - "Post-Deployment Verification (Manual Smoke Tests)"
 Cohesion: 0.14
@@ -2199,9 +2246,9 @@ Nodes (15): Accessibility Considerations, Anti-reflexes worth defending against,
 Cohesion: 0.21
 Nodes (13): CRITIQUE_DIR, firstExisting(), getImpeccableDir(), getLegacyLiveConfigPath(), getLiveAnnotationsDir(), getLiveConfigPath(), getLiveDir(), getLiveServerPath() (+5 more)
 
-### Community 287 - "Profile"
-Cohesion: 0.43
-Nodes (5): canSwitchServer(), openServerSwitcher(), ServerSwitcher, ServerSwitcherPlugin, Profile()
+### Community 287 - "nativeServerSwitcher.ts"
+Cohesion: 0.47
+Nodes (4): canSwitchServer(), openServerSwitcher(), ServerSwitcher, ServerSwitcherPlugin
 
 ### Community 288 - "Core Principles"
 Cohesion: 0.15
@@ -2287,9 +2334,9 @@ Nodes (15): Dependencies & Execution Order, Final Phase: Verification & Cleanup,
 Cohesion: 0.14
 Nodes (12): caveman-help, Example output, How to invoke, See also, What it does, Caveman Help, Configure Default Mode, Deactivate (+4 more)
 
-### Community 310 - "OperationTotals.tsx"
-Cohesion: 0.36
-Nodes (6): OperationsSettlementRail(), OperationsSettlementRailProps, OperationTotals(), OperationTotalsProps, ListData, SavedSummary
+### Community 310 - "operationTypeLabel"
+Cohesion: 0.24
+Nodes (10): OperationsSettlementRail(), OperationsSettlementRailProps, OperationsTable(), OperationsTableProps, OperationTotals(), OperationTotalsProps, ListData, SavedSummary (+2 more)
 
 ### Community 311 - "Handle `generate`"
 Cohesion: 0.14
@@ -2359,9 +2406,9 @@ Nodes (3): Program, Program, Program
 Cohesion: 0.15
 Nodes (11): cavecrew, Example chaining, How to invoke, See also, What it does, Auto-clarity (inherited), Chaining patterns, Output contracts (+3 more)
 
-### Community 330 - "operationsShared.ts"
-Cohesion: 0.29
-Nodes (10): OperationDialog(), OperationDialogProps, AccountsAdjustmentInputs, AccountsAdjustments, arabicWeekdays, arabicWeekdaysByIndex, formatDayDateLong(), getWeekdayIndex() (+2 more)
+### Community 330 - "attendance-routes.tsx"
+Cohesion: 0.13
+Nodes (14): AttendanceLayout(), isItemActive(), AttendanceDeviceConsole, AttendanceDeviceSettings, AttendanceEmployeeDetail, AttendanceEmployeesHub, AttendanceHome, AttendanceLive (+6 more)
 
 ### Community 331 - "Attendance Module"
 Cohesion: 0.18
@@ -2483,9 +2530,9 @@ Nodes (10): `/salary`, `/salary/absent-report`, `/salary/current-data`, Salary M
 Cohesion: 0.21
 Nodes (8): isItemActive(), isSectionActive(), MetricCard, ModuleHeaderProps, ModuleNavigation(), ModuleNavigationProps, NavigationItem, NavigationSection
 
-### Community 361 - "Admin Sub-module (`attendance/admin/`)"
-Cohesion: 0.29
-Nodes (7): Admin Sub-module (`attendance/admin/`), **AdminDashboard** (`admin/AdminDashboard.tsx`), **BatchCorrections** (`admin/BatchCorrections.tsx`), **DeviceConsole** (`admin/DeviceConsole.tsx`), **DeviceSettings** (`admin/DeviceSettings.tsx`), **EmpSync** (`admin/EmpSync.tsx`), **SyncStatus** (`admin/SyncStatus.tsx`)
+### Community 361 - "Medical Forms/Sheets"
+Cohesion: 0.22
+Nodes (9): **ConsultantSheet** (`ConsultantSheet.tsx`), **ExaminationForm** (`ExaminationForm.tsx`) - Largest file (123KB), **ExternalOperationSheet** (`ExternalOperationSheet.tsx`), **LasikExamSheet** (`LasikExamSheet.tsx`), **LasikFollowupPage** (`LasikFollowupPage.tsx`), Medical Forms/Sheets, **OperationSheet** (`OperationSheet.tsx`), **PentacamSheet** (`PentacamSheet.tsx`) (+1 more)
 
 ### Community 362 - "Shape: Quick Patient Entry"
 Cohesion: 0.20
@@ -2499,9 +2546,9 @@ Nodes (9): 1. Purpose & Core Job, 2. Existing UI Analysis, 3. Identified UX Issu
 Cohesion: 0.20
 Nodes (9): Database, Desktop App, Key Config Files, Main Commands, Modules, Permission System, Run, SELRS (+1 more)
 
-### Community 365 - "AdminPermissions"
-Cohesion: 0.19
-Nodes (11): ACCESS_LEVEL_COPY, AccessLevelCopy, getAccessLevelCopy(), getWriteAccessColumns(), PermissionAccessLevel, AdminPermissions(), getLevel(), normalizePermissionsSignature() (+3 more)
+### Community 365 - "Brand register"
+Cohesion: 0.14
+Nodes (14): Brand bans (on top of the shared absolute bans), Brand permissions, Brand register, Color, Font selection procedure, Imagery, Layout, Motion (+6 more)
 
 ### Community 366 - "CurrentSalaryData.tsx"
 Cohesion: 0.21
@@ -2579,9 +2626,9 @@ Nodes (10): envSchema, parsed, zod_1, buildEndpointUrl(), env_1, isNonEmptyStrin
 Cohesion: 0.23
 Nodes (4): main(), DevicePushListener, getDevicePushListener(), PunchPushEvent
 
-### Community 385 - "AbsentReport.tsx"
-Cohesion: 0.40
-Nodes (4): AbsentReport(), DEFAULT_TO, fmtAr(), now
+### Community 385 - "DoctorPatientImages.tsx"
+Cohesion: 0.24
+Nodes (10): DoctorPatientImages(), EyeCard(), formatScanDate(), GENDER_LABEL, mimeIcon(), PrescriptionCard(), RefractionRecord(), SERVICE_LABEL (+2 more)
 
 ### Community 386 - "Shape: Accounting Page"
 Cohesion: 0.22
@@ -2632,16 +2679,16 @@ Cohesion: 0.25
 Nodes (9): __dirname, findHarnessDirs(), generatePinnedSkill(), HARNESS_DIRS, loadCommandMetadata(), pin(), root, unpin() (+1 more)
 
 ### Community 398 - "operationWhatsApp.service.ts"
-Cohesion: 0.23
-Nodes (13): cleanDoctorName(), internationalEgyptianPhone(), operationBranchName(), operationDate(), operationMapLocation(), operationTime(), OperationWhatsAppRequest, sendOperationListWhatsApp() (+5 more)
+Cohesion: 0.22
+Nodes (14): cleanDoctorName(), internationalEgyptianPhone(), operationBranchName(), operationDate(), operationMapLocation(), operationTime(), OperationWhatsAppRequest, sendOperationListWhatsApp() (+6 more)
 
 ### Community 399 - "useMedicalSheets.ts"
 Cohesion: 0.18
 Nodes (5): ConsultantSheetData, ExternalOperationSheetData, LasikExamSheetData, OperationSheetData, SpecialistSheetData
 
-### Community 400 - "ip"
-Cohesion: 0.47
-Nodes (5): ip(), calcChecksum(), main(), makeUdpPacket(), port
+### Community 400 - "form.tsx"
+Cohesion: 0.25
+Nodes (9): FormControl(), FormDescription(), FormFieldContext, FormFieldContextValue, FormItemContext, FormItemContextValue, FormLabel(), FormMessage() (+1 more)
 
 ### Community 401 - "dashboardLocalState.ts"
 Cohesion: 0.29
@@ -2651,9 +2698,9 @@ Nodes (10): CardUsageMap, getCardUsage(), getPanelState(), getRecentPatients(), 
 Cohesion: 0.22
 Nodes (8): Accessibility & Inclusion, Anti-references, Brand Personality, Design Principles, Product, Product Purpose, Register, Users
 
-### Community 403 - "OperationsBookingInlinePanel.tsx"
-Cohesion: 0.50
-Nodes (4): OperationsBookingInlinePanel(), OperationsBookingInlinePanelProps, defaultOperationsBookingDraft(), OperationsBookingDraft
+### Community 403 - "PatientBook.tsx"
+Cohesion: 0.24
+Nodes (10): ARABIC_CALENDAR_FORMATTERS, Branch, BRANCHES, dateToIso(), isConsultantTantaDay(), isoToDate(), MOBILE_SAFE_CALENDAR_CLASS_NAMES, PatientBook() (+2 more)
 
 ### Community 404 - "📱 Frontend Applications"
 Cohesion: 0.22
@@ -2807,9 +2854,9 @@ Nodes (10): Deliverables, Golden path, Include comments (optional), Mask common 
 Cohesion: 0.18
 Nodes (10): Artifact Tool Presentation JSX Reference, Charts And Tables, Compose Helpers, Images, Layout Rules, Minimal Module, Output Hygiene, Root Layout (+2 more)
 
-### Community 442 - "we"
-Cohesion: 0.05
-Nodes (64): addEventProcessor(), addIntegration(), ay(), bi(), Bo(), br(), ce(), cy() (+56 more)
+### Community 442 - "warn"
+Cohesion: 0.04
+Nodes (74): addEventProcessor(), addIntegration(), ai(), ay(), br(), cB(), ce(), cy() (+66 more)
 
 ### Community 443 - "manusTypes.ts"
 Cohesion: 0.18
@@ -3067,9 +3114,9 @@ Nodes (8): graphify reference: extra exports and benchmark, Step 6b - Wiki (only
 Cohesion: 0.22
 Nodes (8): Branch Numbering Mode, Create Feature Branch, Environment Variable Override, Execution, Graceful Degradation, Output, Prerequisites, User Input
 
-### Community 508 - "Phase 1 — Data Model: SRV100 Attendance Module"
-Cohesion: 0.25
-Nodes (7): Constitution alignment, Conventions, Entity-Relationship Overview, Migration plan, Open issues, Phase 1 — Data Model: SRV100 Attendance Module, Retention
+### Community 508 - "portal-ui.tsx"
+Cohesion: 0.24
+Nodes (5): PatientDashboard(), DAY_NAMES, PortalMetric(), PortalPanel(), PortalShell()
 
 ### Community 509 - "ShiftStaff.tsx"
 Cohesion: 0.25
@@ -3155,9 +3202,9 @@ Nodes (6): Allowed Bridge, Database Separation Rules, Forbidden Operations, MSSQ
 Cohesion: 0.33
 Nodes (6): Important Routes/Services/Components, Main Tables, MySQL Workflow, Typical Flow, What Is Allowed, What Is Forbidden
 
-### Community 531 - "ErrorBoundary.tsx"
-Cohesion: 0.29
-Nodes (3): ErrorBoundary, Props, State
+### Community 531 - "PatientGuestBook.tsx"
+Cohesion: 0.24
+Nodes (10): ARABIC_CALENDAR_FORMATTERS, Branch, BRANCHES, dateToIso(), isConsultantTantaDay(), isoToDate(), MOBILE_SAFE_CALENDAR_CLASS_NAMES, PatientGuestBook() (+2 more)
 
 ### Community 532 - "Appointments"
 Cohesion: 0.33
@@ -3171,9 +3218,9 @@ Nodes (6): `createOperationList` (Mutation, Doctor), `createPostOpFollowup` (Mut
 Cohesion: 0.33
 Nodes (6): `createTest` (Mutation, Admin), `createTestRequest` (Mutation, Doctor), `deleteTest` (Mutation, Admin), `getTestFavorites` (Query, Protected), `getTestRequests` (Query, Protected), Tests & Diagnostics
 
-### Community 535 - "opTypes.ts"
-Cohesion: 0.24
-Nodes (9): OperationsTable(), OperationsTableProps, isLensOperationType(), OP_TYPE_ALIASES, OP_TYPE_LABELS_AR, OP_TYPES, operationTypeLabelAr(), OpType (+1 more)
+### Community 535 - "formatArabicDate"
+Cohesion: 0.33
+Nodes (9): PatientPrescription(), PrescriptionCard(), valueText(), EyeCard(), PatientRefraction(), RefractionRecord(), v(), formatArabicDate() (+1 more)
 
 ### Community 536 - "attendance/types.ts"
 Cohesion: 0.22
@@ -3311,9 +3358,9 @@ Nodes (7): For AI Generation, Outline, Pre-Execution Checks, Quick Guidelines, S
 Cohesion: 0.25
 Nodes (7): Checklist Format (REQUIRED), Outline, Phase Structure, Pre-Execution Checks, Task Generation Rules, Task Organization, User Input
 
-### Community 571 - "commissionPoolsMssql.service.ts"
-Cohesion: 0.12
-Nodes (28): CommissionCalculationMode, CommissionIncludedService, computeMarkazAutoPools(), computeMarkazEffectivePools(), EXAM_CONSULTANT_CODES, EXAM_SPECIALIST_CODES, getMarkazManualPoolOverrides(), getPriceOverrides() (+20 more)
+### Community 571 - "payrollCompute.service.ts"
+Cohesion: 0.06
+Nodes (57): tiers, AttendanceMonthlyReport, attendanceOvertimeDays, salaryAdvances, salaryBasics, salaryCommissionPools, salaryConfig, salaryEmployeeSectionSettings (+49 more)
 
 ### Community 572 - "printLayout.ts"
 Cohesion: 0.29
@@ -3363,9 +3410,9 @@ Nodes (4): Build, Run, SELRS Desktop (WebView2), تغيير الرابط
 Cohesion: 0.50
 Nodes (7): apply(), _ensure_override(), _has(), main(), _Element, ZipFile, _read()
 
-### Community 584 - "📦 Stockroom Module (`client/src/features/stockroom/`)"
-Cohesion: 0.40
-Nodes (5): 📦 Stockroom Module (`client/src/features/stockroom/`), **StockroomCategory** — manage item categories; add/edit/delete, **StockroomDashboard** — inventory overview: low-stock alerts, total items, **StockroomReports** — stock movement and valuation reports, **StockroomShell** — layout/nav
+### Community 584 - "captureElementToBlob"
+Cohesion: 0.20
+Nodes (10): bufferToBase64(), captureAndEmit(), captureElementToBlob(), collectFontCssText(), compileShader(), inlineFontUrls(), isTransparentColor(), loadModernScreenshot() (+2 more)
 
 ### Community 585 - "insert_toc.py"
 Cohesion: 0.36
@@ -3470,10 +3517,6 @@ Nodes (6): Core Rule, Impeccable Asset Producer, Input Contract, Output Contract
 ### Community 610 - "readyPrescriptionTemplates.ts"
 Cohesion: 0.33
 Nodes (5): ReadyPrescriptionTemplate, ReadyPrescriptionTemplateItem, ExportRow, main(), toRows()
-
-### Community 611 - "captureElementToBlob"
-Cohesion: 0.20
-Nodes (10): bufferToBase64(), captureAndEmit(), captureElementToBlob(), collectFontCssText(), compileShader(), inlineFontUrls(), isTransparentColor(), loadModernScreenshot() (+2 more)
 
 ### Community 612 - "SalaryLayout.tsx"
 Cohesion: 0.38
@@ -3615,9 +3658,9 @@ Nodes (6): Formatting, Formulas, Healthcare (clinical/administrative) spreadshee
 Cohesion: 0.29
 Nodes (6): Cell formatting, Marketing/Advertising Guidance, Marketing Analysis, Metadata and sources, Raw data vs. outputs, Tab structure
 
-### Community 647 - "SalaryPenalties.tsx"
-Cohesion: 0.20
-Nodes (6): KfExamImagesPanel(), Props, toBase64(), DEFAULT_TO, now, Tab
+### Community 647 - "zk4370Sync.service.ts"
+Cohesion: 0.27
+Nodes (7): DEVICE_PORT, empCdToUid(), recordSyncRun(), sha1(), ZK4370PushResult, ZK4370SyncResult, ZK4370SyncService
 
 ### Community 648 - "shared/pentacam.ts"
 Cohesion: 0.39
@@ -3867,10 +3910,6 @@ Nodes (4): Outline, Post-Execution Checks, Pre-Execution Checks, User Input
 Cohesion: 0.40
 Nodes (4): Outline, Post-Execution Checks, Pre-Execution Checks, User Input
 
-### Community 719 - "AttendanceLayout.redesigned.tsx"
-Cohesion: 0.53
-Nodes (5): AttendanceLayout(), AttendanceLayoutProps, isItemActive(), isSectionActive(), navigationSections
-
 ### Community 720 - ".claude/skills/speckit-clarify/SKILL.md"
 Cohesion: 0.40
 Nodes (4): Outline, Post-Execution Checks, Pre-Execution Checks, User Input
@@ -3895,9 +3934,9 @@ Nodes (3): __dirname, __filename, pagesDir
 Cohesion: 0.40
 Nodes (3): colorSchemes, moduleThemes, themePresets
 
-### Community 726 - "🔐 Security Practices"
-Cohesion: 0.50
-Nodes (4): API Security, Authentication, Input Validation, 🔐 Security Practices
+### Community 726 - "input.tsx"
+Cohesion: 0.03
+Nodes (132): AdminPatientCard, AdminPatientItemProps, AdminPatientRow, AdminPatientsTable, AdminPatientsTableProps, AdminPatientsToolbar(), AdminPatientsToolbarProps, BulkActionsBar() (+124 more)
 
 ### Community 727 - "8. Advanced Patterns"
 Cohesion: 0.40
@@ -3959,9 +3998,9 @@ Nodes (4): Discoverability, Included Skills, Source And Copy Flow, Spreadsheets
 Cohesion: 0.40
 Nodes (4): Formatting, Formula practices, Scientific Research Guidance, Tab structure & naming
 
-### Community 742 - "call"
-Cohesion: 0.05
-Nodes (52): call(), cB(), _checkInitializationStatus(), _checkUserHasIdForEvaluation(), ck(), cl(), dk(), drain() (+44 more)
+### Community 742 - "gt"
+Cohesion: 0.07
+Nodes (38): ak(), ba(), Bt(), ci(), ck(), cl(), dk(), dl() (+30 more)
 
 ### Community 743 - "backfill_glassesRecords.mjs"
 Cohesion: 0.40
@@ -4148,8 +4187,8 @@ Cohesion: 0.50
 Nodes (3): __dirname, files, pagesDir
 
 ### Community 793 - "LocalPentacamExportsPanel.tsx"
-Cohesion: 0.11
-Nodes (29): AuthenticatedImage(), authenticatedImageCache, AuthenticatedImageProps, CachedImageEntry, getAuthHeaders(), guessImageMimeType(), loadAuthenticatedImage(), prefetchAuthenticatedImage() (+21 more)
+Cohesion: 0.10
+Nodes (30): AuthenticatedImage(), authenticatedImageCache, AuthenticatedImageProps, CachedImageEntry, getAuthHeaders(), guessImageMimeType(), loadAuthenticatedImage(), prefetchAuthenticatedImage() (+22 more)
 
 ### Community 794 - "autoFixAllDataIssues"
 Cohesion: 0.50
@@ -4239,17 +4278,21 @@ Nodes (3): Acceptance Criteria, Output — create 4 files, TASK-KF-09 — Fronte
 Cohesion: 0.18
 Nodes (14): main(), median(), MEDIAN_RUNS, medianMs(), RANGE, timeMs(), getLasikReceipts(), mapReceiptDetailRows() (+6 more)
 
-### Community 854 - "Other Pages"
-Cohesion: 0.33
-Nodes (6): **ConsultantFollowupPage** (`ConsultantFollowupPage.tsx`), **ForcePasswordChange** (`ForcePasswordChange.tsx`), **NotFound** (`NotFound.tsx`), Other Pages, **Profile** (`Profile.tsx`), **RefractionPage** (`RefractionPage.tsx`)
+### Community 854 - "Phase 1 — Data Model: SRV100 Attendance Module"
+Cohesion: 0.25
+Nodes (7): Constitution alignment, Conventions, Entity-Relationship Overview, Migration plan, Open issues, Phase 1 — Data Model: SRV100 Attendance Module, Retention
 
 ### Community 855 - "Prefer Statically Analyzable Paths"
 Cohesion: 0.50
 Nodes (3): File-System Paths, Import Paths, Prefer Statically Analyzable Paths
 
-### Community 856 - "👨‍⚕️ Doctor Portal (`client/src/features/doctor-portal/`)"
-Cohesion: 0.40
-Nodes (5): 👨‍⚕️ Doctor Portal (`client/src/features/doctor-portal/`), **DoctorDashboard** — doctor's patient queue and today's appointments, **DoctorLayout** — portal shell, **DoctorLogin** — doctor-specific login page, **DoctorPatientImages** — view patient scan/image files
+### Community 856 - "Admin Sub-module (`attendance/admin/`)"
+Cohesion: 0.29
+Nodes (7): Admin Sub-module (`attendance/admin/`), **AdminDashboard** (`admin/AdminDashboard.tsx`), **BatchCorrections** (`admin/BatchCorrections.tsx`), **DeviceConsole** (`admin/DeviceConsole.tsx`), **DeviceSettings** (`admin/DeviceSettings.tsx`), **EmpSync** (`admin/EmpSync.tsx`), **SyncStatus** (`admin/SyncStatus.tsx`)
+
+### Community 857 - "PatientFile.tsx"
+Cohesion: 0.33
+Nodes (4): GENDER_LABEL, PatientFile(), SERVICE_LABEL, STATUS_LABEL
 
 ### Community 862 - "Leaves & Permissions"
 Cohesion: 0.40
@@ -4259,13 +4302,37 @@ Nodes (5): **LeaveBalanceReport** (`LeaveBalanceReport.tsx`), **LeaveManagement*
 Cohesion: 0.28
 Nodes (7): AppointmentsActivity(), AppointmentsActivityProps, queueBorderColors, serviceTypeLabels, serviceTypeStyles, statusLabels, statusStyles
 
+### Community 865 - "PatientScans.tsx"
+Cohesion: 0.60
+Nodes (4): formatScanDate(), mimeIcon(), PatientScans(), PortalEmptyState()
+
+### Community 867 - "package.json"
+Cohesion: 0.33
+Nodes (5): license, name, packageManager, type, version
+
 ### Community 868 - "lasikServices.service.ts"
 Cohesion: 0.67
 Nodes (3): getLasikServices(), mapServiceRows(), LasikServicesInput
 
+### Community 871 - "Core / Auth"
+Cohesion: 0.40
+Nodes (5): Core / Auth, `/dashboard`, `/force-password-change`, `/login`, `/profile`
+
+### Community 874 - "📦 Stockroom Module (`client/src/features/stockroom/`)"
+Cohesion: 0.40
+Nodes (5): 📦 Stockroom Module (`client/src/features/stockroom/`), **StockroomCategory** — manage item categories; add/edit/delete, **StockroomDashboard** — inventory overview: low-stock alerts, total items, **StockroomReports** — stock movement and valuation reports, **StockroomShell** — layout/nav
+
+### Community 904 - "🔐 Security Practices"
+Cohesion: 0.50
+Nodes (4): API Security, Authentication, Input Validation, 🔐 Security Practices
+
+### Community 905 - "📊 Performance Optimizations"
+Cohesion: 0.50
+Nodes (4): Bundle Splitting, Caching, Lazy Loading, 📊 Performance Optimizations
+
 ### Community 919 - "mssqlPatients.ts"
-Cohesion: 0.05
-Nodes (96): runMssqlQuery(), asBool(), getRuntimeConfig(), startMssqlSyncScheduler(), SyncRuntimeConfig, toNumber(), buildEndpointUrl(), isNonEmptyString() (+88 more)
+Cohesion: 0.08
+Nodes (66): runMssqlQuery(), buildEndpointUrl(), isNonEmptyString(), NotificationPayload, notifyOwner(), trimValue(), validatePayload(), addMultiServiceReceiptInMssql() (+58 more)
 
 ### Community 938 - "voiceTranscription.ts"
 Cohesion: 0.28
@@ -4282,22 +4349,22 @@ Nodes (3): For Administrators, For Managers, How to Use
 ## Knowledge Gaps
 - **7244 isolated node(s):** `DEPRECATED_NAMES`, `HARNESS_DIRS`, `SKILL_FINGERPRINTS`, `CANONICAL_SECTIONS`, `SKIP_DIRS` (+7239 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **200 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **242 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `e()` connect `e` to `browser-client.mjs`, `server/db.ts`, `_processEvent`, `r`, `PayrollReport.tsx`, `db.js`, `parse`, `push`, `getOptions`, `_core/index.ts`, `constructor`, `parity-check.ts`, `src/App.tsx`, `Pd`, `warn`, `create`, `we`, `parity-check.js`, `shareContent`, `call`?**
+- **Why does `e()` connect `e` to `browser-client.mjs`, `parse`, `includes`, `parity-check.js`, `gt`, `server/db.ts`, `r`, `db.js`, `useAuth`, `warn`, `constructor`, `push`, `getOptions`, `shareContent`, `then`, `parity-check.ts`, `_core/index.ts`, `src/App.tsx`?**
   _High betweenness centrality (0.037) - this node is a cross-community bridge._
-- **Why does `cn()` connect `cn` to `appointments-activity.tsx`, `MedicalReports.tsx`, `PayrollReport.tsx`, `useAuth`, `ErrorBoundary.tsx`, `TestsCatalogDashboard.tsx`, `LocalPentacamExportsPanel.tsx`, `lib/trpc.ts`, `input.tsx`, `ClinicalPortal.tsx`, `OperationTotals.tsx`, `WorkflowPrototype.tsx`, `main.tsx`, `Operations.tsx`, `operationsShared.ts`, `AttendanceLayout.redesigned.tsx`, `loadXlsx`, `portal-ui.tsx`, `AppointmentsActivity.tsx`, `AdminPortalBookings.tsx`, `LasikRevenue.tsx`, `AdminPermissions`, `PatientHubHome.tsx`, `Map.tsx`?**
+- **Why does `cn()` connect `cn` to `DoctorPatientImages.tsx`, `appointments-activity.tsx`, `ShiftPayroll.tsx`, `PatientLayout.tsx`, `MedicalReports.tsx`, `form.tsx`, `AdminUsers.tsx`, `PatientsHubList.tsx`, `LocalPentacamExportsPanel.tsx`, `PentacamResultsDashboard.tsx`, `src/App.tsx`, `lib/trpc.ts`, `useAuth`, `ClinicalPortal.tsx`, `operationTypeLabel`, `WorkflowPrototype.tsx`, `input.tsx`, `src/hooks/useAuth.ts`, `DoctorDashboard.tsx`, `AppointmentsActivity.tsx`, `portal-ui.tsx`, `PatientHubHome.tsx`, `Map.tsx`?**
   _High betweenness centrality (0.033) - this node is a cross-community bridge._
-- **Why does `r()` connect `r` to `browser-client.mjs`, `constructor`, `Pd`, `warn`, `call`, `ZK4370Client`, `_processEvent`, `parse`, `e`, `push`, `TestsCatalogDashboard.tsx`, `create`, `getOptions`, `_core/index.ts`, `we`?**
+- **Why does `r()` connect `r` to `browser-client.mjs`, `parse`, `includes`, `get`, `gt`, `ZK4370Client`, `e`, `warn`, `constructor`, `push`, `input.tsx`, `create`, `getOptions`, `_core/index.ts`, `then`?**
   _High betweenness centrality (0.032) - this node is a cross-community bridge._
 - **What connects `DEPRECATED_NAMES`, `HARNESS_DIRS`, `SKILL_FINGERPRINTS` to the rest of the system?**
   _7244 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `dependencies` be split into smaller, more focused modules?**
-  _Cohesion score 0.02666666666666667 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.08695652173913043 - nodes in this community are weakly interconnected._
 - **Should `browser-client.mjs` be split into smaller, more focused modules?**
-  _Cohesion score 0.006770140428677014 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.007036577130035074 - nodes in this community are weakly interconnected._
 - **Should `cn` be split into smaller, more focused modules?**
-  _Cohesion score 0.011939151405931148 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.01208973768340523 - nodes in this community are weakly interconnected._

@@ -1,0 +1,1 @@
+import{t as e}from"./AdminPatients-B6Am-Re8.js";export{e as default};

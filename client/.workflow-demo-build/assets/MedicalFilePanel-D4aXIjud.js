@@ -1,0 +1,1 @@
+import{t as e}from"./MedicalFilePanel-FGGOA-_y.js";export{e as default};

@@ -1,0 +1,1 @@
+import{n as e}from"./data-core-u1TPZzGK.js";var t=e();export{t};

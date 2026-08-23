@@ -1,0 +1,1 @@
+var e=`عيون الشروق`,t=`Al Shrouq Eye Center`,n=`Shorouk Eyes for Lasik & Refractive Surgery`,r=`/center-logo.png`,i=`/brand-fallback.svg`,a=`/logo.png`;export{e as a,r as i,i as n,t as o,a as r,n as t};

@@ -1,0 +1,1 @@
+function e(e){return String(e??``).toLowerCase().replace(/[.\-_/\\]+/g,` `).replace(/\s+/g,` `).trim()}function t(e){let t=String(e??``).trim();if(!t)return``;let n=t.replace(/\.0+$/,``).toLowerCase();return/^\d+$/.test(n)?n.replace(/^0+/,``)||`0`:n}export{t as n,e as t};
