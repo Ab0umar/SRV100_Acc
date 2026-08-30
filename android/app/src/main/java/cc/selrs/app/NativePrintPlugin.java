@@ -1,5 +1,6 @@
 package cc.selrs.app;
 
+import android.app.Activity;
 import android.content.Context;
 import android.print.PrintAttributes;
 import android.print.PrintDocumentAdapter;
@@ -24,18 +25,29 @@ public class NativePrintPlugin extends Plugin {
             call.reject("WebView is not ready");
             return;
         }
+        Activity activity = getActivity();
+        if (activity == null) {
+            call.reject("Android activity is unavailable");
+            return;
+        }
 
         final String jobName = call.getString("jobName", "SELRS Print");
-        getActivity().runOnUiThread(() -> {
+        activity.runOnUiThread(() -> {
             try {
-                WebView webView = bridge.getWebView();
-                PrintManager printManager = (PrintManager) getContext().getSystemService(Context.PRINT_SERVICE);
+                Bridge currentBridge = getBridge();
+                Context context = getContext();
+                WebView webView = currentBridge == null ? null : currentBridge.getWebView();
+                if (context == null || webView == null) {
+                    call.reject("WebView is not ready");
+                    return;
+                }
+                PrintManager printManager = (PrintManager) context.getSystemService(Context.PRINT_SERVICE);
                 if (printManager == null) {
                     call.reject("Android print service unavailable");
                     return;
                 }
 
-                Toast.makeText(getContext(), "Native print dialog opening...", Toast.LENGTH_SHORT).show();
+                Toast.makeText(context, "Native print dialog opening...", Toast.LENGTH_SHORT).show();
                 PrintDocumentAdapter adapter = webView.createPrintDocumentAdapter(jobName);
                 PrintAttributes printAttributes = new PrintAttributes.Builder().build();
                 PrintJob printJob = printManager.print(jobName, adapter, printAttributes);

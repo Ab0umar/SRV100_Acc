@@ -10,6 +10,8 @@ import android.net.Uri;
 import android.os.Build;
 import android.provider.Settings;
 
+import androidx.core.content.ContextCompat;
+
 import com.getcapacitor.JSObject;
 import com.getcapacitor.Plugin;
 import com.getcapacitor.PluginCall;
@@ -19,7 +21,8 @@ import com.getcapacitor.annotation.CapacitorPlugin;
 @CapacitorPlugin(name = "ApkUpdater")
 public class ApkUpdaterPlugin extends Plugin {
     private BroadcastReceiver downloadReceiver;
-    private long activeDownloadId = -1;
+    private volatile long activeDownloadId = -1;
+    private Context receiverContext;
 
     @PluginMethod
     public void downloadAndInstall(PluginCall call) {
@@ -30,6 +33,10 @@ public class ApkUpdaterPlugin extends Plugin {
         }
 
         Context context = getContext();
+        if (context == null) {
+            call.reject("Android context is unavailable");
+            return;
+        }
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O
                 && !context.getPackageManager().canRequestPackageInstalls()) {
             Intent permissionIntent = new Intent(
@@ -62,14 +69,23 @@ public class ApkUpdaterPlugin extends Plugin {
                     "updates/SELRS-update-" + System.currentTimeMillis() + ".apk");
 
             activeDownloadId = downloadManager.enqueue(request);
-            registerDownloadReceiver(downloadManager);
+            if (!registerDownloadReceiver(downloadManager)) {
+                call.reject("Android context is unavailable");
+                return;
+            }
             resolveStatus(call, "downloading");
         } catch (Exception error) {
             call.reject("Unable to download the SELRS update", error);
         }
     }
 
-    private void registerDownloadReceiver(DownloadManager downloadManager) {
+    private synchronized boolean registerDownloadReceiver(DownloadManager downloadManager) {
+        Context context = getContext();
+        if (context == null) {
+            activeDownloadId = -1;
+            return false;
+        }
+        receiverContext = context.getApplicationContext();
         downloadReceiver = new BroadcastReceiver() {
             @Override
             public void onReceive(Context receiverContext, Intent intent) {
@@ -104,24 +120,26 @@ public class ApkUpdaterPlugin extends Plugin {
         };
 
         IntentFilter filter = new IntentFilter(DownloadManager.ACTION_DOWNLOAD_COMPLETE);
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
-            getContext().registerReceiver(
-                    downloadReceiver,
-                    filter,
-                    Context.RECEIVER_EXPORTED);
-        } else {
-            getContext().registerReceiver(downloadReceiver, filter);
-        }
+        ContextCompat.registerReceiver(
+                receiverContext,
+                downloadReceiver,
+                filter,
+                ContextCompat.RECEIVER_NOT_EXPORTED);
+        return true;
     }
 
-    private void unregisterDownloadReceiver() {
+    private synchronized void unregisterDownloadReceiver() {
         if (downloadReceiver == null) return;
         try {
-            getContext().unregisterReceiver(downloadReceiver);
+            Context context = receiverContext != null ? receiverContext : getContext();
+            if (context != null) {
+                context.unregisterReceiver(downloadReceiver);
+            }
         } catch (IllegalArgumentException ignored) {
             // Receiver was already unregistered by Android.
         }
         downloadReceiver = null;
+        receiverContext = null;
         activeDownloadId = -1;
     }
 

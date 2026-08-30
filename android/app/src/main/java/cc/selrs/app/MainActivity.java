@@ -8,6 +8,7 @@ import android.view.View;
 import android.webkit.CookieManager;
 import android.webkit.URLUtil;
 import android.webkit.WebSettings;
+import android.webkit.WebView;
 import android.widget.Toast;
 
 import androidx.activity.OnBackPressedCallback;
@@ -25,11 +26,12 @@ public class MainActivity extends BridgeActivity {
             return;
         }
 
+        WebView webView = bridge.getWebView();
         CookieManager cookieManager = CookieManager.getInstance();
         cookieManager.setAcceptCookie(true);
-        cookieManager.setAcceptThirdPartyCookies(bridge.getWebView(), true);
+        cookieManager.setAcceptThirdPartyCookies(webView, true);
 
-        WebSettings webSettings = bridge.getWebView().getSettings();
+        WebSettings webSettings = webView.getSettings();
         webSettings.setBuiltInZoomControls(false);
         webSettings.setDisplayZoomControls(false);
         webSettings.setMediaPlaybackRequiresUserGesture(false);
@@ -39,17 +41,21 @@ public class MainActivity extends BridgeActivity {
         // serving stale HTML/JS/CSS even after the origin sends no-store headers.
         // clearCache(true) wipes it before the first navigation each launch, so a
         // new build is guaranteed to show up without requiring a fresh APK install.
-        bridge.getWebView().clearCache(true);
-        bridge.getWebView().setOverScrollMode(View.OVER_SCROLL_NEVER);
-        bridge.getWebView().setDownloadListener((url, userAgent, contentDisposition, mimeType, contentLength) -> {
+        webView.clearCache(true);
+        webView.setOverScrollMode(View.OVER_SCROLL_NEVER);
+        webView.setDownloadListener((url, userAgent, contentDisposition, mimeType, contentLength) -> {
             try {
                 DownloadManager.Request request = new DownloadManager.Request(Uri.parse(url));
                 String fileName = URLUtil.guessFileName(url, contentDisposition, mimeType);
+                if (fileName == null || fileName.trim().isEmpty()) {
+                    Toast.makeText(this, "Unable to determine download file name", Toast.LENGTH_SHORT).show();
+                    return;
+                }
                 String cookies = cookieManager.getCookie(url);
 
                 request.setMimeType(mimeType);
                 request.addRequestHeader("User-Agent", userAgent);
-                if (cookies != null && !cookies.isEmpty()) {
+                if (cookies != null && !cookies.isEmpty() && !cookies.contains("\r") && !cookies.contains("\n")) {
                     request.addRequestHeader("Cookie", cookies);
                 }
                 request.setTitle(fileName);
@@ -72,8 +78,9 @@ public class MainActivity extends BridgeActivity {
         getOnBackPressedDispatcher().addCallback(this, new OnBackPressedCallback(true) {
             @Override
             public void handleOnBackPressed() {
-                if (bridge != null && bridge.getWebView() != null && bridge.getWebView().canGoBack()) {
-                    bridge.getWebView().goBack();
+                WebView currentWebView = bridge == null ? null : bridge.getWebView();
+                if (currentWebView != null && currentWebView.canGoBack()) {
+                    currentWebView.goBack();
                 } else {
                     setEnabled(false);
                     getOnBackPressedDispatcher().onBackPressed();
